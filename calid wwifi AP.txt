@@ -1,0 +1,63 @@
+
+thult28@cntd101:/data/backup/backup_99/cdbr-projects/AP/2.Software/4. Release$ cat 'AP_iPAiLNA_Huong_dan_ghi_calib_wifi_FW v0.7.txt'
+# Huong dan calib wifi TW board, iPAiLNA voi fw tu version v0.7
+
+# Buoc 1: Nap fw tu commit AP-287 va lay thong tin dia chi mac bang lenh
+mac r lan
+24 0b 2a 27 e5 18
+
+# Buoc 2: Thuc hien xoa phan vung Factory reset va reset factory
+mtd erase Factory
+jffs2reset -y && reboot
+
+# Buoc 3: Thuc hien ghi thong tin calib bang lenh
+iwpriv ra0 e2p 58=0024
+iwpriv ra0 e2p 75=0024
+iwpriv ra0 e2p 7A=0026
+iwpriv ra0 e2p 84=0026
+iwpriv ra0 e2p 89=0026
+iwpriv ra0 e2p 8e=0025
+iwpriv ra0 e2p 93=0025
+ated -i ra0 -c "sync eeprom all"
+
+
+
+//tap thong so moi do thangTm calib bang tay
+iwpriv ra0 e2p f6=87D3
+iwpriv ra0 e2p 58=c022
+iwpriv ra0 e2p 5a=c0c0
+iwpriv ra0 e2p 5f=c3c3
+iwpriv ra0 e2p 60=c3c3
+iwpriv ra0 e2p cb=85c0
+iwpriv ra0 e2p d2=81c0
+iwpriv ra0 e2p 75=0026
+iwpriv ra0 e2p 7a=0026
+iwpriv ra0 e2p 8e=0026
+iwpriv ra0 e2p 93=0026
+iwpriv ra0 e2p 148=c0c0
+iwpriv ra0 e2p 14d=c0c0
+iwpriv ra0 e2p 161=c0c0
+iwpriv ra0 e2p 166=c0c0
+iwpriv ra0 e2p 170=8281
+iwpriv ra0 e2p 175=81c0
+iwpriv ra0 e2p 189=8181
+iwpriv ra0 e2p 18e=8182
+ated -i ra0 -c "sync eeprom all"
+
+
+# Buoc 4: Thuc hien ghi lai mac thiet bi bang lenh
+mac w lan 24 0b 2a 27 e5 18
+
+# Buoc 5: Thuc hien reset factory thiet bi
+jffs2reset -y && reboot
+
+# Buoc 6: Thuc hien kiem tra noi dung nhu sau la ok
+root@vthomeap:~# iwpriv ra0 e2p 5a
+ra0       e2p:
+[0x005A]:0x0000
+root@vthomeap:~# iwpriv ra0 e2p 3e
+ra0       e2p:
+[0x003E]:0x0000
+root@vthomeap:~#
+
+# Buoc 7: Thuc hien reset factory thiet bi

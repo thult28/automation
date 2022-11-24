@@ -1,0 +1,52 @@
+# Hướng dẫn nạp FW thiết bị VHT AP
+# SW Team: có thể sử dụng cả 4 cách
+# Test Team: Nên dùng cách 2 và 4
+
+#############################################################################
+1. Nạp FW qua bootloader:
+B1: Nạp FW từ bootloader
+B2: Sau khi thiết bị khởi động thành công, thực hiện reset factory và reboot
+B3: Thực hiện test
+(Lưu ý: nạp qua bootloader luôn luôn vào OS1)
+#############################################################################
+
+
+#############################################################################
+2. Nạp FW qua scp
+B1: Thực hiện lấy file FW từ máy local vào trong AP bằng lệnh sau:
+	scp AP-0.95-220907.bin root@192.168.2.1://tmp/
+	(Lưu ý: file bin không có signature)
+B2: Thực hiện nạp FW bằng lệnh sau:
+	sysupgrade -v -c /tmp/AP-0.95-220907.bin
+	(Lưu ý: cách nạp này tương tự như nạp qua web UI, sẽ nạp vào phân vùng còn lại)
+	(Ví dụ đang running ở OS1, nạp FW sẽ vào OS2)
+	(Lệnh kiểm tra đang running tại OS bằng lệnh: fw_printenv  | grep bootflag)
+	(bootflag=1 (OS1), bootflag=2 (OS2)
+#############################################################################
+
+
+#############################################################################
+3. Nạp bootloader, FW qua scp cho cả 2 phân vùng OS
+B1: Thực hiện lấy file FW, bootloader từ máy local vào trong AP bằng lệnh sau:
+	scp uboot.img root@192.168.2.1://tmp/
+	scp AP-0.95-220907.bin root@192.168.2.1://tmp/
+	(Lưu ý: file FW bin không có signature)
+B2: Nếu nạp cả bootloader thì thực hiện chuyển bootflag về OS1 bằng 2 lệnh sau:
+	fw_setenv bootflag 1
+	fw_setenv bootargs=console=ttyS1,57600n8 root=/dev/mtdblock5 rootfstype=squashfs,jffs2 bootflag=1
+B3: Thực hiện nạp FW bằng lệnh sau cho cả 2 OS:
+	cd /tmp/
+	mtd -f write uboot.img Bootloader
+	mtd -f write AP-0.95-220907.bin firmware
+	mtd -f write AP-0.95-220907.bin firmware2
+B4:	Reboot thiết bị
+B5: Sau khi thiết bị khởi động thành công thực hiện reset factory và reboot thiết bị:
+	jffs2reset -y && reboot
+#############################################################################
+
+
+#############################################################################
+4. Nap FW qua WEB UI
+B1: Sử dụng file FW có signature để nạp qua WEB
+(Ví dụ file sau: AP-0.95-220907.signed.bin)
+#############################################################################

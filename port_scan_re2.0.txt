@@ -1,0 +1,74 @@
+st
+
+[root@localhost ont]# nmap -sS -sU -n -vv -Pn -p 0-65535 --max-retries 0 171.254.195.141
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-05-07 08:16 +07
+Initiating SYN Stealth Scan at 08:16
+Scanning 171.254.195.141 [65536 ports]
+Discovered open port 443/tcp on 171.254.195.141
+Discovered open port 80/tcp on 171.254.195.141
+Warning: 171.254.195.141 giving up on port because retransmission cap hit (0).
+Completed SYN Stealth Scan at 08:17, 31.99s elapsed (65536 total ports)
+Initiating UDP Scan at 08:17
+Scanning 171.254.195.141 [65536 ports]
+Warning: 171.254.195.141 giving up on port because retransmission cap hit (0).
+UDP Scan Timing: About 37.72% done; ETC: 08:18 (0:00:51 remaining)
+Discovered open port 53/udp on 171.254.195.141
+Completed UDP Scan at 08:18, 67.03s elapsed (65536 total ports)
+Nmap scan report for 171.254.195.141
+Host is up, received user-set (0.0012s latency).
+Scanned at 2021-05-07 08:16:45 +07 for 99s
+Not shown: 65426 open|filtered ports, 65260 closed ports, 383 filtered ports
+Reason: 65809 no-responses, 65151 resets and 109 port-unreaches
+PORT    STATE SERVICE REASON
+80/tcp  open  http    syn-ack ttl 64
+443/tcp open  https   syn-ack ttl 64
+53/udp  open  domain  udp-response ttl 64
+
+Read data files from: /usr/bin/../share/nmap
+Nmap done: 1 IP address (1 host up) scanned in 99.18 seconds
+           Raw packets sent: 131072 (4.722MB) | Rcvd: 65263 (2.612MB)
+[root@localhost ont]# channel 69: open failed: connect failed: Connection timed out
+channel 71: open failed: connect failed: Connection timed out
+channel 72: open failed: connect failed: Connection timed out
+
+[root@localhost ont]#
+[root@localhost ont]# nmap -sS -sU -n -vv -Pn -p 0-65535 --max-retries 0 192.168.29.1
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-05-07 08:22 +07
+Initiating ARP Ping Scan at 08:22
+Scanning 192.168.29.1 [1 port]
+Completed ARP Ping Scan at 08:22, 0.01s elapsed (1 total hosts)
+Initiating SYN Stealth Scan at 08:22
+Scanning 192.168.29.1 [65536 ports]
+Discovered open port 443/tcp on 192.168.29.1
+Discovered open port 80/tcp on 192.168.29.1
+Warning: 192.168.29.1 giving up on port because retransmission cap hit (0).
+channel 111: open failed: connect failed: Connection timed out
+channel 115: open failed: connect failed: Connection timed out
+Completed SYN Stealth Scan at 08:22, 28.09s elapsed (65536 total ports)
+Initiating UDP Scan at 08:22
+Scanning 192.168.29.1 [65536 ports]
+Warning: 192.168.29.1 giving up on port because retransmission cap hit (0).
+Discovered open port 53/udp on 192.168.29.1
+UDP Scan Timing: About 37.11% done; ETC: 08:24 (0:00:53 remaining)
+Completed UDP Scan at 08:23, 67.56s elapsed (65536 total ports)
+Nmap scan report for 192.168.29.1
+Host is up, received arp-response (0.0011s latency).
+Scanned at 2021-05-07 08:22:16 +07 for 96s
+Not shown: 65427 open|filtered ports, 65139 closed ports, 503 filtered ports
+Reason: 65930 no-responses, 65031 resets and 108 port-unreaches
+PORT    STATE SERVICE REASON
+80/tcp  open  http    syn-ack ttl 64
+443/tcp open  https   syn-ack ttl 64
+53/udp  open  domain  udp-response ttl 64
+MAC Address: 9C:65:EE:AD:DD:DF (Dasan Network Solutions)
+
+Read data files from: /usr/bin/../share/nmap
+Nmap done: 1 IP address (1 host up) scanned in 95.86 seconds
+           Raw packets sent: 131073 (4.722MB) | Rcvd: 65184 (2.610MB)
+[root@localhost ont]# channel 78: open failed: connect failed: Connection timed out
+channel 80: open failed: connect failed: Connection timed out
+channel 111: open failed: connect failed: Connection timed out
+channel 115: open failed: connect failed: Connection timed out
+channel 53: open failed: connect failed: Connection timed out
+channel 71: open failed: connect failed: Connection timed out
+

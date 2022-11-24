@@ -1,0 +1,132 @@
+Topo: AP1 -AP2
+
+
+-Mesh: Mesh được qua Ethernet, WiFI 5G (Không mesh đc qua 2.4G)
+- Topology: Không hiển thị thiết bị kết nối với Controller/ Agent 
+- Agent: Không đồng bộ cấu hình WiFi từ Controller
+
+
+
+
+
+Một số vấn đề như sau: 
+
+- Topo AP-AP: Factory reset Controller- > sau khi reset mặc định là Mesh ở trạng thái Agent. 
+.Cấu hình chuyển qua Controller -> DHCP server ở trạng thái Disable.  (AP-435)
+- Band steering chưa hoạt động. 
+- Access from wan: cho phép cấu hình trùng port http/https -> sau cấu hình thì web ko truy cập đc  (AP-432)
+- DHCP Server LAN: (AP-433, AP-434)
+ + cho phép cấu hình IP trong dải của pool trùng với IP LAN của AP 
+ + Khi client kết nối với AP và đã nhận được IP(VD: Ip 192.168.2.4). Vào thay đổi dải IP pool (192.168.2.2 -> 192.168.2.3, nhấn quên và kết nối lại thiết bị thì vẫn nhận được IP LAN trước đó. 
+- Led: (AP-383)
+       + Agent: Bật nguồn + chưa có internet + disable mesh: led hiển thị xanh đỏ  (SRS: chỉ hiện led đỏ)
+	   + Agent: Mesh xong qua wifi + mất internet: led hiển thị đỏ không nháy -> (SRS: led đỏ nháy)
+	   + Controller: Bật nguồn + chưa có internet + enable mesh: led hiển thị xanh đỏ  (SRS: led hiển thị đỏ)
+	   -> Cấp internet cho Controller -> Agent vẫn hiển thị led đỏ
+- Others:
+  + Web chậm. 
+  + Chưa giữ được session sau khi login (mỗi khi apply phải login lại)
+  + Web: cho phép apply mật khẩu null
+
+
+ 
+ 
+ Test aging: 
+ - Bắt đâu: 3:40m - 16/08/2022
+ - Reboot do bị mất điện: 12-1am - 19/08/2022
+ -
+ 
+ 
+ 
+ 
+  
+  Các case failed đang bao gồm: 
+   + Port services: đang mở port 22, 3157
+   + Ping of death:       (AP-289)
+  Case dịch vụ : WAN PPPoE, service thì ko test đc (thiếu môi trường).
+  
+  
+  Mesh: 
+  
+  - Thời gian mesh chuyển từ Ethernet sang Wifi backhaul chậm
+  
+  - Led: 
+       + Agent: Bật nguồn + chưa có internet + disable mesh: led hiển thị xanh đỏ  (SRS: chỉ hiện led đỏ)
+  
+  
+  Others:
+  - Web chậm. Chưa giữ được session sau khi login nên mỗi khi apply phải login lại
+  - Đôi khi reboot AP sau khi disable mesh trên Controller.
+ 
+ 
+ 
+ 
+ 
+
+  
+  - Led: 
+       + Agent: Bật nguồn + chưa có internet + disable mesh: led hiển thị xanh đỏ  (SRS: chỉ hiện led đỏ)
+	   + Agent: Mesh xong qua wifi + mất internet: led hiển thị đỏ không nháy -> (SRS: led đỏ nháy)
+	   + Controller: Bật nguồn + chưa có internet + enable mesh: led hiển thị xanh đỏ  (SRS: led hiển thị đỏ)
+	   -> Cấp internet cho Controller -> Agent vẫn hiển thị led đỏ
+	   
+	   + Agent: Bật nguồn + chưa có internet + enable mesh: led hiển thị xanh đỏ   -> test behavior
+	   + Agent: Bật nguồn + có internet + enable mesh: led hiển thị đỏ   -> test behavior
+	   + Agent: Bật nguồn + có internet + disable mesh: led hiển thị xanh đỏ  -> test behavior
+	   + Agent: Bật nguồn + on boarding: led hiển thị xanh nháy  -> test behavior
+	   
+	   + Controller: Bật nguồn + có internet + disable mesh: led hiển thị xanh đỏ  -> test behavior
+	   + Controller: Bật nguồn + có internet + enable mesh: led hiển thị xanh  -> test behavior
+	   + Controller: Bật nguồn + chưa có internet + enable mesh: led hiển thị xanh đỏ  (SRS: led hiển thị đỏ)
+  
+Test aging: 
+ - Sau khi chạy được 2 ngày thì bị cúp điện -> AP recover lại dịch vụ ok
+ - Reboot do bị mất điện: 12-1am - 19/08/2022 
+
+12345678a@A    2  root
+ 
+ 
+ Bug 2 c check thì thấy đâu bị ta. :v
+ -Login admin passwd -> Thay đổi pw ok (mk hiện tại SN) -> Login admin(pw mới)/root: ok -> Reboot -> Login admin(pw mới)/ root: ok
+ -Login root passwd -> Thay đổi pw ok  (mk hiện tại là pi@vhtkn)-> Login admin/root(pw mới): ok -> reboot -> login admin/root (pw mới): ok
+ 
+ 
+ 
+ @Vht Duyhh2 c gửi summary kết quả test bản hotfix cho led & dhcp. 
+ Led: 
+1. Sau khi reboot Agent, led của không nháy đỏ  
+2. Khi cấu hình trang LAN thì led nháy xanh đỏ cùng lúc  
+3. Disable Mesh trên Agt, Led hiện 2 màu xanh đỏ cùng lúc 
+4. Sau disable và enable lại Agt, mesh thành công nhưng led vẫn nháy
+Lan:
+1. AP bị reboot khi cấu hình trang LAN 
+2. Không cấu hình được disabled DHCP server
+
+Xem chi tiết trong file checklist có step to reproduce: \\172.19.20.101\cdbr-projects-backup-99\AP\5.Test\2. BCKT\Hotfix AP-0.2-220824
+
+ 
+
+ 
+ 
+ 
+IP: 
+ + Down steer: Khi ở gần, kết nối vào band 5G, khi di chuyển ra xa thì kết nối thành công band 2.4G. (OK)
+ + Up steer: Từ xa kết nối vào band 2.4G, di chuyển lại gần đổi band 5G thành công. Khi chuyển từ 2.4G về 5G bị ngắt kết nối và kết nối lại liên tục. KHi về gần 5G thì hoạt động ổn định. (Fail)
+ + IP XS: thời gian chuyển band chậm hơn so với IP 11 (tầm 3-5phut)
+ 
+ 
+Sony/ Xiaomi Redmi Note 8 (Android )
+ + Down steer:Khi ở gần, kết nối vào band 5G, khi di chuyển ra xa thì kết nối thành công 2.4G. (OK)
+ + Up steer: Từ xa kết nối vào band 5G, một lát sau chuyển ngay sang band 2.4G.  (Fail)
+
+
+
+IP: 
+ + Khi ở gần, kết nối vào band 5G, khi di chuyển ra xa thì out khỏi 5G và kết nối thành công 2.4G. Khi di chuyển vè gần thì kết nối lại band 5G. 
+  Thường xuyên bị ngắt kết nối và kết nối lại liên tục (Fail)
+ + IP XS: thời gian chuyển band chậm hơn so với IP 11 (tầm 3-5phut)
+ 
+Sony/ Xiaomi Redmi Note 8 (Android )
+ + Khi ở gần, kết nối vào band 5G, khi di chuyển ra xa thì out khỏi 5G và kết nối thành công 2.4G. Khi di chuyển vè gần thì kết nối lại band 5G. (OK)
+ + Từ xa kết nối vào band 5G, một lát sau chuyển ngay sang band 2.4G.  (Fail)
+

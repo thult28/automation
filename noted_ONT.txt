@@ -1,0 +1,415 @@
+vertex25ektks123
+
+
+##########################################
+config telnet from console
+
+# tcapi show MCL
+Node:Entry
+WEB=LAN
+FTP=None
+TELNET=LAN
+SSH=None
+TFTP=None
+SNMP=None
+ICMP=Both
+DNS=None
+WAN0=web,icmp
+WAN1=web,icmp
+WAN2=web,icmp
+WAN3=web,icmp
+WAN4=web,icmp
+WAN5=web,icmp
+WAN6=icmp
+
+# tcapi set MCL_Entry TELNET LAN
+# tcapi commit MCL_Entry 
+# tcapi save MCL_Entry 
+
+
+iptables -I acl_chain -p tcp --dport 23 -j ACCEPT
+
+
+# tcapi show Lan      
+Node:Dhcp
+type=1
+Node:IgmpSnoop
+igmpsnoopEnable=Yes
+Node:Snoop
+
+
+
+#############################################
+ prolinecmd serialnum set DSNW2710f8b0
+VTGR90219438
+
+
+# tcci gponsn DSNW2710f8b0
+
+
+New GPON S/N: DSNW2710f8b0
+attempt[1]:
+OK
+
+
+Folder: [\\10.61.63.11\cdbr-share\Users\duongnt62\Flash_Dasan_Econat]
+
+Huong dan Read/Write Flash:
+
+Note:
+ + cfg1.bin: phan vung bootcfg
+ + cfg2.bin: phan vung bootcfg2
+
+
+
+
+1. Voi ECONET
+   
+B1: Su dung folder: flash_econet
+
+B2: Coppy cfg1.bin, cfg2.bin vao folder /tmp
+
+B3: Lenh write:
+
+/userfs/bin/mtd writeflash cfg1.bin 256 65280 bootloader > /dev/null 2>&1
+
+/userfs/bin/mtd writeflash cfg2.bin 108 258048 bootloader > /dev/null 2>&1
+
+
+/userfs/bin/mtd writeflash cfg2_tuongnk2.bin 108 258048 bootloader > /dev/null 2>&1
+/userfs/bin/mtd writeflash cfg2_r.bin 108 258048 bootloader > /dev/null 2>&1
+
+
+B4: Lenh read:
+
+/userfs/bin/mtd readflash /tmp/cfg1_r.bin 256 65280 bootloader > /dev/null 2>&1
+
+/userfs/bin/mtd readflash /tmp/cfg2_r.bin 108 258048 bootloader > /dev/null 2>&1
+
+
+2. Voi DASAN tuong tu 
+B1: Su dung folder: flash_dasan
+tc login: admin
+Password: 
+
+# 
+# 
+# 
+# ls
+bin      data     etc      linuxrc  sbin     userfs   var
+boaroot  dev      lib      proc     tmp      usr
+# 
+# cd data/
+# ls
+101_calib_bob.bin
+cfg2_r.bin
+cfg2_real_serviceSN.bin
+log
+strace_cfg_manager.pid
+strace_cfg_manager_20190620-17.26.04.log
+# cat cfg2_r.bin 
+H646EWe?8`VTSNW26ac3838ÿÿÿÿÿÿÿÿÿÿÿÿÿ# 
+# 
+# 
+# tftp -pl cfg2_r.bin 192.168.1.4
+# tftp -pl cfg2_r.bin 192.168.1.4
+# 
+-sh: ??ot found
+# 
+# 
+# /userfs/bin/mtd writeflash cfg2_r.bin 108 258048 bootloader > /dev/null 2>&1
+# 
+# 
+# 
+# cat /proc/m
+/proc/meminfo   /proc/misc      /proc/modules   /proc/mounts    /proc/mtd 
+# cat /proc/m
+/proc/meminfo   /proc/misc      /proc/modules   /proc/mounts    /proc/mtd 
+# cat /proc/mtd 
+dev:    size   erasesize  name
+mtd0: 00040000 00020000 "bootloader"
+mtd1: 00040000 00020000 "romfile"
+mtd2: 0013f872 00020000 "kernel"
+mtd3: 00ff0000 00020000 "rootfs"
+mtd4: 02a00000 00020000 "tclinux"
+mtd5: 0013f783 00020000 "kernel_slav
+
+
+
+
+
+DDNS
+https://my.noip.com/#!/
+username: onttesting123
+pass:123456a~
+
+
+
+
+
+ tftp -gr tclinux.bin 172.16.32.29
+# tcci minfwver 1.00-0000.00
+New Min Firmware Version: 1.00-0000.00
+attempt[1]:
+OK
+# 
+# 
+# 
+# 
+# 
+# mtd erase romfile
+Unlocking romfile ...
+Erasing romfile ...
+# mtd write -f tclinux.bin tclinux     
+Unlocking tclinux ...
+Writing from tclinux.bin to tclinux ...
+
+
+reboot
+
+#sys bootflag
+
+bootflag=1
+
+#sys bootflag 0
+
+#sys bootflag
+
+bootflag=0
+
+
+
+# cd /tmp/
+#  tftp -gr tclinux.bin 172.16.32.29
+# mtd erase ca
+# cat /proc/m
+/proc/meminfo   /proc/misc      /proc/modules   /proc/mounts    /proc/mtd
+# cat /proc/mtd
+dev:    size   erasesize  name
+mtd0: 00040000 00020000 "bootloader"
+mtd1: 00040000 00020000 "romfile"
+mtd2: 0013f521 00020000 "kernel"
+mtd3: 00d20000 00020000 "rootfs"
+mtd4: 02a00000 00020000 "tclinux"
+mtd5: 0013f75d 00020000 "kernel_slave"
+mtd6: 01010000 00020000 "rootfs_slave"
+mtd7: 02a00000 00020000 "tclinux_slave"
+mtd8: 00220000 00020000 "dummy"
+mtd9: 00500000 00020000 "user_rootfs"
+mtd10: 000a0000 00020000 "reservearea"
+# mtd erase tclinux
+Unlocking tclinux ...
+Erasing tclinux ...
+# mtd erase tclinux_slave
+Unlocking tclinux_slave ...
+Erasing tclinux_slave ...
+#  mtd -f write tclinux.bin tclinux
+Unlocking tclinux ...
+Writing from tclinux.bin to tclinux ...
+
+
+
+
+v#############################################
+
+#
+
+
+
+[root@c-24-0-0-100 ont]# cat /home/ont/Desktop/tuongnk2/asap_cfg/service.sh
+iptables -P INPUT ACCEPT
+iptables -P FORWARD ACCEPT
+iptables -P OUTPUT ACCEPT
+iptables -t nat -F
+iptables -t mangle -F
+iptables -F
+iptables -X
+iptables -A FORWARD -i enx.35 -o eth0 -j ACCEPT
+iptables -A FORWARD -i eth0 -o eth0.35 -m state --state ESTABLISHED,RELATED -j ACCEPT
+iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+sysctl -w net.ipv4.ip_forward=1
+
+
+#dhcpd -4 -cf /etc/dhcp/dhcpd36.conf eth0.36
+
+#dhcpd -4 -cf /etc/dhcp/dhcpd69.conf eth0.2501
+
+
+
+pppoe-server -C bras -L 35.0.0.100 -O /etc/ppp/pppoe-server-options -p /etc/ppp/pool35 -I eth0.35
+#pppoe-server -C bras -L 34.0.0.100 -O /etc/ppp/pppoe-server-options -p /etc/ppp/pool34 -I eth0.34
+
+#ip route add 239.0.0.0/24 via 36.0.0.100 dev eth0.36
+#default via 192.168.1.1 dev eth0  proto static 
+#ip route add default via 36.0.0.100 dev eth0.36
+#ip route add default via 192.168.1.1 dev eth0
+
+#ip link add link eth0 name eth0.2501 type vlan id 2501
+
+
+
+
+v#############################################
+
+tcapi show Account
+OID [248:1][Account]:
+
+        OID [250:1][TelnetEntry]:
+                [Active = Yes]
+                [telnet_username = admin]
+                [telnet_passwd = euclid@vht380]
+                [telnet_port = 23]
+                [dependent_statevalue = Yes]
+
+        OID [251:1][TelnetEntry1]:
+
+        OID [260:1][TR64Entry]:
+
+        OID [261:1][LogOut]:
+
+        OID [262:1][WebMng]:
+                [UseLan = Yes]
+                [UseWan = No]
+                [HttpPort = 80]
+                [HttpsPort = 443]
+
+        OID [252:1][FtpCommon]:
+                [Active = No]
+                [ftp_port = 21]
+
+        OID [253:1][FtpEntry0]:
+                [ftp_username = admin]
+                [ftp_passwd = 1234]
+
+        OID [259:1][ConsoleEntry]:
+                [Active = Yes]
+                [console_username = admin]
+                [console_passwd = euclid@vht380]
+
+        OID [249:1][Entry]:
+                [Active = Yes]
+                [username = admin]
+                [web_passwd = VTGR11041996]
+                [StdioTimeout = 1200]
+                [display_mask = FF FF FF FF FF FF FF FF FF]
+                [Logged = 0]
+                [LoginIp = 192.168.1.6]
+                [Logoff = 0]
+                [AdminPassChangeFlag = 1]
+                [LoginFailedCnt = 0]
+                [LoginFailedTime = 0]
+
+        OID [249:2][Entry]:
+                [Active = No]
+                [username = useradmin]
+                [web_passwd = 1234]
+                [display_mask = BF 00 0F 1C 07 20 03 00 01]
+                [Logged = 0]
+
+        OID [249:3][Entry]:
+                [Active = No]
+                [username = user3]
+                [web_passwd = 123455]
+                [display_mask = BF 00 07 08 07 10 03 00 01]
+                [Logged = 0]
+
+
+#
+
+
+
+
+Set SN:prolinecmd serialnum set [SN] 
+
+
+
+# prolinecmd xponsn display
+
+ prolinecmd xponsn set DSNW2710f8b0
+
+
+
+=> Sau do factory reset
+
+sys statevalue read 
+tcapi show GPON_SoftImage0
+tcapi show GPON_SoftImage1
+sys bootflag read
+sys imginfo
+scontrol show version
+tcapi get GPON_ONU VendorId
+tcapi get GPON_ONU EquipmentId
+sys mac
+ifconfig
+prolinecmd xponsn display
+prolinecmd serialnum display
+prolinecmd modelname display
+tcapi get SysInfo_Entry SerialNum
+tcapi get WLan_Entry0 SSID
+tcapi get WLan11ac_Entry0 SSID
+tcapi get WLan_Entry0 WPAPSK
+tcapi get WLan11ac_Entry0 WPAPSK
+tcapi get Account_Entry0 web_passwd
+tcapi show SysInfo
+tcapi show GPON
+
+
+sys statevalue 4
+sys statevalue read
+
+
+prolinecmd restore default
+
+
+sys bootflag swap
+sys bootflag read
+
+iwpriv rai0 show devinfo && dmesg -c
+
+iwpriv ra0 show stainfo && dmesg -c
+iwpriv rai0 show stainfo && dmesg -c
+
+echo show_BoB_information > /proc/pon_phy/debug && dmesg -c | tail -20
+
+
+
+
+##sys button disable### sys button enable
+# sys led on# sys led off
+
+
+
+
+#####################
+
+telnet
+
+https://192.168.1.1/cgi-bin/tnbd.cgi?telnet=1         : open telnet 
+https://192.168.1.1/cgi-bin/tnbd.cgi?telnet=2         : close telnet 
+https://192.168.1.1/cgi-bin/tnbd.cgi?version=6         : up firm with no check version
+https://192.168.1.1/cgi-bin/tnbd.cgi?wan2lan=5         : open sys2lan on port LAN1
+
+
+
+
+
+
+#####################
+
+
+
+
+
+   46  sudo ip link add link enp4s0 name enp4s0.35 type vlan id 35
+   47  ip a
+   48  ifconfig
+   49  sudo ip addr add 35.0.0.100/24 dev enp4s0.35
+   50  ifconfig
+   51  ip a
+   52  cat /etc/netplan/01-network-manager-all.yaml
+   53  ifconfig enp4s0.35@ up
+   54  ifconfig enp4s0.35 up
+   55  sudo ifconfig enp4s0.35 up
+   56  ifconfig
+
+

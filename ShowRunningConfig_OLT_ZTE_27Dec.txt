@@ -1,0 +1,556 @@
+     ┌────────────────────────────────────────────────────────────────────┐
+     │                • MobaXterm Personal Edition v9.4 •                 │
+     │             (X server, SSH client and network tools)               │
+     │                                                                    │
+     │ ➤ Your computer drives are accessible through the /drives path     │
+     │ ➤ Your DISPLAY is set to 10.61.60.31:0.0                           │
+     │ ➤ When using SSH, your remote DISPLAY is automatically forwarded   │
+     │ ➤ Each command status is specified by a special symbol (✔ or ✘)    │
+     │                                                                    │
+     │ • Important:                                                       │
+     │ This is MobaXterm Personal Edition. The Professional edition       │
+     │ allows you to customize MobaXterm for your company: you can add    │
+     │ your own logo, your parameters, your welcome message and generate  │
+     │ either an MSI installation package or a portable executable.       │
+     │ We can also modify MobaXterm or develop the plugins you need.      │
+     │ For more information: http://mobaxterm.mobatek.net/download.html   │
+     └────────────────────────────────────────────────────────────────────┘
+
+[2018-12-27 11:16.32]  ~
+[thult28.VTK-THULT28] ➤
+                                                                                                                                                                                                                              ✘
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2018-12-27 11:16.33]  ~
+[thult28.VTK-THULT28] ➤
+                                                                                                                                                                                                                              ✘
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[2018-12-27 11:16.33]  ~
+[thult28.VTK-THULT28] ➤ telnet 10.61.60.45
+Trying 10.61.60.45...
+Connected to 10.61.60.45.
+Escape character is '^]'.
+
+    *************************************************************************
+                     Welcome to ZXAN product of ZTE Corporation
+    *************************************************************************
+
+Username:admin
+Password:
+ZXAN#show run \
+              ^
+%Error 20201: Invalid input detected at '^' marker.Invalid command key word
+ZXAN#show run
+Building configuration...
+olleh
+timestamp_write: 19:25:00 04/03/2014
+config-version 2.0
+!
+system-forwarding-mode normal-mode
+!
+!
+!
+set-pnp enable
+add-rack rackno 1 racktype C320Rack
+add-shelf rackno 1 shelfno 1 shelftype C320_SHELF
+add-card rackno 1 shelfno 1 slotno 1 GTGO
+add-subcard rackno 1 shelfno 1 slotno 3 subcardno 1 UCDC/3
+add-subcard rackno 1 shelfno 1 slotno 4 subcardno 1 UCDC/3
+!
+ip tcp finwait-time 600
+ip tcp queuemax 5
+ip tcp synwait-time 30
+ip tcp window-size 2144
+!
+urpf log off
+!
+iptv cac enable
+iptv cdr report-interval 240
+iptv cdr max-records 65535
+iptv channel mvlan 36 group 239.0.0.1 name CHANNEL1 id 0
+iptv channel mvlan 36 group 239.0.0.2 name CHANNEL2 id 1
+iptv package name PKG1 pkgid 0
+iptv package PKG1 channel 1 preview
+iptv package PKG1 channel 0 watch
+!
+gpon
+  onu profile ip TR069 gateway 69.0.0.100
+  onu profile ip ip-DASAN gateway 10.0.0.254
+  onu profile vlan TR069 tag-mode tag cvlan 2501
+  onu profile vlan wann35 tag-mode tag cvlan 35
+!
+!
+!
+!
+!
+!
+mac aging-time 300
+mac monitor-period 10
+mac usage-threshold 70
+!
+eth-switch max-frame-length  1600
+!
+auto-update backup disable
+auto-update activate disable
+!
+!
+!
+gpon
+  profile tcont HSI type 4 maximum 100000
+  profile tcont IPTV type 2 assured 50000
+  profile tcont VOIP type 1 fixed 1000
+  profile tcont Multiscreen type 2 assured 6000
+!
+!
+epon
+!
+!
+pon
+  onu-type DASAN gpon description 4ETH,WIFI,RF
+  onu-type DASAN gpon max-tcont 16
+  onu-type DASAN gpon max-gemport 64
+  onu-type DASAN gpon max-iphost 4
+  onu-type-if DASAN eth_0/1
+  onu-type-if DASAN eth_0/2
+  onu-type-if DASAN eth_0/3
+  onu-type-if DASAN eth_0/4
+  uncfg-onu-display-info model sn pw
+onu-profile gpon hsi
+  tcont 1 name HSI profile HSI
+  gemport 1 name HSI tcont 1
+remote
+  service HSI gemport 1 vlan 35
+  wan 1 service internet host 1
+!
+pon
+onu-profile gpon test
+  tcont 1 name HSI profile HSI
+  tcont 2 name IPTV profile IPTV
+  tcont 7 name TR069 profile HSI
+  gemport 1 name HSI tcont 1
+  gemport 2 name IPTV tcont 2
+  gemport 7 name TR069 tcont 7
+remote
+  service HSI gemport 1 vlan 35
+  service IPTV gemport 2 vlan 36
+  service TR069 gemport 7 vlan 2501
+  veip 1 port tcp 2000 host 3
+  wan 1 service internet host 1
+  wan 3 service tr069
+!
+pon
+onu-profile gpon H2I1V1
+  tcont 1 name HSI profile HSI
+  tcont 2 name IPTV profile IPTV
+  tcont 3 name VOIP profile VOIP
+  gemport 1 name HSI tcont 1
+  gemport 2 name IPTV tcont 2
+  gemport 3 name VOIP tcont 3
+remote
+  service HSI gemport 1 vlan 35
+  service IPTV gemport 2 vlan 36
+  service VOIP gemport 3 vlan 335
+  vlan port eth_0/3 mode tag vlan 36 pri 3
+  mvlan 36
+  mvlan tag eth_0/3 strip
+  wan 1 service internet host 1
+!
+pon
+!
+!
+!
+vlan database
+  vlan 1,35-37,40,335,2501
+  vlan 3888
+!
+vlan 36
+  multicast-packet drop-unknown
+!
+!
+!
+his-performance sample enable
+his-performance alarm enable
+his-performance auto-upload disable
+!
+!
+clock
+!
+!
+
+!
+clock
+!
+!
+
+!
+ptp
+!
+!
+port-identification access-node-id-type inband-mac
+port-identification rackno 1 frameno 1
+!
+igmp  enable
+igmp  mvlan 36
+igmp  mvlan 36 work-mode snooping
+igmp  mvlan 36 version-mode v1 accept
+igmp  mvlan 36 version-mode v2 accept
+igmp  mvlan 36 version-mode v3 accept
+igmp  mvlan 36 group 239.0.0.1 to 239.0.0.3
+mld  disable
+  mib-compatibility iftable v1
+!
+ip-source-guard ip-spoofing-trap interval 3
+ip-source-guard disable
+security port-protect enable
+!
+!
+!
+virtual-mac flexible-syntax-profile MT
+add Ctrl-Byte 0 width 6 index 6
+exit
+virtual-mac access-node-id 0
+!
+interface mng1
+  ip vrf forwarding vpn_mng
+  ip address 10.61.60.45 255.255.255.128
+  config-filename startrun.dat
+  negotiation auto
+  tag-mode untag
+!
+interface vlan 35
+  ip address 35.0.0.25 255.255.255.0
+!
+interface vlan 36
+  ip address 36.0.0.25 255.255.255.0
+!
+interface vlan 2501
+  ip address 69.0.0.25 255.255.255.0
+!
+interface null1
+!
+interface smartgroup1
+  smartgroup load-balance src-dst-mac
+  smartgroup mode 802.3ad
+  switchport mode trunk
+  switchport vlan 1,3888 tag
+!
+interface gpon-olt_1/1/1
+  no shutdown
+  linktrap disable
+  onu 1 type DASAN pw GPON123456
+  onu 2 type DASAN sn DSNW26AFC118
+  onu 1 profile  H2I1V1
+  onu 2 profile  H2I1V1
+!
+interface gpon-onu_1/1/1:1
+  switchport mode hybrid vport 1
+  switchport mode hybrid vport 2
+  switchport mode hybrid vport 3
+!
+interface gpon-onu_1/1/1:2
+  switchport mode hybrid vport 1
+  switchport mode hybrid vport 2
+  switchport mode hybrid vport 3
+  service-port 1 vport 1 user-vlan 35 vlan 35
+  service-port 2 vport 2 user-vlan 36 vlan 36
+  igmp  fast-leave enable vport 2
+  iptv service start  vport 2
+  iptv package PKG1  vport 2
+!
+interface gpon-olt_1/1/2
+  shutdown
+  linktrap disable
+!
+interface gpon-olt_1/1/3
+  shutdown
+  linktrap disable
+!
+interface gpon-olt_1/1/4
+  shutdown
+  linktrap disable
+!
+interface gpon-olt_1/1/5
+  shutdown
+  linktrap disable
+!
+interface gpon-olt_1/1/6
+  shutdown
+  linktrap disable
+!
+interface gpon-olt_1/1/7
+  shutdown
+  linktrap disable
+!
+interface gpon-olt_1/1/8
+  shutdown
+  linktrap disable
+!
+interface gei_1/3/1
+  shutdown
+  hybrid-attribute fiber
+  negotiation auto
+  flowcontrol disable
+  linktrap enable
+  als disable
+  switchport mode trunk
+  switchport vlan 1 tag
+  port-protect disable
+  uplink-isolate disable
+!
+interface xgei_1/3/2
+  phy-attribute lan
+  shutdown
+  hybrid-attribute fiber
+  no negotiation auto
+  speed 10000
+  duplex full
+  flowcontrol disable
+  linktrap enable
+  als disable
+  switchport mode trunk
+  switchport vlan 1 tag
+  port-protect disable
+  uplink-isolate disable
+!
+interface gei_1/3/3
+  no shutdown
+  hybrid-attribute copper
+  negotiation auto
+  flowcontrol disable
+  linktrap enable
+  als disable
+  switchport mode hybrid
+  switchport vlan 35-36,40,335,2501 tag
+  port-protect disable
+  uplink-isolate disable
+!
+interface gei_1/4/1
+  shutdown
+  hybrid-attribute fiber
+  negotiation auto
+  flowcontrol disable
+  linktrap enable
+  als disable
+  switchport mode trunk
+  switchport vlan 1 tag
+  port-protect disable
+  uplink-isolate disable
+!
+interface xgei_1/4/2
+  phy-attribute lan
+  shutdown
+  hybrid-attribute fiber
+  no negotiation auto
+  speed 10000
+  duplex full
+  flowcontrol disable
+  linktrap enable
+  als disable
+  switchport mode trunk
+  switchport vlan 1 tag
+  port-protect disable
+  uplink-isolate disable
+!
+interface gei_1/4/3
+  shutdown
+  hybrid-attribute copper
+  negotiation auto
+  flowcontrol disable
+  linktrap enable
+  als disable
+  switchport mode trunk
+  switchport vlan 1 tag
+  port-protect disable
+  uplink-isolate disable
+!
+!
+set ethernet-oam enable
+!
+mpls ldp dynamic-capability
+!
+flow-label para-id 23
+!
+!
+!
+!
+!
+!
+!
+lldp disable
+!
+ipoa inatmarp-interval 10
+ipoa gateway-arp-interval 10
+!
+mpnat trans-table aging-time 60
+mpnat onu-telnet idle-time 3
+mpnat onu-ftp aging-time 5
+mpnat onu-snmp aging-time 30
+mpnat onu-ftp-data aging-time 5
+mpnat onu-mng-port auto-alloc disable
+!
+pon
+  transceiver-thresh rx-power gpon-onu_1/1/1:1 upper-alarm -8.000 upper-warning -8.000 lower-warning -13.000 lower-alarm -13.000
+  transceiver detect-period gpon-onu_1/1/1:1 60
+!
+!
+pon-onu-mng gpon-onu_1/1/1:1
+!
+pon-onu-mng gpon-onu_1/1/1:2
+!
+!
+pon
+!
+!
+!
+ip-service arp-direct-to-gateway disable
+igmp  mvlan 36 source-port gei_1/3/3
+igmp  mvlan 36 receive-port gpon-onu_1/1/1:2 vport 2
+!
+!
+auto-write disable
+!
+inband-management enable
+!
+version V4.8.35
+!
+hostname ZXAN
+!
+enable secret level 15 5 RcMLuUKvnFZX9kNAV6A/UA==
+!
+service password-encryption
+!
+!
+username admin password  7 ISMvKXpXpadDiUoOSoAfww== privilege 15
+username admin password  7 ISMvKXpXpadDiUoOSoAfww== max-sessions 16
+username login-range name admin login-begin 00:00:00  login-end 23:59:59
+username expire-date name admin datetime 12-31-2099 23:59:59
+username password-changed name admin is-changed false
+
+!
+!
+!
+user-authentication-type local
+user-authorization-type local
+!
+help message full
+!
+banner incoming @
+
+    *************************************************************************
+                     Welcome to ZXAN product of ZTE Corporation
+    *************************************************************************
+@
+!
+message-of-day @
+@
+!
+!
+service timestamps log datetime localtime
+service timestamps debug datetime localtime
+!
+!
+!
+!
+snmp-server location No.889 BiBo Rd.PuDong District, Shanghai, China
+snmp-server contact +86-21-68895000
+snmp-server packetsize 8192
+snmp-server engine-id mode mac
+snmp-server group GroupPriv15 v3 priv read AllView write AllView
+snmp-server group GroupPriv10 v3 priv read AllView write ViewPriv10
+snmp-server group GroupPriv5 v3 priv read AllView write ViewPriv5
+snmp-server group GroupPriv0 v3 priv read AllView
+snmp-server view AllView 1.2 included
+snmp-server view AllView 1.3 included
+snmp-server view ViewPriv5 1.2 included
+snmp-server view ViewPriv5 1.3 included
+snmp-server view ViewPriv5 1.3.6.1.4.1.3902.1082.10.1 excluded
+snmp-server view ViewPriv5 1.3.6.1.4.1.3902.1082.10.10 excluded
+snmp-server view ViewPriv5 1.3.6.1.4.1.3902.1082.20.1 excluded
+snmp-server view ViewPriv5 1.3.6.1.4.1.3902.1082.20.10 excluded
+snmp-server view ViewPriv10 1.2 included
+snmp-server view ViewPriv10 1.3 included
+snmp-server view ViewPriv10 1.3.6.1.4.1.3902.1082.20.10 excluded
+!
+!
+no ftp-server enable listen 21
+ftp-server top-directory  /flash/
+!
+logging alarmlog enable
+logging level notification
+logging snmplog disable
+logging igmplog enable
+logging cmdlog enable
+syslog facility local0
+syslog severity 6
+line console idle-timeout 15
+line console absolute-timeout 1440
+line telnet idle-timeout 15
+line telnet absolute-timeout 1440
+line telnet users 16
+
+no hotkey ctrl_g
+no hotkey ctrl_l
+no hotkey ctrl_o
+no hotkey ctrl_r
+no hotkey ctrl_s
+no hotkey ctrl_t
+!
+ssh server authentication mode local
+ssh server authentication type pap
+no ssh server only
+ssh server version 2
+!
+!
+radius attribute vendor-specific vendor-id 3902
+!
+!
+!
+radius server-port-check on
+!
+!
+tacacs disable
+tacacs-server timeout 5
+tacacs-server packet 1024
+!
+!
+alarm enable
+alarm confirm
+alarm trap-confirm retry 3 timeout 20
+nms-hello-trap disable
+alarm report-speed 0
+alarm anti-jitter 0
+alarm filter source-code    11 dest-code    12
+ipv6 dhcp snooping disable
+!
+ipv6 dhcp snooping ifdown-del-entry disable
+!
+ipv6 nd snooping disable
+!
+!
+control-panel
+  packet-limit arp 300
+  packet-limit icmp 250
+  packet-limit igmp 300
+  packet-limit dhcp 160
+  packet-limit snmp 200
+  packet-limit telnet 300
+  packet-limit bfd 300
+  packet-limit stp 500
+  packet-limit lacp 600
+  packet-limit lldp 500
+  packet-limit rip 500
+  packet-limit bgp 500
+  packet-limit ospf 400
+  packet-limit isis 400
+  packet-limit ldp 600
+  packet-limit cfm 32
+  packet-limit ipv6_rs 700
+  packet-limit ipv6_ra 700
+  packet-limit ipv6_ns 200
+  packet-limit ipv6_na 600
+  packet-limit ipv6_icmp 200
+  packet-limit ipv6_dhcp 160
+  packet-limit r-aps 1000
+!
+!
+end
+ZXAN#

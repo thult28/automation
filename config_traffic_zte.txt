@@ -1,0 +1,37 @@
+HNI5625OLT02_Z#show pon onu-profile gpon H4I0V0_thult28 cfg
+  tcont 1 name HSI profile HSI
+  tcont 7 name TR069 profile TR069
+  gemport 1 name HSI tcont 1
+  gemport 7 name TR069 tcont 7
+----------------------remote profile----------------------
+  service HSI gemport 1 vlan 35
+  service TR069 gemport 7 vlan 2501
+  wan-ip 3 mode dhcp vlan-profile TR069 host 3
+  veip 1 port tcp 2000 host 3
+  wan 1 service internet host 1
+  wan 3 service tr069
+HNI5625OLT02_Z#show pon onu-profile gpon H431V0_thult28 cfg                                           
+%Code 10: Invalid parameter!
+HNI5625OLT02_Z#show pon onu-profile gpon H3I1V0_thult28 cfg                                           
+  tcont 1 name HSI profile HSI
+  tcont 2 name IPTV profile IPTV
+  tcont 7 name TR069 profile TR069
+  gemport 1 name HSI tcont 1
+  gemport 2 name IPTV tcont 2
+  gemport 7 name TR069 tcont 7
+----------------------remote profile----------------------
+  service HSI gemport 1 vlan 35
+  service TR069 gemport 7 vlan 2501
+  service IPTV gemport 2 vlan 36
+  wan-ip 3 mode dhcp vlan-profile TR069 host 3
+  vlan port eth_0/4 mode tag vlan 36 pri 6
+  dhcp-ip ethuni eth_0/4 from-internet
+  mvlan 36
+  mvlan tag eth_0/4 strip
+  veip 1 port tcp 2000 host 3
+  wan 1 service internet host 1
+  wan 3 service tr069
+HNI5625OLT02_Z#
+HNI5625OLT02_Z#
+HNI5625OLT02_Z#
+

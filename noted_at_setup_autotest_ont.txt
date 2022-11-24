@@ -1,0 +1,3831 @@
+     +--------------------------------------------------------------------+
+     ¦                • MobaXterm Personal Edition v20.6 •                ¦
+     ¦              (X server, SSH client and network tools)              ¦
+     ¦                                                                    ¦
+     ¦ ? Your computer drives are accessible through the /drives path     ¦
+     ¦ ? Your DISPLAY is set to 172.16.32.29:0.0                          ¦
+     ¦ ? When using SSH, your remote DISPLAY is automatically forwarded   ¦
+     ¦ ? Each command status is specified by a special symbol (? or ?)    ¦
+     ¦                                                                    ¦
+     ¦ • Important:                                                       ¦
+     ¦ This is MobaXterm Personal Edition. The Professional edition       ¦
+     ¦ allows you to customize MobaXterm for your company: you can add    ¦
+     ¦ your own logo, your parameters, your welcome message and generate  ¦
+     ¦ either an MSI installation package or a portable executable.       ¦
+     ¦ We can also modify MobaXterm or develop the plugins you need.      ¦
+     ¦ For more information: https://mobaxterm.mobatek.net/download.html  ¦
+     +--------------------------------------------------------------------+
+
+ ? 25/07/2022 ? ? 08:13.15 ? ? /home/mobaxterm ? ssh ont@172.16.32.73 -D 65535
+Welcome to Ubuntu 20.04.4 LTS (GNU/Linux 5.15.0-41-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+3 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+
+Your Hardware Enablement Stack (HWE) is supported until April 2025.
+Last login: Fri Jul 22 07:57:29 2022 from 172.16.32.29
+ont@ont-HP-280-G2-MT:~$ channel 17: open failed: connect failed: Connection timed out
+channel 18: open failed: connect failed: Connection timed out
+channel 42: open failed: connect failed: Connection refused
+channel 42: open failed: connect failed: Connection refused
+channel 41: open failed: connect failed: Connection refused
+channel 41: open failed: connect failed: Connection refused
+channel 30: open failed: connect failed: Connection refused
+ont@ont-HP-280-G2-MT:~$
+ont@ont-HP-280-G2-MT:~$
+ont@ont-HP-280-G2-MT:~$
+ont@ont-HP-280-G2-MT:~$
+ont@ont-HP-280-G2-MT:~$
+ont@ont-HP-280-G2-MT:~$
+ont@ont-HP-280-G2-MT:~$
+ont@ont-HP-280-G2-MT:~$
+ont@ont-HP-280-G2-MT:~$
+ont@ont-HP-280-G2-MT:~$
+ont@ont-HP-280-G2-MT:~$
+ont@ont-HP-280-G2-MT:~$ cd thult28/
+ont@ont-HP-280-G2-MT:~/thult28$ ls
+auto_ont.tar.gz  auto.rar  VT-ONT-AT-ROBOT2107.rar
+ont@ont-HP-280-G2-MT:~/thult28$ rm VT-ONT-AT-ROBOT2107.rar
+ont@ont-HP-280-G2-MT:~/thult28$ rm auto_ont.tar.gz
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$ history
+    1  ls
+    2  cd Downloads/T4Uv3_WiFi_linux_v5.3.1_beta/
+    3  ls
+    4  make
+    5  cd ..
+    6  git clone https://github.com/cilynx/rtl88x2bu.git
+    7  sudo apt install git
+    8  git clone https://github.com/cilynx/rtl88x2bu.git
+    9  cd rtl88x2bu/
+   10  make
+   11  ls
+   12  sudo make install
+   13  lsmod
+   14  lsusb
+   15  iwconfig
+   16  sudo apt install vlan
+   17  modprobe --first-time 8021q
+   18  sudo modprobe --first-time 8021q
+   19  modinfo 8021q
+   20  sudo -i
+   21  sudo gparted
+   22  sudo fdisk
+   23  sudo fdisk -l
+   24  ls
+   25  sudo apt install gcc
+   26  sudo apt install gcc-5
+   27  sudo apt update
+   28  sudo apt install gcc
+   29  sudo apt install gcc:5
+   30  sudo apt install gcc-5
+   31  sudo apt install gcc
+   32  cd Downloads/T4Uv3_WiFi_linux_v5.3.1_beta/
+   33  ls
+   34  make clean
+   35  sudo apt install make
+   36  ifconfig
+   37  sudo ifconfig wlxb4b0247e94ff up
+   38  wpa_supplicant
+   39  useradd --help
+   40  sudo useradd -m -s /bin/bash hoangtu1
+   41  sudo passwd hoangtu1
+   42  sudo usermod -aG sudo hoangtu1
+   43  exit
+   44  sudo ifconfig
+   45  iwconfig
+   46  ls
+   47  cd Downloads/
+   48  ls
+   49  cd rtl88x2bu/
+   50  ls
+   51  lsmod
+   52  ls
+   53  sudo make install
+   54  iwconfig
+   55  lsusb
+   56  iwconfig
+   57  lsusb
+   58  ls
+   59  sudo modprobe -i 88x2bu
+   60  sudo insmod 88x2bu.ko
+   61  sudo insmod 88x2bu.ko ?
+   62  ls
+   63  ./deploy.sh
+   64  ifconif
+   65  iwconfig
+   66  ls
+   67  cat dkms.conf
+   68  sudo dkms add .
+   69  sudo apt install dkms
+   70  modprobe 88x2bu
+   71  sudo modprobe 88x2bu
+   72  sudo apt install dkms
+   73  sudo dkms add .
+   74  iwconfig
+   75  sudo dkms install -m 88x2bu -v 1.1
+   76  sudo dkms install -m 88x2bu
+   77  ls
+   78  sudo dkms install -m 88x2bu -v 5.8.7.1
+   79  ls
+   80  sudo dkms install -m 88x2bu
+   81  cat dkms.conf
+   82  sudo dkms add .
+   83  sudo dkms add -m 88x2bu/5.8.7.1
+   84  ls /usr/src/
+   85  sudo dkms install -m rtl88x2bu -v 5.8.7.1
+   86  ls /usr/src/
+   87  iwconfig
+   88  lsusb
+   89  iwconfig
+   90  lsusb
+   91  lsmod
+   92  lsmod | grep rtl
+   93  sudo modprobe -i rtl8xxxu
+   94  lsmod | grep rtl
+   95  iwconfig
+   96  ls
+   97  sudo insmod 88x2bu.ko
+   98  dmesg
+   99  dkms status rtl88x2bu
+  100  ifconfig
+  101  ls
+  102  ps
+  103  top
+  104  ls
+  105  pwd
+  106  ls
+  107  gcc -o test_pipe test_pipe.c
+  108  ./test_pipe
+  109  vi test_pipevi
+  110  vi tes
+  111  ls
+  112  vi test_pipe
+  113  vi test_pipe.c
+  114  top
+  115  vi test_pipe.c
+  116  nano test_pipe
+  117  nano test_pipe.c
+  118  gcc -o test_pipe test_pipe.c
+  119  ./test_pipe
+  120  gcc -o test_pipe test_pipe.c
+  121  ls
+  122  cat tr69.txt
+  123  awk '{print $7}' /tmp/tr69.txt
+  124  awk '{print $2}' /tmp/tr69.txt
+  125  top -d 1 | grep tr68 > /tmp/tr69.txt &
+  126  cat /tmp/tr69.txt
+  127  top -d 1 | grep chrome > /tmp/tr69.txt &
+  128  cat /tmp/tr69.txt
+  129  cat tr69.txt
+  130  rm tr69.txt
+  131  top -d 1 | grep chrome > /home/ont/tr69.txt &
+  132  cat tr69.txt
+  133  top|grep chrome > /home/ont/tr69.txt &
+  134  cat tr69.txt
+  135  rm tr69.txt
+  136  top|grep chrome > /home/ont/tr69.txt
+  137  cat tr69.txt
+  138  top | grep chrome > /home/ont/tr69.txt
+  139  cat tr69.txt
+  140  top
+  141  top | grep containerd > /home/ont/tr69.txt
+  142  cat tr69.txt
+  143  rm tr69.txt
+  144  top | grep containerd > /home/ont/tr69.txt
+  145  cat tr69.txt
+  146  ls
+  147  cat tr69.txt
+  148  rm tr69.txt
+  149  ./test_pipe
+  150  ls
+  151  caca
+  152  ca
+  153  cat tr69.txt
+  154  nano tr69.txt
+  155  cat tr69.txt
+  156  awk '{print $7}' tr69.txt
+  157  nano test_pipe.c
+  158  gcc -o test_pipe test_pipe.c
+  159  ./test_pipe
+  160  cat test_pipe.c
+  161  q!
+  162  nano test_pipe.c
+  163  gcc -o test_pipe test_pipe.c
+  164  ./test_pipe
+  165  nano test_pipe.c
+  166  nano test_pipe.c
+  167  gcc -o test_pipe test_pipe.c
+  168  nano test_pipe.c
+  169  gcc -o test_pipe test_pipe.c
+  170  nano test_pipe.c
+  171  gcc -o test_pipe test_pipe.c
+  172  ./test_pipe
+  173  gcc -o test_pipe test_pipe.c
+  174  nano test_pipe.c
+  175  gcc -o test_pipe test_pipe.c
+  176  ./test_pipe
+  177  gcc -o test_pipe test_pipe.c
+  178  nano test_pipe.c
+  179  gcc -o test_pipe test_pipe.c
+  180  ./test_pipe
+  181  cat tr69.txt
+  182  top
+  183  cat tr69.txt
+  184  nano tr69.txt
+  185  nano test_pipe.c
+  186  gcc -o test_pipe test_pipe.c
+  187  nano test_pipe.c
+  188  gcc -o test_pipe test_pipe.c
+  189  ./test_pipe
+  190  nano test_pipe.c
+  191  gcc -o test_pipe test_pipe.c
+  192  ./test_pipe
+  193  nano test_pipe.c
+  194  cat test_pipe.c
+  195  nano test_pipe.c
+  196  gcc t-o test_pipe test_pipe.c
+  197  gcc -o test_pipe test_pipe.c
+  198  ./test_pipe
+  199  nano test_pipe.c
+  200  gcc -o test_pipe test_pipe.c
+  201  ./test_pipe
+  202  nano test_pipe.c
+  203  ./test_pipe
+  204  top
+  205  ls
+  206  cd data/
+  207  ls
+  208  cd ..
+  209  rm test_pipe
+  210  cd data/
+  211  ls
+  212  mkdir duyhh2
+  213  cd ..
+  214  ls
+  215  pwd
+  216  mkdir duyhh2
+  217  ls
+  218  mv test_pipe.c duyhh2/
+  219  mv tr69.txt duyhh2/
+  220  ls
+  221  cd duyhh2/
+  222  ls
+  223  mkdir Big_O_Coding
+  224  ls
+  225  cd Big_O_Coding/
+  226  lks
+  227  ls
+  228  /etc/init.d/network-manager stop
+  229  /etc/init.d/network-manager restart
+  230  sudo reboot -h now
+  231  exit
+  232  ping
+  233  co
+  234  ifconfig
+  235  ping 192.168.29.25
+  236  ping 192.168.29.2
+  237  ssh ont@vhtont.sytes.net -p 11495
+  238  exit
+  239  ls
+  240  mkdir thult28
+  241  cd thult28/
+  242  history
+  243  sftp ont@vhtont.sytes.net -p 11495
+  244  sftp ont@vhtont.sytes.net
+  245  scp -p 11495 ont@vhtont.sytes.net:/home/ont/auto_ont* .
+  246  scp ont@vhtont.sytes.net:/home/ont/auto_ont* . -P 11495
+  247  scp -P 11495 ont@vhtont.sytes.net:/home/ont/auto_ont* .
+  248  pwd
+  249  ls
+  250  \
+  251  ipconfig
+  252  history
+  253  ping 192.168.29.2
+  254  ssh ont@vhtont.sytes.net -p 11495
+  255  history
+  256  scp -P 11495 ont@vhtont.sytes.net:/home/ont/auto_ont* .
+  257  pwd
+  258  ssh-keygen -t rsa
+  259  vi /etc/ssh/sshd_config
+  260  ping 172.16.32.73
+  261  ping 172.16.32.58
+  262  ls
+  263  dh -f
+  264  df -h
+  265  free -m
+  266  python -v
+  267  python -version
+  268  python
+  269  python -h
+  270  history
+  271  ssh ont@vhtont.sytes.net -p 11495
+  272  ls
+  273  history
+  274  scp -P 11495 ont@vhtont.sytes.net:/home/ont/python* .
+  275  exit
+  276  nmap -v- vv -PN -p 0-65535
+  277  nmap -v- vv -PN -p 0-65535
+  278  nmap
+  279  nmap -n -vv -Pn -p 0-65535 172.16.32.58
+  280  exit
+  281  cat /home/ont/nmap.txt
+  282  pwdf
+  283  pwd
+  284  touch nmap.txt
+  285  vi nmap.txt
+  286  pwd
+  287  cat nmap.txt
+  288  ssh ont@172.16.32.73
+  289  ssh root@172.16.32.58
+  290  cat /home/ont/nmap.txt
+  291  vi nmap.txt
+  292  exit
+  293  cat /home/ont/nmap.txt
+  294  >nmap.txt
+  295  vi nmap.txt
+  296  cat nmap.txt
+  297  nmap -
+  298  nmap -v -vv -Pn -sU -p 0-65535 172.16.32.58
+  299  nmap -v -vv -PN -sU -p 0-65535 172.16.32.58
+  300  nmap -v -vv -Pn -sU -p 0-65535 172.16.32.58
+  301  su
+  302  nmap -v -vv -Pn -sU -p 0-65535 172.16.32.58
+  303  sudo su
+  304  mv nmap.txt nmap1.txt
+  305  mv nmap1.txt nmap.txt
+  306  cat /home/ont/nmap.txt
+  307  nmap -n -vv -Pn -p 0-65535 172.16.32.58
+  308  nmap -n -vv -Pn -p 0-53 172.16.32.58
+  309  nmap -n -vv -Pn -p 0-20 172.16.32.58
+  310  nmap -n -vv -Pn -p 0-53 172.16.32.58
+  311  nmap -n -vv -Pn -p 0-20 172.16.32.58
+  312  nmap -n -vv -Pn -p 0-23 172.16.32.58
+  313  sudo su
+  314  history
+  315  ssh ont@vhtont.sytes.net -p 11495
+  316  ssh thult28@vhtont.sytes.net -p 11495
+  317  ssh ont@vhtont.sytes.net -p 11495
+  318  ssh thult28@vhtont.sytes.net -p 11495
+  319  ping 192.168.292
+  320  ping 192.168.29.2
+  321  ifconfig
+  322  ping 192.168.29.1
+  323  ping 172.16.32.59
+  324  ping 172.16.32.59 -t
+  325  ping 172.16.32.59
+  326  history
+  327  ssh thult28@vhtont.sytes.net -p 11495
+  328  history
+  329  history | grep scp
+  330  scp -p 11495 ont@vhtont.sytes.net:/home/thult28/* .
+  331  scp -P 11495 ont@vhtont.sytes.net:/home/thult28/* .
+  332  scp -P 11495 thult28@vhtont.sytes.net:/home/thult28/* .
+  333  h
+  334  history
+  335  ssh -P 11495 thult28@vhtont.sytes.net
+  336  ssh thult28@vhtont.sytes.net -p 11495
+  337  ifconfig
+  338  ping
+  339  ping google.com
+  340  ifconfig
+  341  ping google.com
+  342  ping 192.168.29.2
+  343  ping 192.168.29.1
+  344  \
+  345  exit
+  346  ifconfig
+  347  cat /dev/
+  348  ls usb
+  349  lsusb
+  350  ls
+  351  pwd
+  352  exit
+  353  ls -la
+  354  chown ont:ont test_21_7_2022_2.pcapng
+  355  sudo chown ont:ont test_21_7_2022_2.pcapng
+  356  sudo chown ont:ont test_21_7_2022.pcapng
+  357  ls -la
+  358  exit
+  359  ls
+  360  exit
+  361  ping google.com
+  362  ifconfig
+  363  cat /etc/network/interfaces
+  364  ifconfig
+  365  ping 192.168.1.1
+  366  arp -a
+  367  ifconfig
+  368  iwconfig
+  369  ifconfig
+  370  lsusb
+  371  ls
+  372  ifconfig
+  373  ls
+  374  pwd
+  375  ls -la
+  376  scp test_21_7_2022_2.pcapng duyhh2@192.168.29.23:/home/
+  377  sudo scp test_21_7_2022_2.pcapng duyhh2@192.168.29.23:/home/
+  378  pwd
+  379  ls
+  380  ifconfig
+  381  ifconfig
+  382  iwconfig
+  383  ifconfig
+  384  sudo /etc/init.d/network-manager restart
+  385  iwconfig
+  386  iw wlxb4b0247e956c info
+  387  iwconfig wlxb4b0247e956c mode monitor
+  388  sudo iwconfig wlxb4b0247e956c mode monitor
+  389  iwconfig wlxb4b0247e956c channel 8
+  390  sudoiwconfig wlxb4b0247e956c channel 8
+  391  sudo iwconfig wlxb4b0247e956c channel 8
+  392  wireshark &
+  393  sudo wireshark &
+  394  sudo iwconfig wlxb4b0247e956c channel 100
+  395  sudo wireshark &
+  396  cd thult28/
+  397  ls
+  398  rm VT-ONT-AT-ROBOT2107.rar
+  399  rm auto_ont.tar.gz
+  400  history
+ont@ont-HP-280-G2-MT:~/thult28$ scp -P 11495 auto.rar  thult28@vhtont.sytes.net:/home/thult28/.
+Warning: Permanently added the ECDSA host key for IP address '[116.101.90.170]:11495' to the list of known hosts.
+thult28@vhtont.sytes.net's password:
+auto.rar                                                                                                         100%   11MB   5.6MB/s   00:01
+ont@ont-HP-280-G2-MT:~/thult28$ ssh thult28@vhtont.sytes.net
+Warning: Permanently added the ECDSA host key for IP address '116.101.90.170' to the list of known hosts.
+thult28@vhtont.sytes.net's password:
+Permission denied, please try again.
+thult28@vhtont.sytes.net's password:
+Permission denied, please try again.
+thult28@vhtont.sytes.net's password:
+thult28@vhtont.sytes.net: Permission denied (publickey,password).
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$ ssh thult28@vhtont.sytes.net
+thult28@vhtont.sytes.net's password:
+Permission denied, please try again.
+thult28@vhtont.sytes.net's password:
+
+ont@ont-HP-280-G2-MT:~/thult28$ ssh ont@vhtont.sytes.net
+ont@vhtont.sytes.net's password:
+Permission denied, please try again.
+ont@vhtont.sytes.net's password:
+
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$ ssh thult28@vhtont.sytes.net
+thult28@vhtont.sytes.net's password:
+Permission denied, please try again.
+thult28@vhtont.sytes.net's password:
+Permission denied, please try again.
+thult28@vhtont.sytes.net's password:
+thult28@vhtont.sytes.net: Permission denied (publickey,password).
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$ ssh thult28@vhtont.sytes.net
+thult28@vhtont.sytes.net's password:
+Permission denied, please try again.
+thult28@vhtont.sytes.net's password:
+
+ont@ont-HP-280-G2-MT:~/thult28$ ssh ont@vhtont.sytes.net
+ont@vhtont.sytes.net's password:
+Permission denied, please try again.
+ont@vhtont.sytes.net's password:
+Permission denied, please try again.
+ont@vhtont.sytes.net's password:
+
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$ history
+    1  ls
+    2  cd Downloads/T4Uv3_WiFi_linux_v5.3.1_beta/
+    3  ls
+    4  make
+    5  cd ..
+    6  git clone https://github.com/cilynx/rtl88x2bu.git
+    7  sudo apt install git
+    8  git clone https://github.com/cilynx/rtl88x2bu.git
+    9  cd rtl88x2bu/
+   10  make
+   11  ls
+   12  sudo make install
+   13  lsmod
+   14  lsusb
+   15  iwconfig
+   16  sudo apt install vlan
+   17  modprobe --first-time 8021q
+   18  sudo modprobe --first-time 8021q
+   19  modinfo 8021q
+   20  sudo -i
+   21  sudo gparted
+   22  sudo fdisk
+   23  sudo fdisk -l
+   24  ls
+   25  sudo apt install gcc
+   26  sudo apt install gcc-5
+   27  sudo apt update
+   28  sudo apt install gcc
+   29  sudo apt install gcc:5
+   30  sudo apt install gcc-5
+   31  sudo apt install gcc
+   32  cd Downloads/T4Uv3_WiFi_linux_v5.3.1_beta/
+   33  ls
+   34  make clean
+   35  sudo apt install make
+   36  ifconfig
+   37  sudo ifconfig wlxb4b0247e94ff up
+   38  wpa_supplicant
+   39  useradd --help
+   40  sudo useradd -m -s /bin/bash hoangtu1
+   41  sudo passwd hoangtu1
+   42  sudo usermod -aG sudo hoangtu1
+   43  exit
+   44  sudo ifconfig
+   45  iwconfig
+   46  ls
+   47  cd Downloads/
+   48  ls
+   49  cd rtl88x2bu/
+   50  ls
+   51  lsmod
+   52  ls
+   53  sudo make install
+   54  iwconfig
+   55  lsusb
+   56  iwconfig
+   57  lsusb
+   58  ls
+   59  sudo modprobe -i 88x2bu
+   60  sudo insmod 88x2bu.ko
+   61  sudo insmod 88x2bu.ko ?
+   62  ls
+   63  ./deploy.sh
+   64  ifconif
+   65  iwconfig
+   66  ls
+   67  cat dkms.conf
+   68  sudo dkms add .
+   69  sudo apt install dkms
+   70  modprobe 88x2bu
+   71  sudo modprobe 88x2bu
+   72  sudo apt install dkms
+   73  sudo dkms add .
+   74  iwconfig
+   75  sudo dkms install -m 88x2bu -v 1.1
+   76  sudo dkms install -m 88x2bu
+   77  ls
+   78  sudo dkms install -m 88x2bu -v 5.8.7.1
+   79  ls
+   80  sudo dkms install -m 88x2bu
+   81  cat dkms.conf
+   82  sudo dkms add .
+   83  sudo dkms add -m 88x2bu/5.8.7.1
+   84  ls /usr/src/
+   85  sudo dkms install -m rtl88x2bu -v 5.8.7.1
+   86  ls /usr/src/
+   87  iwconfig
+   88  lsusb
+   89  iwconfig
+   90  lsusb
+   91  lsmod
+   92  lsmod | grep rtl
+   93  sudo modprobe -i rtl8xxxu
+   94  lsmod | grep rtl
+   95  iwconfig
+   96  ls
+   97  sudo insmod 88x2bu.ko
+   98  dmesg
+   99  dkms status rtl88x2bu
+  100  ifconfig
+  101  ls
+  102  ps
+  103  top
+  104  ls
+  105  pwd
+  106  ls
+  107  gcc -o test_pipe test_pipe.c
+  108  ./test_pipe
+  109  vi test_pipevi
+  110  vi tes
+  111  ls
+  112  vi test_pipe
+  113  vi test_pipe.c
+  114  top
+  115  vi test_pipe.c
+  116  nano test_pipe
+  117  nano test_pipe.c
+  118  gcc -o test_pipe test_pipe.c
+  119  ./test_pipe
+  120  gcc -o test_pipe test_pipe.c
+  121  ls
+  122  cat tr69.txt
+  123  awk '{print $7}' /tmp/tr69.txt
+  124  awk '{print $2}' /tmp/tr69.txt
+  125  top -d 1 | grep tr68 > /tmp/tr69.txt &
+  126  cat /tmp/tr69.txt
+  127  top -d 1 | grep chrome > /tmp/tr69.txt &
+  128  cat /tmp/tr69.txt
+  129  cat tr69.txt
+  130  rm tr69.txt
+  131  top -d 1 | grep chrome > /home/ont/tr69.txt &
+  132  cat tr69.txt
+  133  top|grep chrome > /home/ont/tr69.txt &
+  134  cat tr69.txt
+  135  rm tr69.txt
+  136  top|grep chrome > /home/ont/tr69.txt
+  137  cat tr69.txt
+  138  top | grep chrome > /home/ont/tr69.txt
+  139  cat tr69.txt
+  140  top
+  141  top | grep containerd > /home/ont/tr69.txt
+  142  cat tr69.txt
+  143  rm tr69.txt
+  144  top | grep containerd > /home/ont/tr69.txt
+  145  cat tr69.txt
+  146  ls
+  147  cat tr69.txt
+  148  rm tr69.txt
+  149  ./test_pipe
+  150  ls
+  151  caca
+  152  ca
+  153  cat tr69.txt
+  154  nano tr69.txt
+  155  cat tr69.txt
+  156  awk '{print $7}' tr69.txt
+  157  nano test_pipe.c
+  158  gcc -o test_pipe test_pipe.c
+  159  ./test_pipe
+  160  cat test_pipe.c
+  161  q!
+  162  nano test_pipe.c
+  163  gcc -o test_pipe test_pipe.c
+  164  ./test_pipe
+  165  nano test_pipe.c
+  166  nano test_pipe.c
+  167  gcc -o test_pipe test_pipe.c
+  168  nano test_pipe.c
+  169  gcc -o test_pipe test_pipe.c
+  170  nano test_pipe.c
+  171  gcc -o test_pipe test_pipe.c
+  172  ./test_pipe
+  173  gcc -o test_pipe test_pipe.c
+  174  nano test_pipe.c
+  175  gcc -o test_pipe test_pipe.c
+  176  ./test_pipe
+  177  gcc -o test_pipe test_pipe.c
+  178  nano test_pipe.c
+  179  gcc -o test_pipe test_pipe.c
+  180  ./test_pipe
+  181  cat tr69.txt
+  182  top
+  183  cat tr69.txt
+  184  nano tr69.txt
+  185  nano test_pipe.c
+  186  gcc -o test_pipe test_pipe.c
+  187  nano test_pipe.c
+  188  gcc -o test_pipe test_pipe.c
+  189  ./test_pipe
+  190  nano test_pipe.c
+  191  gcc -o test_pipe test_pipe.c
+  192  ./test_pipe
+  193  nano test_pipe.c
+  194  cat test_pipe.c
+  195  nano test_pipe.c
+  196  gcc t-o test_pipe test_pipe.c
+  197  gcc -o test_pipe test_pipe.c
+  198  ./test_pipe
+  199  nano test_pipe.c
+  200  gcc -o test_pipe test_pipe.c
+  201  ./test_pipe
+  202  nano test_pipe.c
+  203  ./test_pipe
+  204  top
+  205  ls
+  206  cd data/
+  207  ls
+  208  cd ..
+  209  rm test_pipe
+  210  cd data/
+  211  ls
+  212  mkdir duyhh2
+  213  cd ..
+  214  ls
+  215  pwd
+  216  mkdir duyhh2
+  217  ls
+  218  mv test_pipe.c duyhh2/
+  219  mv tr69.txt duyhh2/
+  220  ls
+  221  cd duyhh2/
+  222  ls
+  223  mkdir Big_O_Coding
+  224  ls
+  225  cd Big_O_Coding/
+  226  lks
+  227  ls
+  228  /etc/init.d/network-manager stop
+  229  /etc/init.d/network-manager restart
+  230  sudo reboot -h now
+  231  exit
+  232  ping
+  233  co
+  234  ifconfig
+  235  ping 192.168.29.25
+  236  ping 192.168.29.2
+  237  ssh ont@vhtont.sytes.net -p 11495
+  238  exit
+  239  ls
+  240  mkdir thult28
+  241  cd thult28/
+  242  history
+  243  sftp ont@vhtont.sytes.net -p 11495
+  244  sftp ont@vhtont.sytes.net
+  245  scp -p 11495 ont@vhtont.sytes.net:/home/ont/auto_ont* .
+  246  scp ont@vhtont.sytes.net:/home/ont/auto_ont* . -P 11495
+  247  scp -P 11495 ont@vhtont.sytes.net:/home/ont/auto_ont* .
+  248  pwd
+  249  ls
+  250  \
+  251  ipconfig
+  252  history
+  253  ping 192.168.29.2
+  254  ssh ont@vhtont.sytes.net -p 11495
+  255  history
+  256  scp -P 11495 ont@vhtont.sytes.net:/home/ont/auto_ont* .
+  257  pwd
+  258  ssh-keygen -t rsa
+  259  vi /etc/ssh/sshd_config
+  260  ping 172.16.32.73
+  261  ping 172.16.32.58
+  262  ls
+  263  dh -f
+  264  df -h
+  265  free -m
+  266  python -v
+  267  python -version
+  268  python
+  269  python -h
+  270  history
+  271  ssh ont@vhtont.sytes.net -p 11495
+  272  ls
+  273  history
+  274  scp -P 11495 ont@vhtont.sytes.net:/home/ont/python* .
+  275  exit
+  276  nmap -v- vv -PN -p 0-65535
+  277  nmap -v- vv -PN -p 0-65535
+  278  nmap
+  279  nmap -n -vv -Pn -p 0-65535 172.16.32.58
+  280  exit
+  281  cat /home/ont/nmap.txt
+  282  pwdf
+  283  pwd
+  284  touch nmap.txt
+  285  vi nmap.txt
+  286  pwd
+  287  cat nmap.txt
+  288  ssh ont@172.16.32.73
+  289  ssh root@172.16.32.58
+  290  cat /home/ont/nmap.txt
+  291  vi nmap.txt
+  292  exit
+  293  cat /home/ont/nmap.txt
+  294  >nmap.txt
+  295  vi nmap.txt
+  296  cat nmap.txt
+  297  nmap -
+  298  nmap -v -vv -Pn -sU -p 0-65535 172.16.32.58
+  299  nmap -v -vv -PN -sU -p 0-65535 172.16.32.58
+  300  nmap -v -vv -Pn -sU -p 0-65535 172.16.32.58
+  301  su
+  302  nmap -v -vv -Pn -sU -p 0-65535 172.16.32.58
+  303  sudo su
+  304  mv nmap.txt nmap1.txt
+  305  mv nmap1.txt nmap.txt
+  306  cat /home/ont/nmap.txt
+  307  nmap -n -vv -Pn -p 0-65535 172.16.32.58
+  308  nmap -n -vv -Pn -p 0-53 172.16.32.58
+  309  nmap -n -vv -Pn -p 0-20 172.16.32.58
+  310  nmap -n -vv -Pn -p 0-53 172.16.32.58
+  311  nmap -n -vv -Pn -p 0-20 172.16.32.58
+  312  nmap -n -vv -Pn -p 0-23 172.16.32.58
+  313  sudo su
+  314  history
+  315  ssh ont@vhtont.sytes.net -p 11495
+  316  ssh thult28@vhtont.sytes.net -p 11495
+  317  ssh ont@vhtont.sytes.net -p 11495
+  318  ssh thult28@vhtont.sytes.net -p 11495
+  319  ping 192.168.292
+  320  ping 192.168.29.2
+  321  ifconfig
+  322  ping 192.168.29.1
+  323  ping 172.16.32.59
+  324  ping 172.16.32.59 -t
+  325  ping 172.16.32.59
+  326  history
+  327  ssh thult28@vhtont.sytes.net -p 11495
+  328  history
+  329  history | grep scp
+  330  scp -p 11495 ont@vhtont.sytes.net:/home/thult28/* .
+  331  scp -P 11495 ont@vhtont.sytes.net:/home/thult28/* .
+  332  scp -P 11495 thult28@vhtont.sytes.net:/home/thult28/* .
+  333  h
+  334  history
+  335  ssh -P 11495 thult28@vhtont.sytes.net
+  336  ssh thult28@vhtont.sytes.net -p 11495
+  337  ifconfig
+  338  ping
+  339  ping google.com
+  340  ifconfig
+  341  ping google.com
+  342  ping 192.168.29.2
+  343  ping 192.168.29.1
+  344  \
+  345  exit
+  346  ifconfig
+  347  cat /dev/
+  348  ls usb
+  349  lsusb
+  350  ls
+  351  pwd
+  352  exit
+  353  ls -la
+  354  chown ont:ont test_21_7_2022_2.pcapng
+  355  sudo chown ont:ont test_21_7_2022_2.pcapng
+  356  sudo chown ont:ont test_21_7_2022.pcapng
+  357  ls -la
+  358  exit
+  359  ls
+  360  exit
+  361  ping google.com
+  362  ifconfig
+  363  cat /etc/network/interfaces
+  364  ifconfig
+  365  ping 192.168.1.1
+  366  arp -a
+  367  ifconfig
+  368  iwconfig
+  369  ifconfig
+  370  lsusb
+  371  ls
+  372  ifconfig
+  373  ls
+  374  pwd
+  375  ls -la
+  376  scp test_21_7_2022_2.pcapng duyhh2@192.168.29.23:/home/
+  377  sudo scp test_21_7_2022_2.pcapng duyhh2@192.168.29.23:/home/
+  378  pwd
+  379  ls
+  380  ifconfig
+  381  ifconfig
+  382  iwconfig
+  383  ifconfig
+  384  sudo /etc/init.d/network-manager restart
+  385  iwconfig
+  386  iw wlxb4b0247e956c info
+  387  iwconfig wlxb4b0247e956c mode monitor
+  388  sudo iwconfig wlxb4b0247e956c mode monitor
+  389  iwconfig wlxb4b0247e956c channel 8
+  390  sudoiwconfig wlxb4b0247e956c channel 8
+  391  sudo iwconfig wlxb4b0247e956c channel 8
+  392  wireshark &
+  393  sudo wireshark &
+  394  sudo iwconfig wlxb4b0247e956c channel 100
+  395  sudo wireshark &
+  396  cd thult28/
+  397  ls
+  398  rm VT-ONT-AT-ROBOT2107.rar
+  399  rm auto_ont.tar.gz
+  400  history
+  401  scp -P 11495 auto.rar  thult28@vhtont.sytes.net:/home/thult28/.
+  402  ssh thult28@vhtont.sytes.net
+  403  ssh ont@vhtont.sytes.net
+  404  ssh thult28@vhtont.sytes.net
+  405  ssh ont@vhtont.sytes.net
+  406  history
+ont@ont-HP-280-G2-MT:~/thult28$  ssh thult28@vhtont.sytes.net -p 11495
+thult28@vhtont.sytes.net's password:
+Welcome to Ubuntu 20.04.4 LTS (GNU/Linux 5.4.0-122-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Mon 25 Jul 2022 03:44:20 AM UTC
+
+  System load:  0.0                Processes:              167
+  Usage of /:   55.6% of 19.51GB   Users logged in:        1
+  Memory usage: 37%                IPv4 address for ens32: 172.19.20.61
+  Swap usage:   0%
+
+ * Super-optimized for small spaces - read how we shrank the memory
+   footprint of MicroK8s to make it the smallest full K8s around.
+
+   https://ubuntu.com/blog/microk8s-memory-optimisation
+
+43 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+
+
+Last login: Mon Jul 11 03:18:58 2022 from 115.73.21.75
+thult28@privatenet:~$
+thult28@privatenet:~$
+thult28@privatenet:~$
+thult28@privatenet:~$
+thult28@privatenet:~$
+thult28@privatenet:~$
+thult28@privatenet:~$
+thult28@privatenet:~$ history
+    1  ls
+    2  exit
+    3  ls
+    4  cd ~
+    5  ls
+    6  cat .bashrc
+    7  ls
+    8  source .bashrc
+    9  exit
+   10  passwd thult28
+   11  exit
+   12  exit
+   13  ls
+   14  owd
+   15  pwd
+   16  sftp thult28@172.19.20.101
+   17  exit
+   18  ssh thult28@172.19.20.101
+   19  history
+thult28@privatenet:~$ pwd
+/home/thult28
+thult28@privatenet:~$ ls
+'220523_BCKT_CTKT2022_ONT 7526 240K_Release v1.7.xlsx'   auto.rar
+thult28@privatenet:~$ sftp thult28@172.19.20.101.
+thult28@privatenet:~$ sftp thult28@172.19.20.101
+thult28@172.19.20.101's password:
+Connected to 172.19.20.101.
+sftp>
+sftp>
+sftp>
+sftp> his
+Invalid command.
+sftp> cd /data/backup/
+backup_99/              backup_config_jenkins/
+sftp> cd /data/backup/backup_99/
+cdbr-projects-test/  cdbr-projects/       srt-share/           tftpboot/
+sftp> cd /data/backup/backup_99/
+cdbr-projects-test/  cdbr-projects/       srt-share/           tftpboot/
+sftp> cd /data/backup/backup_99/cd
+cdbr-projects-test/  cdbr-projects/
+sftp> cd /data/backup/backup_99/cdbr-projects/O
+OLT/  ONT/
+sftp> cd /data/backup/backup_99/cdbr-projects/ONT/5.Test/
+1. ONTv1_SX 50k/                                 2. ONTv1_7526_SX240k/                            3. ONTv1_7526_SX500K/
+300921_ONT_Report_BandSteering .xlsx             4. RSSI/                                         5. WIFI/
+6. Vendor/                                       NhietDoONT_12082021.xlsx
+sftp> cd /data/backup/backup_99/cdbr-projects/ONT/5.Test/
+1. ONTv1_SX 50k/                                 2. ONTv1_7526_SX240k/                            3. ONTv1_7526_SX500K/
+300921_ONT_Report_BandSteering .xlsx             4. RSSI/                                         5. WIFI/
+6. Vendor/                                       NhietDoONT_12082021.xlsx
+sftp> cd /data/backup/backup_99/cdbr-projects/ONT/5.Test/1.\ ONTv1_SX\ 50k/9.\ Automation/
+20191001_VOA/                                    CTKT/                                            Function/
+IOP/                                             ONT_WAN_LAN_WLAN_Update 2018.08.02/              Tai lieu sang kien y tuong/
+WEBUI/                                           WiFi/
+sftp> cd /data/backup/backup_99/cdbr-projects/ONT/5.Test/1.\ ONTv1_SX\ 50k/9.\ Automation/
+20191001_VOA/                                    CTKT/                                            Function/
+IOP/                                             ONT_WAN_LAN_WLAN_Update 2018.08.02/              Tai lieu sang kien y tuong/
+WEBUI/                                           WiFi/
+sftp> cd /data/backup/backup_99/cdbr-projects/ONT/5.Test/1.\ ONTv1_SX\ 50k/9.\ Automation/CTKT/
+sftp> put auto.rar
+Uploading auto.rar to /data/backup/backup_99/cdbr-projects/ONT/5.Test/1. ONTv1_SX 50k/9. Automation/CTKT/auto.rar
+auto.rar                                                                                                         100%   11MB  36.7MB/s   00:00
+sftp> quit
+thult28@privatenet:~$ touch noted.txt
+thult28@privatenet:~$ vi noted.txt
+thult28@privatenet:~$
+thult28@privatenet:~$
+thult28@privatenet:~$
+thult28@privatenet:~$
+thult28@privatenet:~$
+thult28@privatenet:~$
+thult28@privatenet:~$
+thult28@privatenet:~$ channel 30: open failed: connect failed: open failed
+channel 30: open failed: connect failed: open failed
+channel 30: open failed: connect failed: open failed
+channel 30: open failed: connect failed: open failed
+channel 30: open failed: connect failed: open failed
+channel 30: open failed: connect failed: open failed
+channel 30: open failed: connect failed: open failed
+channel 30: open failed: connect failed: open failed
+channel 30: open failed: connect failed: open failed
+channel 30: open failed: connect failed: open failed
+channel 30: open failed: connect failed: open failed
+channel 30: open failed: connect failed: open failed
+channel 30: open failed: connect failed: open failed
+channel 57: open failed: connect failed: Network is unreachable
+channel 60: open failed: connect failed: Network is unreachable
+channel 61: open failed: connect failed: Network is unreachable
+channel 44: open failed: connect failed: Network is unreachable
+channel 45: open failed: connect failed: Network is unreachable
+channel 46: open failed: connect failed: Network is unreachable
+channel 58: open failed: connect failed: Network is unreachable
+channel 33: open failed: connect failed: Network is unreachable
+channel 30: open failed: connect failed: Network is unreachable
+channel 4: open failed: connect failed: Network is unreachable
+channel 20: open failed: connect failed: Network is unreachable
+channel 27: open failed: connect failed: Network is unreachable
+channel 29: open failed: connect failed: Network is unreachable
+channel 37: open failed: connect failed: Network is unreachable
+channel 35: open failed: connect failed: Connection timed out
+channel 36: open failed: connect failed: Connection timed out
+channel 38: open failed: connect failed: Connection timed out
+client_loop: send disconnect: Broken pipe
+ont@ont-HP-280-G2-MT:~/thult28$ channel 22: open failed: connect failed: Connection timed out
+channel 41: open failed: connect failed: Connection timed out
+channel 43: open failed: connect failed: Connection timed out
+channel 44: open failed: connect failed: Connection timed out
+channel 45: open failed: connect failed: Connection timed out
+channel 46: open failed: connect failed: Connection timed out
+channel 51: open failed: connect failed: Connection timed out
+channel 52: open failed: connect failed: Connection timed out
+channel 57: open failed: connect failed: Connection timed out
+channel 58: open failed: connect failed: Connection timed out
+channel 60: open failed: connect failed: Connection timed out
+channel 61: open failed: connect failed: Connection timed out
+channel 41: open failed: connect failed: open failed
+channel 43: open failed: connect failed: open failed
+channel 41: open failed: connect failed: open failed
+channel 41: open failed: connect failed: open failed
+channel 41: open failed: connect failed: open failed
+channel 41: open failed: connect failed: open failed
+channel 41: open failed: connect failed: open failed
+channel 41: open failed: connect failed: open failed
+channel 41: open failed: connect failed: open failed
+channel 41: open failed: connect failed: open failed
+channel 41: open failed: connect failed: open failed
+channel 41: open failed: connect failed: open failed
+channel 41: open failed: connect failed: open failed
+channel 41: open failed: connect failed: open failed
+channel 41: open failed: connect failed: open failed
+channel 41: open failed: connect failed: open failed
+channel 41: open failed: connect failed: open failed
+channel 41: open failed: connect failed: open failed
+channel 41: open failed: connect failed: open failed
+channel 41: open failed: connect failed: open failed
+channel 41: open failed: connect failed: open failed
+channel 41: open failed: connect failed: open failed
+channel 41: open failed: connect failed: open failed
+channel 41: open failed: connect failed: open failed
+channel 41: open failed: connect failed: open failed
+channel 41: open failed: connect failed: open failed
+channel 41: open failed: connect failed: open failed
+channel 41: open failed: connect failed: open failed
+channel 41: open failed: connect failed: open failed
+channel 41: open failed: connect failed: open failed
+channel 41: open failed: connect failed: open failed
+channel 41: open failed: connect failed: open failed
+channel 41: open failed: connect failed: open failed
+channel 43: open failed: connect failed: Network is unreachable
+channel 45: open failed: connect failed: Network is unreachable
+channel 46: open failed: connect failed: Network is unreachable
+channel 51: open failed: connect failed: Network is unreachable
+channel 57: open failed: connect failed: Network is unreachable
+channel 57: open failed: connect failed: Network is unreachable
+channel 67: open failed: connect failed: Network is unreachable
+channel 66: open failed: connect failed: Network is unreachable
+channel 70: open failed: connect failed: Network is unreachable
+channel 71: open failed: connect failed: Network is unreachable
+channel 41: open failed: connect failed: Connection timed out
+channel 43: open failed: connect failed: Connection timed out
+channel 44: open failed: connect failed: Connection timed out
+channel 45: open failed: connect failed: Connection timed out
+channel 46: open failed: connect failed: Connection timed out
+channel 46: open failed: connect failed: open failed
+channel 46: open failed: connect failed: open failed
+channel 46: open failed: connect failed: open failed
+channel 46: open failed: connect failed: open failed
+channel 46: open failed: connect failed: open failed
+channel 46: open failed: connect failed: open failed
+channel 46: open failed: connect failed: open failed
+channel 46: open failed: connect failed: open failed
+channel 46: open failed: connect failed: open failed
+channel 46: open failed: connect failed: open failed
+channel 46: open failed: connect failed: open failed
+channel 46: open failed: connect failed: open failed
+channel 46: open failed: connect failed: open failed
+channel 46: open failed: connect failed: open failed
+channel 46: open failed: connect failed: open failed
+channel 46: open failed: connect failed: open failed
+channel 46: open failed: connect failed: open failed
+channel 46: open failed: connect failed: open failed
+channel 46: open failed: connect failed: open failed
+channel 46: open failed: connect failed: open failed
+channel 46: open failed: connect failed: open failed
+channel 46: open failed: connect failed: open failed
+channel 46: open failed: connect failed: open failed
+channel 46: open failed: connect failed: open failed
+channel 46: open failed: connect failed: open failed
+channel 46: open failed: connect failed: open failed
+channel 46: open failed: connect failed: open failed
+channel 46: open failed: connect failed: open failed
+channel 46: open failed: connect failed: open failed
+channel 46: open failed: connect failed: open failed
+channel 46: open failed: connect failed: open failed
+channel 46: open failed: connect failed: open failed
+channel 46: open failed: connect failed: open failed
+channel 46: open failed: connect failed: open failed
+channel 46: open failed: connect failed: open failed
+channel 46: open failed: connect failed: open failed
+channel 46: open failed: connect failed: open failed
+channel 46: open failed: connect failed: Network is unreachable
+channel 77: open failed: connect failed: Network is unreachable
+channel 78: open failed: connect failed: Network is unreachable
+channel 46: open failed: connect failed: Network is unreachable
+channel 46: open failed: connect failed: Network is unreachable
+channel 20: open failed: connect failed: Network is unreachable
+channel 82: open failed: connect failed: Network is unreachable
+channel 82: open failed: connect failed: Network is unreachable
+channel 83: open failed: connect failed: Network is unreachable
+channel 82: open failed: connect failed: Network is unreachable
+channel 83: open failed: connect failed: Network is unreachable
+channel 82: open failed: connect failed: Network is unreachable
+channel 82: open failed: connect failed: Network is unreachable
+channel 41: open failed: connect failed: Network is unreachable
+channel 45: open failed: connect failed: Network is unreachable
+channel 93: open failed: connect failed: open failed
+channel 93: open failed: connect failed: open failed
+channel 93: open failed: connect failed: open failed
+channel 93: open failed: connect failed: open failed
+channel 93: open failed: connect failed: open failed
+channel 93: open failed: connect failed: open failed
+channel 93: open failed: connect failed: open failed
+channel 93: open failed: connect failed: open failed
+channel 93: open failed: connect failed: open failed
+channel 93: open failed: connect failed: open failed
+channel 93: open failed: connect failed: open failed
+channel 93: open failed: connect failed: open failed
+channel 93: open failed: connect failed: open failed
+channel 93: open failed: connect failed: open failed
+channel 93: open failed: connect failed: open failed
+channel 93: open failed: connect failed: open failed
+channel 93: open failed: connect failed: open failed
+channel 93: open failed: connect failed: open failed
+channel 93: open failed: connect failed: open failed
+channel 93: open failed: connect failed: open failed
+channel 93: open failed: connect failed: open failed
+channel 93: open failed: connect failed: open failed
+channel 93: open failed: connect failed: open failed
+channel 93: open failed: connect failed: open failed
+channel 93: open failed: connect failed: open failed
+channel 93: open failed: connect failed: open failed
+channel 93: open failed: connect failed: Network is unreachable
+channel 106: open failed: connect failed: Network is unreachable
+
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$ python -v
+
+Command 'python' not found, did you mean:
+
+  command 'python3' from deb python3
+  command 'python' from deb python-is-python3
+
+ont@ont-HP-280-G2-MT:~/thult28$ python -version
+
+Command 'python' not found, did you mean:
+
+  command 'python3' from deb python3
+  command 'python' from deb python-is-python3
+
+ont@ont-HP-280-G2-MT:~/thult28$ ifconfig
+docker0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        inet 172.17.0.1  netmask 255.255.0.0  broadcast 172.17.255.255
+        ether 02:42:6b:a6:00:32  txqueuelen 0  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+enp4s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.11.22.1  netmask 255.255.255.0  broadcast 10.11.22.255
+        inet6 fe80::a28c:fdff:fed4:13dd  prefixlen 64  scopeid 0x20<link>
+        ether a0:8c:fd:d4:13:dd  txqueuelen 1000  (Ethernet)
+        RX packets 143925  bytes 28629582 (28.6 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 360559  bytes 466594696 (466.5 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+enp4s0.2502: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 25.2.11.1  netmask 255.255.255.0  broadcast 25.2.11.255
+        inet6 fe80::a28c:fdff:fed4:13dd  prefixlen 64  scopeid 0x20<link>
+        ether a0:8c:fd:d4:13:dd  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 90  bytes 9672 (9.6 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+enx00e04c534458: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 172.16.32.73  netmask 255.255.254.0  broadcast 172.16.33.255
+        inet6 fe80::2e0:4cff:fe53:4458  prefixlen 64  scopeid 0x20<link>
+        ether 00:e0:4c:53:44:58  txqueuelen 1000  (Ethernet)
+        RX packets 76800  bytes 16026883 (16.0 MB)
+        RX errors 125  dropped 29  overruns 33  frame 172
+        TX packets 78838  bytes 78217692 (78.2 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+enx00e04c680495: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.1.7  netmask 255.255.255.0  broadcast 192.168.1.255
+        inet6 fe80::2e0:4cff:fe68:495  prefixlen 64  scopeid 0x20<link>
+        ether 00:e0:4c:68:04:95  txqueuelen 1000  (Ethernet)
+        RX packets 868225  bytes 723553743 (723.5 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 368099  bytes 209630406 (209.6 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 1141  bytes 102154 (102.1 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 1141  bytes 102154 (102.1 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+ont@ont-HP-280-G2-MT:~/thult28$ ifconfig
+docker0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        inet 172.17.0.1  netmask 255.255.0.0  broadcast 172.17.255.255
+        ether 02:42:6b:a6:00:32  txqueuelen 0  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+enp4s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.11.22.1  netmask 255.255.255.0  broadcast 10.11.22.255
+        inet6 fe80::a28c:fdff:fed4:13dd  prefixlen 64  scopeid 0x20<link>
+        ether a0:8c:fd:d4:13:dd  txqueuelen 1000  (Ethernet)
+        RX packets 143925  bytes 28629582 (28.6 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 360559  bytes 466594696 (466.5 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+enp4s0.2502: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 25.2.11.1  netmask 255.255.255.0  broadcast 25.2.11.255
+        inet6 fe80::a28c:fdff:fed4:13dd  prefixlen 64  scopeid 0x20<link>
+        ether a0:8c:fd:d4:13:dd  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 90  bytes 9672 (9.6 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+enx00e04c534458: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 172.16.32.73  netmask 255.255.254.0  broadcast 172.16.33.255
+        inet6 fe80::2e0:4cff:fe53:4458  prefixlen 64  scopeid 0x20<link>
+        ether 00:e0:4c:53:44:58  txqueuelen 1000  (Ethernet)
+        RX packets 76828  bytes 16028777 (16.0 MB)
+        RX errors 125  dropped 29  overruns 33  frame 172
+        TX packets 78863  bytes 78222084 (78.2 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+enx00e04c680495: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.1.7  netmask 255.255.255.0  broadcast 192.168.1.255
+        inet6 fe80::2e0:4cff:fe68:495  prefixlen 64  scopeid 0x20<link>
+        ether 00:e0:4c:68:04:95  txqueuelen 1000  (Ethernet)
+        RX packets 868277  bytes 723568467 (723.5 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 368117  bytes 209632480 (209.6 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 1141  bytes 102154 (102.1 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 1141  bytes 102154 (102.1 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+ont@ont-HP-280-G2-MT:~/thult28$ channel 101: open failed: connect failed: open failed
+channel 101: open failed: connect failed: open failed
+channel 101: open failed: connect failed: open failed
+channel 101: open failed: connect failed: open failed
+channel 101: open failed: connect failed: open failed
+channel 101: open failed: connect failed: open failed
+channel 104: open failed: connect failed: open failed
+channel 104: open failed: connect failed: open failed
+channel 104: open failed: connect failed: open failed
+channel 104: open failed: connect failed: open failed
+channel 104: open failed: connect failed: open failed
+channel 104: open failed: connect failed: open failed
+channel 104: open failed: connect failed: open failed
+channel 104: open failed: connect failed: open failed
+channel 104: open failed: connect failed: open failed
+channel 104: open failed: connect failed: open failed
+channel 104: open failed: connect failed: open failed
+channel 104: open failed: connect failed: open failed
+channel 104: open failed: connect failed: open failed
+channel 104: open failed: connect failed: open failed
+channel 104: open failed: connect failed: open failed
+channel 104: open failed: connect failed: open failed
+channel 104: open failed: connect failed: open failed
+channel 104: open failed: connect failed: open failed
+channel 104: open failed: connect failed: open failed
+channel 104: open failed: connect failed: open failed
+channel 104: open failed: connect failed: open failed
+channel 104: open failed: connect failed: open failed
+channel 104: open failed: connect failed: open failed
+channel 104: open failed: connect failed: open failed
+channel 104: open failed: connect failed: open failed
+channel 104: open failed: connect failed: open failed
+channel 104: open failed: connect failed: open failed
+channel 104: open failed: connect failed: open failed
+channel 104: open failed: connect failed: open failed
+channel 104: open failed: connect failed: open failed
+channel 104: open failed: connect failed: open failed
+channel 104: open failed: connect failed: open failed
+channel 104: open failed: connect failed: open failed
+channel 104: open failed: connect failed: open failed
+channel 104: open failed: connect failed: open failed
+channel 104: open failed: connect failed: open failed
+channel 104: open failed: connect failed: open failed
+channel 104: open failed: connect failed: open failed
+channel 104: open failed: connect failed: open failed
+channel 104: open failed: connect failed: open failed
+channel 104: open failed: connect failed: open failed
+channel 104: open failed: connect failed: open failed
+channel 104: open failed: connect failed: open failed
+channel 104: open failed: connect failed: open failed
+channel 104: open failed: connect failed: open failed
+channel 104: open failed: connect failed: open failed
+channel 104: open failed: connect failed: open failed
+channel 104: open failed: connect failed: open failed
+
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$ ping 192.168.1.1
+PING 192.168.1.1 (192.168.1.1) 56(84) bytes of data.
+64 bytes from 192.168.1.1: icmp_seq=1 ttl=64 time=1.07 ms
+64 bytes from 192.168.1.1: icmp_seq=2 ttl=64 time=0.947 ms
+64 bytes from 192.168.1.1: icmp_seq=3 ttl=64 time=0.975 ms
+64 bytes from 192.168.1.1: icmp_seq=4 ttl=64 time=0.918 ms
+64 bytes from 192.168.1.1: icmp_seq=5 ttl=64 time=1.09 ms
+64 bytes from 192.168.1.1: icmp_seq=6 ttl=64 time=0.986 ms
+64 bytes from 192.168.1.1: icmp_seq=7 ttl=64 time=0.990 ms
+64 bytes from 192.168.1.1: icmp_seq=8 ttl=64 time=1.04 ms
+64 bytes from 192.168.1.1: icmp_seq=9 ttl=64 time=0.981 ms
+64 bytes from 192.168.1.1: icmp_seq=10 ttl=64 time=0.959 ms
+64 bytes from 192.168.1.1: icmp_seq=11 ttl=64 time=1.09 ms
+64 bytes from 192.168.1.1: icmp_seq=12 ttl=64 time=0.978 ms
+64 bytes from 192.168.1.1: icmp_seq=13 ttl=64 time=0.995 ms
+64 bytes from 192.168.1.1: icmp_seq=14 ttl=64 time=1.10 ms
+64 bytes from 192.168.1.1: icmp_seq=15 ttl=64 time=0.984 ms
+64 bytes from 192.168.1.1: icmp_seq=16 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=17 ttl=64 time=1.09 ms
+64 bytes from 192.168.1.1: icmp_seq=18 ttl=64 time=1.00 ms
+64 bytes from 192.168.1.1: icmp_seq=19 ttl=64 time=0.878 ms
+64 bytes from 192.168.1.1: icmp_seq=20 ttl=64 time=1.06 ms
+64 bytes from 192.168.1.1: icmp_seq=21 ttl=64 time=0.998 ms
+64 bytes from 192.168.1.1: icmp_seq=22 ttl=64 time=0.978 ms
+64 bytes from 192.168.1.1: icmp_seq=23 ttl=64 time=0.968 ms
+64 bytes from 192.168.1.1: icmp_seq=24 ttl=64 time=0.995 ms
+64 bytes from 192.168.1.1: icmp_seq=25 ttl=64 time=0.980 ms
+64 bytes from 192.168.1.1: icmp_seq=26 ttl=64 time=1.00 ms
+ping: sendmsg: Network is unreachable
+channel 114: open failed: connect failed: open failed
+ping: sendmsg: Network is unreachable
+channel 114: open failed: connect failed: open failed
+ping: sendmsg: Network is unreachable
+ping: sendmsg: Network is unreachable
+channel 114: open failed: connect failed: open failed
+channel 114: open failed: connect failed: open failed
+ping: sendmsg: Network is unreachable
+64 bytes from 192.168.1.1: icmp_seq=32 ttl=64 time=2.00 ms
+64 bytes from 192.168.1.1: icmp_seq=33 ttl=64 time=0.965 ms
+64 bytes from 192.168.1.1: icmp_seq=34 ttl=64 time=1.06 ms
+64 bytes from 192.168.1.1: icmp_seq=35 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=36 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=37 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=38 ttl=64 time=1.02 ms
+64 bytes from 192.168.1.1: icmp_seq=39 ttl=64 time=0.939 ms
+64 bytes from 192.168.1.1: icmp_seq=40 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=41 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=42 ttl=64 time=1.03 ms
+64 bytes from 192.168.1.1: icmp_seq=43 ttl=64 time=1.03 ms
+64 bytes from 192.168.1.1: icmp_seq=44 ttl=64 time=0.977 ms
+64 bytes from 192.168.1.1: icmp_seq=45 ttl=64 time=0.958 ms
+64 bytes from 192.168.1.1: icmp_seq=46 ttl=64 time=1.12 ms
+64 bytes from 192.168.1.1: icmp_seq=47 ttl=64 time=0.974 ms
+64 bytes from 192.168.1.1: icmp_seq=48 ttl=64 time=0.945 ms
+64 bytes from 192.168.1.1: icmp_seq=49 ttl=64 time=0.992 ms
+64 bytes from 192.168.1.1: icmp_seq=50 ttl=64 time=0.988 ms
+64 bytes from 192.168.1.1: icmp_seq=51 ttl=64 time=0.833 ms
+64 bytes from 192.168.1.1: icmp_seq=52 ttl=64 time=1.08 ms
+64 bytes from 192.168.1.1: icmp_seq=53 ttl=64 time=1.08 ms
+64 bytes from 192.168.1.1: icmp_seq=54 ttl=64 time=0.906 ms
+64 bytes from 192.168.1.1: icmp_seq=55 ttl=64 time=1.08 ms
+64 bytes from 192.168.1.1: icmp_seq=56 ttl=64 time=1.10 ms
+64 bytes from 192.168.1.1: icmp_seq=57 ttl=64 time=0.914 ms
+64 bytes from 192.168.1.1: icmp_seq=58 ttl=64 time=0.971 ms
+64 bytes from 192.168.1.1: icmp_seq=59 ttl=64 time=1.10 ms
+64 bytes from 192.168.1.1: icmp_seq=60 ttl=64 time=1.15 ms
+64 bytes from 192.168.1.1: icmp_seq=61 ttl=64 time=1.06 ms
+64 bytes from 192.168.1.1: icmp_seq=62 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=63 ttl=64 time=0.907 ms
+64 bytes from 192.168.1.1: icmp_seq=64 ttl=64 time=1.05 ms
+64 bytes from 192.168.1.1: icmp_seq=65 ttl=64 time=1.02 ms
+64 bytes from 192.168.1.1: icmp_seq=66 ttl=64 time=0.897 ms
+64 bytes from 192.168.1.1: icmp_seq=67 ttl=64 time=1.00 ms
+64 bytes from 192.168.1.1: icmp_seq=68 ttl=64 time=0.953 ms
+64 bytes from 192.168.1.1: icmp_seq=69 ttl=64 time=0.974 ms
+64 bytes from 192.168.1.1: icmp_seq=70 ttl=64 time=0.905 ms
+64 bytes from 192.168.1.1: icmp_seq=71 ttl=64 time=1.06 ms
+64 bytes from 192.168.1.1: icmp_seq=72 ttl=64 time=0.986 ms
+64 bytes from 192.168.1.1: icmp_seq=73 ttl=64 time=0.981 ms
+64 bytes from 192.168.1.1: icmp_seq=74 ttl=64 time=0.958 ms
+64 bytes from 192.168.1.1: icmp_seq=75 ttl=64 time=0.988 ms
+64 bytes from 192.168.1.1: icmp_seq=76 ttl=64 time=0.954 ms
+64 bytes from 192.168.1.1: icmp_seq=77 ttl=64 time=0.971 ms
+64 bytes from 192.168.1.1: icmp_seq=78 ttl=64 time=0.995 ms
+64 bytes from 192.168.1.1: icmp_seq=79 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=80 ttl=64 time=1.16 ms
+64 bytes from 192.168.1.1: icmp_seq=81 ttl=64 time=0.967 ms
+64 bytes from 192.168.1.1: icmp_seq=82 ttl=64 time=0.983 ms
+64 bytes from 192.168.1.1: icmp_seq=83 ttl=64 time=0.983 ms
+64 bytes from 192.168.1.1: icmp_seq=84 ttl=64 time=0.950 ms
+64 bytes from 192.168.1.1: icmp_seq=85 ttl=64 time=0.961 ms
+64 bytes from 192.168.1.1: icmp_seq=86 ttl=64 time=1.09 ms
+64 bytes from 192.168.1.1: icmp_seq=87 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=88 ttl=64 time=1.04 ms
+64 bytes from 192.168.1.1: icmp_seq=89 ttl=64 time=1.05 ms
+64 bytes from 192.168.1.1: icmp_seq=90 ttl=64 time=0.967 ms
+64 bytes from 192.168.1.1: icmp_seq=91 ttl=64 time=1.05 ms
+64 bytes from 192.168.1.1: icmp_seq=92 ttl=64 time=0.931 ms
+64 bytes from 192.168.1.1: icmp_seq=93 ttl=64 time=1.06 ms
+64 bytes from 192.168.1.1: icmp_seq=94 ttl=64 time=1.04 ms
+64 bytes from 192.168.1.1: icmp_seq=95 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=96 ttl=64 time=1.13 ms
+64 bytes from 192.168.1.1: icmp_seq=97 ttl=64 time=1.06 ms
+64 bytes from 192.168.1.1: icmp_seq=98 ttl=64 time=1.14 ms
+64 bytes from 192.168.1.1: icmp_seq=99 ttl=64 time=0.909 ms
+64 bytes from 192.168.1.1: icmp_seq=100 ttl=64 time=1.02 ms
+64 bytes from 192.168.1.1: icmp_seq=101 ttl=64 time=1.03 ms
+64 bytes from 192.168.1.1: icmp_seq=102 ttl=64 time=0.982 ms
+64 bytes from 192.168.1.1: icmp_seq=103 ttl=64 time=1.04 ms
+64 bytes from 192.168.1.1: icmp_seq=104 ttl=64 time=0.901 ms
+64 bytes from 192.168.1.1: icmp_seq=105 ttl=64 time=1.02 ms
+64 bytes from 192.168.1.1: icmp_seq=106 ttl=64 time=1.10 ms
+64 bytes from 192.168.1.1: icmp_seq=107 ttl=64 time=1.06 ms
+64 bytes from 192.168.1.1: icmp_seq=108 ttl=64 time=1.00 ms
+64 bytes from 192.168.1.1: icmp_seq=109 ttl=64 time=0.865 ms
+64 bytes from 192.168.1.1: icmp_seq=110 ttl=64 time=0.938 ms
+64 bytes from 192.168.1.1: icmp_seq=111 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=112 ttl=64 time=0.960 ms
+64 bytes from 192.168.1.1: icmp_seq=113 ttl=64 time=0.875 ms
+64 bytes from 192.168.1.1: icmp_seq=114 ttl=64 time=0.996 ms
+64 bytes from 192.168.1.1: icmp_seq=115 ttl=64 time=1.08 ms
+64 bytes from 192.168.1.1: icmp_seq=116 ttl=64 time=0.979 ms
+64 bytes from 192.168.1.1: icmp_seq=117 ttl=64 time=1.07 ms
+64 bytes from 192.168.1.1: icmp_seq=118 ttl=64 time=1.03 ms
+64 bytes from 192.168.1.1: icmp_seq=119 ttl=64 time=0.977 ms
+64 bytes from 192.168.1.1: icmp_seq=120 ttl=64 time=0.916 ms
+64 bytes from 192.168.1.1: icmp_seq=121 ttl=64 time=1.09 ms
+64 bytes from 192.168.1.1: icmp_seq=122 ttl=64 time=0.972 ms
+64 bytes from 192.168.1.1: icmp_seq=123 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=124 ttl=64 time=1.05 ms
+64 bytes from 192.168.1.1: icmp_seq=125 ttl=64 time=1.12 ms
+64 bytes from 192.168.1.1: icmp_seq=126 ttl=64 time=0.945 ms
+64 bytes from 192.168.1.1: icmp_seq=127 ttl=64 time=1.08 ms
+64 bytes from 192.168.1.1: icmp_seq=128 ttl=64 time=0.911 ms
+64 bytes from 192.168.1.1: icmp_seq=129 ttl=64 time=0.980 ms
+64 bytes from 192.168.1.1: icmp_seq=130 ttl=64 time=0.994 ms
+64 bytes from 192.168.1.1: icmp_seq=131 ttl=64 time=1.10 ms
+64 bytes from 192.168.1.1: icmp_seq=132 ttl=64 time=1.06 ms
+64 bytes from 192.168.1.1: icmp_seq=133 ttl=64 time=0.979 ms
+64 bytes from 192.168.1.1: icmp_seq=134 ttl=64 time=1.02 ms
+64 bytes from 192.168.1.1: icmp_seq=135 ttl=64 time=0.949 ms
+64 bytes from 192.168.1.1: icmp_seq=136 ttl=64 time=1.05 ms
+64 bytes from 192.168.1.1: icmp_seq=137 ttl=64 time=1.06 ms
+64 bytes from 192.168.1.1: icmp_seq=138 ttl=64 time=0.980 ms
+64 bytes from 192.168.1.1: icmp_seq=139 ttl=64 time=0.987 ms
+64 bytes from 192.168.1.1: icmp_seq=140 ttl=64 time=0.923 ms
+64 bytes from 192.168.1.1: icmp_seq=141 ttl=64 time=1.05 ms
+64 bytes from 192.168.1.1: icmp_seq=142 ttl=64 time=1.05 ms
+64 bytes from 192.168.1.1: icmp_seq=143 ttl=64 time=1.04 ms
+64 bytes from 192.168.1.1: icmp_seq=144 ttl=64 time=0.965 ms
+64 bytes from 192.168.1.1: icmp_seq=145 ttl=64 time=0.989 ms
+64 bytes from 192.168.1.1: icmp_seq=146 ttl=64 time=0.932 ms
+64 bytes from 192.168.1.1: icmp_seq=147 ttl=64 time=1.09 ms
+64 bytes from 192.168.1.1: icmp_seq=148 ttl=64 time=1.04 ms
+64 bytes from 192.168.1.1: icmp_seq=149 ttl=64 time=0.995 ms
+64 bytes from 192.168.1.1: icmp_seq=150 ttl=64 time=0.973 ms
+64 bytes from 192.168.1.1: icmp_seq=151 ttl=64 time=1.02 ms
+64 bytes from 192.168.1.1: icmp_seq=152 ttl=64 time=0.855 ms
+64 bytes from 192.168.1.1: icmp_seq=153 ttl=64 time=1.11 ms
+64 bytes from 192.168.1.1: icmp_seq=154 ttl=64 time=0.895 ms
+64 bytes from 192.168.1.1: icmp_seq=155 ttl=64 time=1.03 ms
+64 bytes from 192.168.1.1: icmp_seq=156 ttl=64 time=0.956 ms
+64 bytes from 192.168.1.1: icmp_seq=157 ttl=64 time=1.02 ms
+64 bytes from 192.168.1.1: icmp_seq=158 ttl=64 time=0.944 ms
+64 bytes from 192.168.1.1: icmp_seq=159 ttl=64 time=1.09 ms
+64 bytes from 192.168.1.1: icmp_seq=160 ttl=64 time=0.977 ms
+64 bytes from 192.168.1.1: icmp_seq=161 ttl=64 time=1.11 ms
+64 bytes from 192.168.1.1: icmp_seq=162 ttl=64 time=1.05 ms
+64 bytes from 192.168.1.1: icmp_seq=163 ttl=64 time=0.907 ms
+64 bytes from 192.168.1.1: icmp_seq=164 ttl=64 time=0.930 ms
+64 bytes from 192.168.1.1: icmp_seq=165 ttl=64 time=0.995 ms
+64 bytes from 192.168.1.1: icmp_seq=166 ttl=64 time=0.974 ms
+64 bytes from 192.168.1.1: icmp_seq=167 ttl=64 time=1.05 ms
+64 bytes from 192.168.1.1: icmp_seq=168 ttl=64 time=0.984 ms
+64 bytes from 192.168.1.1: icmp_seq=169 ttl=64 time=0.968 ms
+64 bytes from 192.168.1.1: icmp_seq=170 ttl=64 time=0.980 ms
+64 bytes from 192.168.1.1: icmp_seq=171 ttl=64 time=1.00 ms
+64 bytes from 192.168.1.1: icmp_seq=172 ttl=64 time=0.976 ms
+64 bytes from 192.168.1.1: icmp_seq=173 ttl=64 time=0.958 ms
+64 bytes from 192.168.1.1: icmp_seq=174 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=175 ttl=64 time=0.985 ms
+64 bytes from 192.168.1.1: icmp_seq=176 ttl=64 time=0.914 ms
+64 bytes from 192.168.1.1: icmp_seq=177 ttl=64 time=0.979 ms
+64 bytes from 192.168.1.1: icmp_seq=178 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=179 ttl=64 time=0.913 ms
+64 bytes from 192.168.1.1: icmp_seq=180 ttl=64 time=1.02 ms
+64 bytes from 192.168.1.1: icmp_seq=181 ttl=64 time=0.970 ms
+64 bytes from 192.168.1.1: icmp_seq=182 ttl=64 time=0.991 ms
+64 bytes from 192.168.1.1: icmp_seq=183 ttl=64 time=0.906 ms
+64 bytes from 192.168.1.1: icmp_seq=184 ttl=64 time=0.919 ms
+64 bytes from 192.168.1.1: icmp_seq=185 ttl=64 time=0.962 ms
+64 bytes from 192.168.1.1: icmp_seq=186 ttl=64 time=0.978 ms
+64 bytes from 192.168.1.1: icmp_seq=187 ttl=64 time=0.901 ms
+64 bytes from 192.168.1.1: icmp_seq=188 ttl=64 time=0.982 ms
+64 bytes from 192.168.1.1: icmp_seq=189 ttl=64 time=0.988 ms
+64 bytes from 192.168.1.1: icmp_seq=190 ttl=64 time=0.871 ms
+64 bytes from 192.168.1.1: icmp_seq=191 ttl=64 time=1.15 ms
+64 bytes from 192.168.1.1: icmp_seq=192 ttl=64 time=1.08 ms
+64 bytes from 192.168.1.1: icmp_seq=193 ttl=64 time=1.07 ms
+64 bytes from 192.168.1.1: icmp_seq=194 ttl=64 time=0.962 ms
+64 bytes from 192.168.1.1: icmp_seq=195 ttl=64 time=0.997 ms
+64 bytes from 192.168.1.1: icmp_seq=196 ttl=64 time=0.900 ms
+64 bytes from 192.168.1.1: icmp_seq=197 ttl=64 time=0.955 ms
+64 bytes from 192.168.1.1: icmp_seq=198 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=199 ttl=64 time=0.980 ms
+64 bytes from 192.168.1.1: icmp_seq=200 ttl=64 time=1.15 ms
+64 bytes from 192.168.1.1: icmp_seq=201 ttl=64 time=1.00 ms
+64 bytes from 192.168.1.1: icmp_seq=202 ttl=64 time=0.914 ms
+64 bytes from 192.168.1.1: icmp_seq=203 ttl=64 time=0.906 ms
+64 bytes from 192.168.1.1: icmp_seq=204 ttl=64 time=0.987 ms
+64 bytes from 192.168.1.1: icmp_seq=205 ttl=64 time=0.994 ms
+64 bytes from 192.168.1.1: icmp_seq=206 ttl=64 time=0.876 ms
+64 bytes from 192.168.1.1: icmp_seq=207 ttl=64 time=0.935 ms
+64 bytes from 192.168.1.1: icmp_seq=208 ttl=64 time=0.930 ms
+64 bytes from 192.168.1.1: icmp_seq=209 ttl=64 time=0.946 ms
+64 bytes from 192.168.1.1: icmp_seq=210 ttl=64 time=0.916 ms
+64 bytes from 192.168.1.1: icmp_seq=211 ttl=64 time=0.902 ms
+64 bytes from 192.168.1.1: icmp_seq=212 ttl=64 time=0.986 ms
+64 bytes from 192.168.1.1: icmp_seq=213 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=214 ttl=64 time=0.897 ms
+64 bytes from 192.168.1.1: icmp_seq=215 ttl=64 time=0.965 ms
+64 bytes from 192.168.1.1: icmp_seq=216 ttl=64 time=0.999 ms
+64 bytes from 192.168.1.1: icmp_seq=217 ttl=64 time=0.978 ms
+64 bytes from 192.168.1.1: icmp_seq=218 ttl=64 time=0.945 ms
+64 bytes from 192.168.1.1: icmp_seq=219 ttl=64 time=1.05 ms
+64 bytes from 192.168.1.1: icmp_seq=220 ttl=64 time=0.977 ms
+64 bytes from 192.168.1.1: icmp_seq=221 ttl=64 time=0.841 ms
+64 bytes from 192.168.1.1: icmp_seq=222 ttl=64 time=1.06 ms
+64 bytes from 192.168.1.1: icmp_seq=223 ttl=64 time=1.05 ms
+64 bytes from 192.168.1.1: icmp_seq=224 ttl=64 time=0.946 ms
+64 bytes from 192.168.1.1: icmp_seq=225 ttl=64 time=0.959 ms
+64 bytes from 192.168.1.1: icmp_seq=226 ttl=64 time=0.951 ms
+64 bytes from 192.168.1.1: icmp_seq=227 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=228 ttl=64 time=0.991 ms
+64 bytes from 192.168.1.1: icmp_seq=229 ttl=64 time=0.966 ms
+64 bytes from 192.168.1.1: icmp_seq=230 ttl=64 time=0.989 ms
+64 bytes from 192.168.1.1: icmp_seq=231 ttl=64 time=0.855 ms
+64 bytes from 192.168.1.1: icmp_seq=232 ttl=64 time=1.04 ms
+64 bytes from 192.168.1.1: icmp_seq=233 ttl=64 time=1.11 ms
+64 bytes from 192.168.1.1: icmp_seq=234 ttl=64 time=0.909 ms
+64 bytes from 192.168.1.1: icmp_seq=235 ttl=64 time=0.934 ms
+64 bytes from 192.168.1.1: icmp_seq=236 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=237 ttl=64 time=0.995 ms
+64 bytes from 192.168.1.1: icmp_seq=238 ttl=64 time=0.967 ms
+64 bytes from 192.168.1.1: icmp_seq=239 ttl=64 time=0.983 ms
+64 bytes from 192.168.1.1: icmp_seq=240 ttl=64 time=0.956 ms
+64 bytes from 192.168.1.1: icmp_seq=241 ttl=64 time=1.03 ms
+64 bytes from 192.168.1.1: icmp_seq=242 ttl=64 time=0.979 ms
+64 bytes from 192.168.1.1: icmp_seq=243 ttl=64 time=1.08 ms
+64 bytes from 192.168.1.1: icmp_seq=244 ttl=64 time=1.03 ms
+64 bytes from 192.168.1.1: icmp_seq=245 ttl=64 time=1.08 ms
+64 bytes from 192.168.1.1: icmp_seq=246 ttl=64 time=0.940 ms
+64 bytes from 192.168.1.1: icmp_seq=247 ttl=64 time=1.14 ms
+64 bytes from 192.168.1.1: icmp_seq=248 ttl=64 time=1.10 ms
+64 bytes from 192.168.1.1: icmp_seq=249 ttl=64 time=0.981 ms
+64 bytes from 192.168.1.1: icmp_seq=250 ttl=64 time=1.07 ms
+64 bytes from 192.168.1.1: icmp_seq=251 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=252 ttl=64 time=1.05 ms
+64 bytes from 192.168.1.1: icmp_seq=253 ttl=64 time=0.972 ms
+64 bytes from 192.168.1.1: icmp_seq=254 ttl=64 time=0.878 ms
+64 bytes from 192.168.1.1: icmp_seq=255 ttl=64 time=0.937 ms
+64 bytes from 192.168.1.1: icmp_seq=256 ttl=64 time=1.06 ms
+64 bytes from 192.168.1.1: icmp_seq=257 ttl=64 time=1.07 ms
+64 bytes from 192.168.1.1: icmp_seq=258 ttl=64 time=0.921 ms
+64 bytes from 192.168.1.1: icmp_seq=259 ttl=64 time=1.04 ms
+64 bytes from 192.168.1.1: icmp_seq=260 ttl=64 time=1.11 ms
+64 bytes from 192.168.1.1: icmp_seq=261 ttl=64 time=0.923 ms
+64 bytes from 192.168.1.1: icmp_seq=262 ttl=64 time=0.953 ms
+64 bytes from 192.168.1.1: icmp_seq=263 ttl=64 time=0.922 ms
+64 bytes from 192.168.1.1: icmp_seq=264 ttl=64 time=0.994 ms
+64 bytes from 192.168.1.1: icmp_seq=265 ttl=64 time=1.08 ms
+64 bytes from 192.168.1.1: icmp_seq=266 ttl=64 time=0.975 ms
+64 bytes from 192.168.1.1: icmp_seq=267 ttl=64 time=1.10 ms
+64 bytes from 192.168.1.1: icmp_seq=268 ttl=64 time=1.10 ms
+64 bytes from 192.168.1.1: icmp_seq=269 ttl=64 time=1.06 ms
+64 bytes from 192.168.1.1: icmp_seq=270 ttl=64 time=0.983 ms
+64 bytes from 192.168.1.1: icmp_seq=271 ttl=64 time=1.03 ms
+64 bytes from 192.168.1.1: icmp_seq=272 ttl=64 time=1.20 ms
+64 bytes from 192.168.1.1: icmp_seq=273 ttl=64 time=0.930 ms
+64 bytes from 192.168.1.1: icmp_seq=274 ttl=64 time=0.987 ms
+64 bytes from 192.168.1.1: icmp_seq=275 ttl=64 time=0.974 ms
+64 bytes from 192.168.1.1: icmp_seq=276 ttl=64 time=0.837 ms
+64 bytes from 192.168.1.1: icmp_seq=277 ttl=64 time=0.975 ms
+64 bytes from 192.168.1.1: icmp_seq=278 ttl=64 time=1.15 ms
+64 bytes from 192.168.1.1: icmp_seq=279 ttl=64 time=0.929 ms
+64 bytes from 192.168.1.1: icmp_seq=280 ttl=64 time=1.04 ms
+64 bytes from 192.168.1.1: icmp_seq=281 ttl=64 time=1.02 ms
+64 bytes from 192.168.1.1: icmp_seq=282 ttl=64 time=0.972 ms
+64 bytes from 192.168.1.1: icmp_seq=283 ttl=64 time=1.04 ms
+64 bytes from 192.168.1.1: icmp_seq=284 ttl=64 time=0.893 ms
+64 bytes from 192.168.1.1: icmp_seq=285 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=286 ttl=64 time=0.870 ms
+64 bytes from 192.168.1.1: icmp_seq=287 ttl=64 time=0.948 ms
+64 bytes from 192.168.1.1: icmp_seq=288 ttl=64 time=1.06 ms
+64 bytes from 192.168.1.1: icmp_seq=289 ttl=64 time=0.989 ms
+64 bytes from 192.168.1.1: icmp_seq=290 ttl=64 time=0.957 ms
+64 bytes from 192.168.1.1: icmp_seq=291 ttl=64 time=0.911 ms
+64 bytes from 192.168.1.1: icmp_seq=292 ttl=64 time=0.984 ms
+64 bytes from 192.168.1.1: icmp_seq=293 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=294 ttl=64 time=1.06 ms
+64 bytes from 192.168.1.1: icmp_seq=295 ttl=64 time=0.869 ms
+64 bytes from 192.168.1.1: icmp_seq=296 ttl=64 time=0.990 ms
+64 bytes from 192.168.1.1: icmp_seq=297 ttl=64 time=1.04 ms
+64 bytes from 192.168.1.1: icmp_seq=298 ttl=64 time=0.982 ms
+64 bytes from 192.168.1.1: icmp_seq=299 ttl=64 time=1.09 ms
+64 bytes from 192.168.1.1: icmp_seq=300 ttl=64 time=0.878 ms
+64 bytes from 192.168.1.1: icmp_seq=301 ttl=64 time=1.07 ms
+64 bytes from 192.168.1.1: icmp_seq=302 ttl=64 time=0.888 ms
+64 bytes from 192.168.1.1: icmp_seq=303 ttl=64 time=0.885 ms
+64 bytes from 192.168.1.1: icmp_seq=304 ttl=64 time=0.996 ms
+64 bytes from 192.168.1.1: icmp_seq=305 ttl=64 time=0.989 ms
+64 bytes from 192.168.1.1: icmp_seq=306 ttl=64 time=0.881 ms
+64 bytes from 192.168.1.1: icmp_seq=307 ttl=64 time=1.04 ms
+64 bytes from 192.168.1.1: icmp_seq=308 ttl=64 time=1.02 ms
+64 bytes from 192.168.1.1: icmp_seq=309 ttl=64 time=0.968 ms
+64 bytes from 192.168.1.1: icmp_seq=310 ttl=64 time=1.03 ms
+64 bytes from 192.168.1.1: icmp_seq=311 ttl=64 time=0.976 ms
+64 bytes from 192.168.1.1: icmp_seq=312 ttl=64 time=0.907 ms
+64 bytes from 192.168.1.1: icmp_seq=313 ttl=64 time=0.993 ms
+64 bytes from 192.168.1.1: icmp_seq=314 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=315 ttl=64 time=0.845 ms
+64 bytes from 192.168.1.1: icmp_seq=316 ttl=64 time=0.987 ms
+64 bytes from 192.168.1.1: icmp_seq=317 ttl=64 time=0.970 ms
+64 bytes from 192.168.1.1: icmp_seq=318 ttl=64 time=0.998 ms
+64 bytes from 192.168.1.1: icmp_seq=319 ttl=64 time=0.994 ms
+64 bytes from 192.168.1.1: icmp_seq=320 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=321 ttl=64 time=1.02 ms
+64 bytes from 192.168.1.1: icmp_seq=322 ttl=64 time=1.18 ms
+64 bytes from 192.168.1.1: icmp_seq=323 ttl=64 time=0.998 ms
+64 bytes from 192.168.1.1: icmp_seq=324 ttl=64 time=0.995 ms
+64 bytes from 192.168.1.1: icmp_seq=325 ttl=64 time=1.03 ms
+64 bytes from 192.168.1.1: icmp_seq=326 ttl=64 time=0.990 ms
+64 bytes from 192.168.1.1: icmp_seq=327 ttl=64 time=0.904 ms
+64 bytes from 192.168.1.1: icmp_seq=328 ttl=64 time=0.966 ms
+64 bytes from 192.168.1.1: icmp_seq=329 ttl=64 time=0.996 ms
+64 bytes from 192.168.1.1: icmp_seq=330 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=331 ttl=64 time=0.864 ms
+64 bytes from 192.168.1.1: icmp_seq=332 ttl=64 time=1.00 ms
+64 bytes from 192.168.1.1: icmp_seq=333 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=334 ttl=64 time=0.853 ms
+64 bytes from 192.168.1.1: icmp_seq=335 ttl=64 time=0.974 ms
+64 bytes from 192.168.1.1: icmp_seq=336 ttl=64 time=1.03 ms
+64 bytes from 192.168.1.1: icmp_seq=337 ttl=64 time=1.00 ms
+64 bytes from 192.168.1.1: icmp_seq=338 ttl=64 time=0.865 ms
+64 bytes from 192.168.1.1: icmp_seq=339 ttl=64 time=0.954 ms
+64 bytes from 192.168.1.1: icmp_seq=340 ttl=64 time=0.977 ms
+64 bytes from 192.168.1.1: icmp_seq=341 ttl=64 time=0.974 ms
+64 bytes from 192.168.1.1: icmp_seq=342 ttl=64 time=1.14 ms
+64 bytes from 192.168.1.1: icmp_seq=343 ttl=64 time=1.05 ms
+64 bytes from 192.168.1.1: icmp_seq=344 ttl=64 time=0.859 ms
+64 bytes from 192.168.1.1: icmp_seq=345 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=346 ttl=64 time=1.12 ms
+64 bytes from 192.168.1.1: icmp_seq=347 ttl=64 time=0.987 ms
+64 bytes from 192.168.1.1: icmp_seq=348 ttl=64 time=0.959 ms
+64 bytes from 192.168.1.1: icmp_seq=349 ttl=64 time=1.00 ms
+64 bytes from 192.168.1.1: icmp_seq=350 ttl=64 time=1.03 ms
+64 bytes from 192.168.1.1: icmp_seq=351 ttl=64 time=0.957 ms
+64 bytes from 192.168.1.1: icmp_seq=352 ttl=64 time=1.10 ms
+64 bytes from 192.168.1.1: icmp_seq=353 ttl=64 time=0.966 ms
+64 bytes from 192.168.1.1: icmp_seq=354 ttl=64 time=0.954 ms
+64 bytes from 192.168.1.1: icmp_seq=355 ttl=64 time=0.988 ms
+64 bytes from 192.168.1.1: icmp_seq=356 ttl=64 time=1.00 ms
+64 bytes from 192.168.1.1: icmp_seq=357 ttl=64 time=0.901 ms
+64 bytes from 192.168.1.1: icmp_seq=358 ttl=64 time=1.02 ms
+64 bytes from 192.168.1.1: icmp_seq=359 ttl=64 time=1.10 ms
+64 bytes from 192.168.1.1: icmp_seq=360 ttl=64 time=0.962 ms
+64 bytes from 192.168.1.1: icmp_seq=361 ttl=64 time=0.979 ms
+64 bytes from 192.168.1.1: icmp_seq=362 ttl=64 time=0.980 ms
+64 bytes from 192.168.1.1: icmp_seq=363 ttl=64 time=0.862 ms
+64 bytes from 192.168.1.1: icmp_seq=364 ttl=64 time=0.945 ms
+64 bytes from 192.168.1.1: icmp_seq=365 ttl=64 time=1.12 ms
+64 bytes from 192.168.1.1: icmp_seq=366 ttl=64 time=0.979 ms
+64 bytes from 192.168.1.1: icmp_seq=367 ttl=64 time=0.957 ms
+64 bytes from 192.168.1.1: icmp_seq=368 ttl=64 time=0.987 ms
+64 bytes from 192.168.1.1: icmp_seq=369 ttl=64 time=0.977 ms
+64 bytes from 192.168.1.1: icmp_seq=370 ttl=64 time=0.864 ms
+64 bytes from 192.168.1.1: icmp_seq=371 ttl=64 time=0.990 ms
+64 bytes from 192.168.1.1: icmp_seq=372 ttl=64 time=0.936 ms
+64 bytes from 192.168.1.1: icmp_seq=373 ttl=64 time=1.06 ms
+64 bytes from 192.168.1.1: icmp_seq=374 ttl=64 time=0.955 ms
+64 bytes from 192.168.1.1: icmp_seq=375 ttl=64 time=0.979 ms
+64 bytes from 192.168.1.1: icmp_seq=376 ttl=64 time=1.04 ms
+64 bytes from 192.168.1.1: icmp_seq=377 ttl=64 time=0.954 ms
+64 bytes from 192.168.1.1: icmp_seq=378 ttl=64 time=0.979 ms
+64 bytes from 192.168.1.1: icmp_seq=379 ttl=64 time=1.05 ms
+64 bytes from 192.168.1.1: icmp_seq=380 ttl=64 time=1.10 ms
+64 bytes from 192.168.1.1: icmp_seq=381 ttl=64 time=0.996 ms
+64 bytes from 192.168.1.1: icmp_seq=382 ttl=64 time=0.974 ms
+64 bytes from 192.168.1.1: icmp_seq=383 ttl=64 time=1.08 ms
+64 bytes from 192.168.1.1: icmp_seq=384 ttl=64 time=1.00 ms
+64 bytes from 192.168.1.1: icmp_seq=385 ttl=64 time=0.978 ms
+64 bytes from 192.168.1.1: icmp_seq=386 ttl=64 time=0.986 ms
+64 bytes from 192.168.1.1: icmp_seq=387 ttl=64 time=1.09 ms
+64 bytes from 192.168.1.1: icmp_seq=388 ttl=64 time=0.981 ms
+64 bytes from 192.168.1.1: icmp_seq=389 ttl=64 time=0.884 ms
+64 bytes from 192.168.1.1: icmp_seq=390 ttl=64 time=1.00 ms
+64 bytes from 192.168.1.1: icmp_seq=391 ttl=64 time=0.968 ms
+64 bytes from 192.168.1.1: icmp_seq=392 ttl=64 time=0.870 ms
+64 bytes from 192.168.1.1: icmp_seq=393 ttl=64 time=0.962 ms
+64 bytes from 192.168.1.1: icmp_seq=394 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=395 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=396 ttl=64 time=0.955 ms
+64 bytes from 192.168.1.1: icmp_seq=397 ttl=64 time=1.04 ms
+64 bytes from 192.168.1.1: icmp_seq=398 ttl=64 time=0.981 ms
+64 bytes from 192.168.1.1: icmp_seq=399 ttl=64 time=0.920 ms
+64 bytes from 192.168.1.1: icmp_seq=400 ttl=64 time=0.942 ms
+64 bytes from 192.168.1.1: icmp_seq=401 ttl=64 time=1.06 ms
+64 bytes from 192.168.1.1: icmp_seq=402 ttl=64 time=1.12 ms
+64 bytes from 192.168.1.1: icmp_seq=403 ttl=64 time=0.924 ms
+64 bytes from 192.168.1.1: icmp_seq=404 ttl=64 time=0.970 ms
+64 bytes from 192.168.1.1: icmp_seq=405 ttl=64 time=0.984 ms
+64 bytes from 192.168.1.1: icmp_seq=406 ttl=64 time=0.970 ms
+64 bytes from 192.168.1.1: icmp_seq=407 ttl=64 time=0.932 ms
+64 bytes from 192.168.1.1: icmp_seq=408 ttl=64 time=0.960 ms
+64 bytes from 192.168.1.1: icmp_seq=409 ttl=64 time=0.996 ms
+64 bytes from 192.168.1.1: icmp_seq=410 ttl=64 time=1.07 ms
+64 bytes from 192.168.1.1: icmp_seq=411 ttl=64 time=1.03 ms
+64 bytes from 192.168.1.1: icmp_seq=412 ttl=64 time=0.980 ms
+64 bytes from 192.168.1.1: icmp_seq=413 ttl=64 time=0.967 ms
+64 bytes from 192.168.1.1: icmp_seq=414 ttl=64 time=0.979 ms
+64 bytes from 192.168.1.1: icmp_seq=415 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=416 ttl=64 time=0.927 ms
+64 bytes from 192.168.1.1: icmp_seq=417 ttl=64 time=0.993 ms
+64 bytes from 192.168.1.1: icmp_seq=418 ttl=64 time=0.990 ms
+64 bytes from 192.168.1.1: icmp_seq=419 ttl=64 time=0.970 ms
+64 bytes from 192.168.1.1: icmp_seq=420 ttl=64 time=0.959 ms
+64 bytes from 192.168.1.1: icmp_seq=421 ttl=64 time=0.977 ms
+64 bytes from 192.168.1.1: icmp_seq=422 ttl=64 time=0.979 ms
+64 bytes from 192.168.1.1: icmp_seq=423 ttl=64 time=1.28 ms
+64 bytes from 192.168.1.1: icmp_seq=424 ttl=64 time=1.11 ms
+64 bytes from 192.168.1.1: icmp_seq=425 ttl=64 time=0.879 ms
+64 bytes from 192.168.1.1: icmp_seq=426 ttl=64 time=1.05 ms
+64 bytes from 192.168.1.1: icmp_seq=427 ttl=64 time=1.07 ms
+64 bytes from 192.168.1.1: icmp_seq=428 ttl=64 time=0.979 ms
+64 bytes from 192.168.1.1: icmp_seq=429 ttl=64 time=0.984 ms
+64 bytes from 192.168.1.1: icmp_seq=430 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=431 ttl=64 time=0.992 ms
+64 bytes from 192.168.1.1: icmp_seq=432 ttl=64 time=0.955 ms
+64 bytes from 192.168.1.1: icmp_seq=433 ttl=64 time=0.963 ms
+64 bytes from 192.168.1.1: icmp_seq=434 ttl=64 time=0.937 ms
+64 bytes from 192.168.1.1: icmp_seq=435 ttl=64 time=0.954 ms
+64 bytes from 192.168.1.1: icmp_seq=436 ttl=64 time=0.974 ms
+64 bytes from 192.168.1.1: icmp_seq=437 ttl=64 time=0.945 ms
+64 bytes from 192.168.1.1: icmp_seq=438 ttl=64 time=0.977 ms
+64 bytes from 192.168.1.1: icmp_seq=439 ttl=64 time=0.933 ms
+64 bytes from 192.168.1.1: icmp_seq=440 ttl=64 time=1.04 ms
+64 bytes from 192.168.1.1: icmp_seq=441 ttl=64 time=1.30 ms
+64 bytes from 192.168.1.1: icmp_seq=442 ttl=64 time=1.03 ms
+64 bytes from 192.168.1.1: icmp_seq=443 ttl=64 time=0.873 ms
+64 bytes from 192.168.1.1: icmp_seq=444 ttl=64 time=0.985 ms
+64 bytes from 192.168.1.1: icmp_seq=445 ttl=64 time=0.982 ms
+64 bytes from 192.168.1.1: icmp_seq=446 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=447 ttl=64 time=0.956 ms
+64 bytes from 192.168.1.1: icmp_seq=448 ttl=64 time=0.975 ms
+64 bytes from 192.168.1.1: icmp_seq=449 ttl=64 time=0.954 ms
+64 bytes from 192.168.1.1: icmp_seq=450 ttl=64 time=0.845 ms
+64 bytes from 192.168.1.1: icmp_seq=451 ttl=64 time=1.06 ms
+64 bytes from 192.168.1.1: icmp_seq=452 ttl=64 time=0.839 ms
+64 bytes from 192.168.1.1: icmp_seq=453 ttl=64 time=1.20 ms
+64 bytes from 192.168.1.1: icmp_seq=454 ttl=64 time=0.941 ms
+64 bytes from 192.168.1.1: icmp_seq=455 ttl=64 time=1.50 ms
+64 bytes from 192.168.1.1: icmp_seq=456 ttl=64 time=0.978 ms
+64 bytes from 192.168.1.1: icmp_seq=457 ttl=64 time=1.07 ms
+64 bytes from 192.168.1.1: icmp_seq=458 ttl=64 time=0.951 ms
+64 bytes from 192.168.1.1: icmp_seq=459 ttl=64 time=0.976 ms
+64 bytes from 192.168.1.1: icmp_seq=460 ttl=64 time=0.928 ms
+64 bytes from 192.168.1.1: icmp_seq=461 ttl=64 time=0.989 ms
+64 bytes from 192.168.1.1: icmp_seq=462 ttl=64 time=1.00 ms
+64 bytes from 192.168.1.1: icmp_seq=463 ttl=64 time=1.05 ms
+64 bytes from 192.168.1.1: icmp_seq=464 ttl=64 time=1.07 ms
+64 bytes from 192.168.1.1: icmp_seq=465 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=466 ttl=64 time=1.31 ms
+64 bytes from 192.168.1.1: icmp_seq=467 ttl=64 time=0.948 ms
+64 bytes from 192.168.1.1: icmp_seq=468 ttl=64 time=0.916 ms
+64 bytes from 192.168.1.1: icmp_seq=469 ttl=64 time=0.958 ms
+64 bytes from 192.168.1.1: icmp_seq=470 ttl=64 time=1.16 ms
+64 bytes from 192.168.1.1: icmp_seq=471 ttl=64 time=0.962 ms
+64 bytes from 192.168.1.1: icmp_seq=472 ttl=64 time=0.955 ms
+64 bytes from 192.168.1.1: icmp_seq=473 ttl=64 time=1.04 ms
+64 bytes from 192.168.1.1: icmp_seq=474 ttl=64 time=0.985 ms
+64 bytes from 192.168.1.1: icmp_seq=475 ttl=64 time=0.956 ms
+64 bytes from 192.168.1.1: icmp_seq=476 ttl=64 time=0.914 ms
+64 bytes from 192.168.1.1: icmp_seq=477 ttl=64 time=1.06 ms
+64 bytes from 192.168.1.1: icmp_seq=478 ttl=64 time=0.980 ms
+64 bytes from 192.168.1.1: icmp_seq=479 ttl=64 time=0.971 ms
+64 bytes from 192.168.1.1: icmp_seq=480 ttl=64 time=1.06 ms
+64 bytes from 192.168.1.1: icmp_seq=481 ttl=64 time=0.984 ms
+64 bytes from 192.168.1.1: icmp_seq=482 ttl=64 time=0.889 ms
+64 bytes from 192.168.1.1: icmp_seq=483 ttl=64 time=1.00 ms
+64 bytes from 192.168.1.1: icmp_seq=484 ttl=64 time=0.985 ms
+64 bytes from 192.168.1.1: icmp_seq=485 ttl=64 time=0.848 ms
+64 bytes from 192.168.1.1: icmp_seq=486 ttl=64 time=0.937 ms
+64 bytes from 192.168.1.1: icmp_seq=487 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=488 ttl=64 time=0.997 ms
+64 bytes from 192.168.1.1: icmp_seq=489 ttl=64 time=0.953 ms
+64 bytes from 192.168.1.1: icmp_seq=490 ttl=64 time=0.958 ms
+64 bytes from 192.168.1.1: icmp_seq=491 ttl=64 time=0.996 ms
+64 bytes from 192.168.1.1: icmp_seq=492 ttl=64 time=0.874 ms
+64 bytes from 192.168.1.1: icmp_seq=493 ttl=64 time=0.993 ms
+64 bytes from 192.168.1.1: icmp_seq=494 ttl=64 time=1.00 ms
+64 bytes from 192.168.1.1: icmp_seq=495 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=496 ttl=64 time=1.04 ms
+64 bytes from 192.168.1.1: icmp_seq=497 ttl=64 time=1.02 ms
+64 bytes from 192.168.1.1: icmp_seq=498 ttl=64 time=0.956 ms
+64 bytes from 192.168.1.1: icmp_seq=499 ttl=64 time=0.958 ms
+64 bytes from 192.168.1.1: icmp_seq=500 ttl=64 time=0.984 ms
+64 bytes from 192.168.1.1: icmp_seq=501 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=502 ttl=64 time=0.978 ms
+64 bytes from 192.168.1.1: icmp_seq=503 ttl=64 time=1.07 ms
+64 bytes from 192.168.1.1: icmp_seq=504 ttl=64 time=0.988 ms
+64 bytes from 192.168.1.1: icmp_seq=505 ttl=64 time=1.04 ms
+64 bytes from 192.168.1.1: icmp_seq=506 ttl=64 time=1.06 ms
+64 bytes from 192.168.1.1: icmp_seq=507 ttl=64 time=0.977 ms
+64 bytes from 192.168.1.1: icmp_seq=508 ttl=64 time=0.945 ms
+64 bytes from 192.168.1.1: icmp_seq=509 ttl=64 time=0.987 ms
+64 bytes from 192.168.1.1: icmp_seq=510 ttl=64 time=0.894 ms
+64 bytes from 192.168.1.1: icmp_seq=511 ttl=64 time=0.970 ms
+64 bytes from 192.168.1.1: icmp_seq=512 ttl=64 time=1.04 ms
+64 bytes from 192.168.1.1: icmp_seq=513 ttl=64 time=1.03 ms
+64 bytes from 192.168.1.1: icmp_seq=514 ttl=64 time=1.08 ms
+64 bytes from 192.168.1.1: icmp_seq=515 ttl=64 time=0.868 ms
+64 bytes from 192.168.1.1: icmp_seq=516 ttl=64 time=0.910 ms
+64 bytes from 192.168.1.1: icmp_seq=517 ttl=64 time=0.992 ms
+64 bytes from 192.168.1.1: icmp_seq=518 ttl=64 time=0.947 ms
+64 bytes from 192.168.1.1: icmp_seq=519 ttl=64 time=0.974 ms
+64 bytes from 192.168.1.1: icmp_seq=520 ttl=64 time=0.966 ms
+64 bytes from 192.168.1.1: icmp_seq=521 ttl=64 time=1.02 ms
+64 bytes from 192.168.1.1: icmp_seq=522 ttl=64 time=0.978 ms
+64 bytes from 192.168.1.1: icmp_seq=523 ttl=64 time=1.07 ms
+64 bytes from 192.168.1.1: icmp_seq=524 ttl=64 time=1.04 ms
+64 bytes from 192.168.1.1: icmp_seq=525 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=526 ttl=64 time=1.04 ms
+64 bytes from 192.168.1.1: icmp_seq=527 ttl=64 time=1.08 ms
+64 bytes from 192.168.1.1: icmp_seq=528 ttl=64 time=0.953 ms
+64 bytes from 192.168.1.1: icmp_seq=529 ttl=64 time=1.07 ms
+64 bytes from 192.168.1.1: icmp_seq=530 ttl=64 time=1.00 ms
+64 bytes from 192.168.1.1: icmp_seq=531 ttl=64 time=0.969 ms
+64 bytes from 192.168.1.1: icmp_seq=532 ttl=64 time=0.966 ms
+64 bytes from 192.168.1.1: icmp_seq=533 ttl=64 time=0.972 ms
+64 bytes from 192.168.1.1: icmp_seq=534 ttl=64 time=0.928 ms
+64 bytes from 192.168.1.1: icmp_seq=535 ttl=64 time=0.854 ms
+64 bytes from 192.168.1.1: icmp_seq=536 ttl=64 time=1.15 ms
+64 bytes from 192.168.1.1: icmp_seq=537 ttl=64 time=1.13 ms
+64 bytes from 192.168.1.1: icmp_seq=538 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=539 ttl=64 time=0.975 ms
+64 bytes from 192.168.1.1: icmp_seq=540 ttl=64 time=0.983 ms
+64 bytes from 192.168.1.1: icmp_seq=541 ttl=64 time=0.968 ms
+64 bytes from 192.168.1.1: icmp_seq=542 ttl=64 time=0.987 ms
+64 bytes from 192.168.1.1: icmp_seq=543 ttl=64 time=0.978 ms
+64 bytes from 192.168.1.1: icmp_seq=544 ttl=64 time=0.848 ms
+64 bytes from 192.168.1.1: icmp_seq=545 ttl=64 time=1.05 ms
+64 bytes from 192.168.1.1: icmp_seq=546 ttl=64 time=0.986 ms
+64 bytes from 192.168.1.1: icmp_seq=547 ttl=64 time=0.999 ms
+64 bytes from 192.168.1.1: icmp_seq=548 ttl=64 time=0.942 ms
+64 bytes from 192.168.1.1: icmp_seq=549 ttl=64 time=0.983 ms
+64 bytes from 192.168.1.1: icmp_seq=550 ttl=64 time=0.944 ms
+64 bytes from 192.168.1.1: icmp_seq=551 ttl=64 time=0.927 ms
+64 bytes from 192.168.1.1: icmp_seq=552 ttl=64 time=0.983 ms
+64 bytes from 192.168.1.1: icmp_seq=553 ttl=64 time=1.06 ms
+64 bytes from 192.168.1.1: icmp_seq=554 ttl=64 time=0.943 ms
+64 bytes from 192.168.1.1: icmp_seq=555 ttl=64 time=0.913 ms
+64 bytes from 192.168.1.1: icmp_seq=556 ttl=64 time=0.993 ms
+64 bytes from 192.168.1.1: icmp_seq=557 ttl=64 time=0.984 ms
+64 bytes from 192.168.1.1: icmp_seq=558 ttl=64 time=0.992 ms
+64 bytes from 192.168.1.1: icmp_seq=559 ttl=64 time=1.05 ms
+64 bytes from 192.168.1.1: icmp_seq=560 ttl=64 time=1.12 ms
+64 bytes from 192.168.1.1: icmp_seq=561 ttl=64 time=0.902 ms
+64 bytes from 192.168.1.1: icmp_seq=562 ttl=64 time=1.06 ms
+64 bytes from 192.168.1.1: icmp_seq=563 ttl=64 time=1.09 ms
+64 bytes from 192.168.1.1: icmp_seq=564 ttl=64 time=0.972 ms
+64 bytes from 192.168.1.1: icmp_seq=565 ttl=64 time=0.984 ms
+64 bytes from 192.168.1.1: icmp_seq=566 ttl=64 time=0.988 ms
+64 bytes from 192.168.1.1: icmp_seq=567 ttl=64 time=1.05 ms
+64 bytes from 192.168.1.1: icmp_seq=568 ttl=64 time=0.996 ms
+64 bytes from 192.168.1.1: icmp_seq=569 ttl=64 time=0.973 ms
+64 bytes from 192.168.1.1: icmp_seq=570 ttl=64 time=0.957 ms
+64 bytes from 192.168.1.1: icmp_seq=571 ttl=64 time=0.982 ms
+64 bytes from 192.168.1.1: icmp_seq=572 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=573 ttl=64 time=0.953 ms
+64 bytes from 192.168.1.1: icmp_seq=574 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=575 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=576 ttl=64 time=1.09 ms
+64 bytes from 192.168.1.1: icmp_seq=577 ttl=64 time=0.974 ms
+64 bytes from 192.168.1.1: icmp_seq=578 ttl=64 time=0.936 ms
+64 bytes from 192.168.1.1: icmp_seq=579 ttl=64 time=0.958 ms
+64 bytes from 192.168.1.1: icmp_seq=580 ttl=64 time=0.952 ms
+64 bytes from 192.168.1.1: icmp_seq=581 ttl=64 time=0.991 ms
+64 bytes from 192.168.1.1: icmp_seq=582 ttl=64 time=0.963 ms
+64 bytes from 192.168.1.1: icmp_seq=583 ttl=64 time=0.957 ms
+64 bytes from 192.168.1.1: icmp_seq=584 ttl=64 time=1.02 ms
+64 bytes from 192.168.1.1: icmp_seq=585 ttl=64 time=0.843 ms
+64 bytes from 192.168.1.1: icmp_seq=586 ttl=64 time=0.966 ms
+64 bytes from 192.168.1.1: icmp_seq=587 ttl=64 time=0.976 ms
+64 bytes from 192.168.1.1: icmp_seq=588 ttl=64 time=1.04 ms
+64 bytes from 192.168.1.1: icmp_seq=589 ttl=64 time=0.982 ms
+64 bytes from 192.168.1.1: icmp_seq=590 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=591 ttl=64 time=0.982 ms
+64 bytes from 192.168.1.1: icmp_seq=592 ttl=64 time=0.960 ms
+64 bytes from 192.168.1.1: icmp_seq=593 ttl=64 time=1.00 ms
+64 bytes from 192.168.1.1: icmp_seq=594 ttl=64 time=0.995 ms
+64 bytes from 192.168.1.1: icmp_seq=595 ttl=64 time=1.02 ms
+64 bytes from 192.168.1.1: icmp_seq=596 ttl=64 time=1.12 ms
+64 bytes from 192.168.1.1: icmp_seq=597 ttl=64 time=0.934 ms
+64 bytes from 192.168.1.1: icmp_seq=598 ttl=64 time=1.02 ms
+64 bytes from 192.168.1.1: icmp_seq=599 ttl=64 time=0.969 ms
+64 bytes from 192.168.1.1: icmp_seq=600 ttl=64 time=0.983 ms
+64 bytes from 192.168.1.1: icmp_seq=601 ttl=64 time=0.995 ms
+64 bytes from 192.168.1.1: icmp_seq=602 ttl=64 time=0.969 ms
+64 bytes from 192.168.1.1: icmp_seq=603 ttl=64 time=0.987 ms
+64 bytes from 192.168.1.1: icmp_seq=604 ttl=64 time=0.959 ms
+64 bytes from 192.168.1.1: icmp_seq=605 ttl=64 time=0.997 ms
+64 bytes from 192.168.1.1: icmp_seq=606 ttl=64 time=1.00 ms
+64 bytes from 192.168.1.1: icmp_seq=607 ttl=64 time=0.915 ms
+64 bytes from 192.168.1.1: icmp_seq=608 ttl=64 time=1.02 ms
+64 bytes from 192.168.1.1: icmp_seq=609 ttl=64 time=1.05 ms
+64 bytes from 192.168.1.1: icmp_seq=610 ttl=64 time=0.969 ms
+64 bytes from 192.168.1.1: icmp_seq=611 ttl=64 time=0.928 ms
+64 bytes from 192.168.1.1: icmp_seq=612 ttl=64 time=0.960 ms
+64 bytes from 192.168.1.1: icmp_seq=613 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=614 ttl=64 time=1.05 ms
+64 bytes from 192.168.1.1: icmp_seq=615 ttl=64 time=0.995 ms
+64 bytes from 192.168.1.1: icmp_seq=616 ttl=64 time=0.930 ms
+64 bytes from 192.168.1.1: icmp_seq=617 ttl=64 time=0.874 ms
+64 bytes from 192.168.1.1: icmp_seq=618 ttl=64 time=1.04 ms
+64 bytes from 192.168.1.1: icmp_seq=619 ttl=64 time=1.04 ms
+64 bytes from 192.168.1.1: icmp_seq=620 ttl=64 time=0.978 ms
+64 bytes from 192.168.1.1: icmp_seq=621 ttl=64 time=0.912 ms
+64 bytes from 192.168.1.1: icmp_seq=622 ttl=64 time=0.951 ms
+64 bytes from 192.168.1.1: icmp_seq=623 ttl=64 time=1.00 ms
+64 bytes from 192.168.1.1: icmp_seq=624 ttl=64 time=1.05 ms
+64 bytes from 192.168.1.1: icmp_seq=625 ttl=64 time=0.979 ms
+64 bytes from 192.168.1.1: icmp_seq=626 ttl=64 time=0.940 ms
+64 bytes from 192.168.1.1: icmp_seq=627 ttl=64 time=0.938 ms
+64 bytes from 192.168.1.1: icmp_seq=628 ttl=64 time=1.07 ms
+64 bytes from 192.168.1.1: icmp_seq=629 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=630 ttl=64 time=0.963 ms
+64 bytes from 192.168.1.1: icmp_seq=631 ttl=64 time=0.997 ms
+64 bytes from 192.168.1.1: icmp_seq=632 ttl=64 time=0.973 ms
+64 bytes from 192.168.1.1: icmp_seq=633 ttl=64 time=0.969 ms
+64 bytes from 192.168.1.1: icmp_seq=634 ttl=64 time=0.975 ms
+64 bytes from 192.168.1.1: icmp_seq=635 ttl=64 time=0.995 ms
+64 bytes from 192.168.1.1: icmp_seq=636 ttl=64 time=1.08 ms
+64 bytes from 192.168.1.1: icmp_seq=637 ttl=64 time=1.11 ms
+64 bytes from 192.168.1.1: icmp_seq=638 ttl=64 time=0.969 ms
+64 bytes from 192.168.1.1: icmp_seq=639 ttl=64 time=1.07 ms
+64 bytes from 192.168.1.1: icmp_seq=640 ttl=64 time=1.14 ms
+64 bytes from 192.168.1.1: icmp_seq=641 ttl=64 time=1.03 ms
+64 bytes from 192.168.1.1: icmp_seq=642 ttl=64 time=0.980 ms
+64 bytes from 192.168.1.1: icmp_seq=643 ttl=64 time=0.982 ms
+64 bytes from 192.168.1.1: icmp_seq=644 ttl=64 time=0.941 ms
+64 bytes from 192.168.1.1: icmp_seq=645 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=646 ttl=64 time=0.947 ms
+64 bytes from 192.168.1.1: icmp_seq=647 ttl=64 time=0.847 ms
+64 bytes from 192.168.1.1: icmp_seq=648 ttl=64 time=0.909 ms
+64 bytes from 192.168.1.1: icmp_seq=649 ttl=64 time=0.928 ms
+64 bytes from 192.168.1.1: icmp_seq=650 ttl=64 time=1.02 ms
+64 bytes from 192.168.1.1: icmp_seq=651 ttl=64 time=0.842 ms
+64 bytes from 192.168.1.1: icmp_seq=652 ttl=64 time=0.936 ms
+64 bytes from 192.168.1.1: icmp_seq=653 ttl=64 time=0.979 ms
+64 bytes from 192.168.1.1: icmp_seq=654 ttl=64 time=1.00 ms
+64 bytes from 192.168.1.1: icmp_seq=655 ttl=64 time=0.974 ms
+64 bytes from 192.168.1.1: icmp_seq=656 ttl=64 time=0.984 ms
+64 bytes from 192.168.1.1: icmp_seq=657 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=658 ttl=64 time=0.966 ms
+64 bytes from 192.168.1.1: icmp_seq=659 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=660 ttl=64 time=1.03 ms
+64 bytes from 192.168.1.1: icmp_seq=661 ttl=64 time=1.06 ms
+64 bytes from 192.168.1.1: icmp_seq=662 ttl=64 time=1.07 ms
+64 bytes from 192.168.1.1: icmp_seq=663 ttl=64 time=0.987 ms
+64 bytes from 192.168.1.1: icmp_seq=664 ttl=64 time=0.975 ms
+64 bytes from 192.168.1.1: icmp_seq=665 ttl=64 time=0.975 ms
+64 bytes from 192.168.1.1: icmp_seq=666 ttl=64 time=0.985 ms
+64 bytes from 192.168.1.1: icmp_seq=667 ttl=64 time=0.929 ms
+64 bytes from 192.168.1.1: icmp_seq=668 ttl=64 time=1.05 ms
+64 bytes from 192.168.1.1: icmp_seq=669 ttl=64 time=1.00 ms
+64 bytes from 192.168.1.1: icmp_seq=670 ttl=64 time=0.943 ms
+64 bytes from 192.168.1.1: icmp_seq=671 ttl=64 time=0.985 ms
+64 bytes from 192.168.1.1: icmp_seq=672 ttl=64 time=1.05 ms
+64 bytes from 192.168.1.1: icmp_seq=673 ttl=64 time=0.932 ms
+64 bytes from 192.168.1.1: icmp_seq=674 ttl=64 time=0.980 ms
+64 bytes from 192.168.1.1: icmp_seq=675 ttl=64 time=0.983 ms
+64 bytes from 192.168.1.1: icmp_seq=676 ttl=64 time=0.891 ms
+64 bytes from 192.168.1.1: icmp_seq=677 ttl=64 time=0.965 ms
+64 bytes from 192.168.1.1: icmp_seq=678 ttl=64 time=1.06 ms
+64 bytes from 192.168.1.1: icmp_seq=679 ttl=64 time=0.960 ms
+64 bytes from 192.168.1.1: icmp_seq=680 ttl=64 time=0.974 ms
+64 bytes from 192.168.1.1: icmp_seq=681 ttl=64 time=0.963 ms
+64 bytes from 192.168.1.1: icmp_seq=682 ttl=64 time=0.975 ms
+64 bytes from 192.168.1.1: icmp_seq=683 ttl=64 time=0.997 ms
+64 bytes from 192.168.1.1: icmp_seq=684 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=685 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=686 ttl=64 time=0.975 ms
+64 bytes from 192.168.1.1: icmp_seq=687 ttl=64 time=0.983 ms
+64 bytes from 192.168.1.1: icmp_seq=688 ttl=64 time=0.991 ms
+64 bytes from 192.168.1.1: icmp_seq=689 ttl=64 time=0.981 ms
+64 bytes from 192.168.1.1: icmp_seq=690 ttl=64 time=0.993 ms
+64 bytes from 192.168.1.1: icmp_seq=691 ttl=64 time=0.964 ms
+64 bytes from 192.168.1.1: icmp_seq=692 ttl=64 time=0.977 ms
+64 bytes from 192.168.1.1: icmp_seq=693 ttl=64 time=1.00 ms
+64 bytes from 192.168.1.1: icmp_seq=694 ttl=64 time=1.04 ms
+64 bytes from 192.168.1.1: icmp_seq=695 ttl=64 time=1.00 ms
+64 bytes from 192.168.1.1: icmp_seq=696 ttl=64 time=0.984 ms
+64 bytes from 192.168.1.1: icmp_seq=697 ttl=64 time=0.958 ms
+64 bytes from 192.168.1.1: icmp_seq=698 ttl=64 time=0.948 ms
+64 bytes from 192.168.1.1: icmp_seq=699 ttl=64 time=0.881 ms
+64 bytes from 192.168.1.1: icmp_seq=700 ttl=64 time=0.915 ms
+64 bytes from 192.168.1.1: icmp_seq=701 ttl=64 time=0.933 ms
+64 bytes from 192.168.1.1: icmp_seq=702 ttl=64 time=0.988 ms
+64 bytes from 192.168.1.1: icmp_seq=703 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=704 ttl=64 time=0.984 ms
+64 bytes from 192.168.1.1: icmp_seq=705 ttl=64 time=0.981 ms
+64 bytes from 192.168.1.1: icmp_seq=706 ttl=64 time=0.987 ms
+64 bytes from 192.168.1.1: icmp_seq=707 ttl=64 time=1.07 ms
+64 bytes from 192.168.1.1: icmp_seq=708 ttl=64 time=1.00 ms
+64 bytes from 192.168.1.1: icmp_seq=709 ttl=64 time=1.06 ms
+64 bytes from 192.168.1.1: icmp_seq=710 ttl=64 time=0.950 ms
+64 bytes from 192.168.1.1: icmp_seq=711 ttl=64 time=1.00 ms
+64 bytes from 192.168.1.1: icmp_seq=712 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=713 ttl=64 time=0.945 ms
+64 bytes from 192.168.1.1: icmp_seq=714 ttl=64 time=0.974 ms
+64 bytes from 192.168.1.1: icmp_seq=715 ttl=64 time=1.04 ms
+64 bytes from 192.168.1.1: icmp_seq=716 ttl=64 time=1.06 ms
+64 bytes from 192.168.1.1: icmp_seq=717 ttl=64 time=0.967 ms
+64 bytes from 192.168.1.1: icmp_seq=718 ttl=64 time=0.970 ms
+64 bytes from 192.168.1.1: icmp_seq=719 ttl=64 time=0.934 ms
+64 bytes from 192.168.1.1: icmp_seq=720 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=721 ttl=64 time=0.911 ms
+64 bytes from 192.168.1.1: icmp_seq=722 ttl=64 time=0.882 ms
+64 bytes from 192.168.1.1: icmp_seq=723 ttl=64 time=1.05 ms
+64 bytes from 192.168.1.1: icmp_seq=724 ttl=64 time=1.02 ms
+64 bytes from 192.168.1.1: icmp_seq=725 ttl=64 time=0.970 ms
+64 bytes from 192.168.1.1: icmp_seq=726 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=727 ttl=64 time=1.11 ms
+64 bytes from 192.168.1.1: icmp_seq=728 ttl=64 time=0.935 ms
+64 bytes from 192.168.1.1: icmp_seq=729 ttl=64 time=0.957 ms
+64 bytes from 192.168.1.1: icmp_seq=730 ttl=64 time=0.975 ms
+64 bytes from 192.168.1.1: icmp_seq=731 ttl=64 time=0.992 ms
+64 bytes from 192.168.1.1: icmp_seq=732 ttl=64 time=0.950 ms
+64 bytes from 192.168.1.1: icmp_seq=733 ttl=64 time=0.977 ms
+64 bytes from 192.168.1.1: icmp_seq=734 ttl=64 time=0.996 ms
+64 bytes from 192.168.1.1: icmp_seq=735 ttl=64 time=0.894 ms
+64 bytes from 192.168.1.1: icmp_seq=736 ttl=64 time=0.967 ms
+64 bytes from 192.168.1.1: icmp_seq=737 ttl=64 time=1.05 ms
+64 bytes from 192.168.1.1: icmp_seq=738 ttl=64 time=0.969 ms
+64 bytes from 192.168.1.1: icmp_seq=739 ttl=64 time=0.937 ms
+64 bytes from 192.168.1.1: icmp_seq=740 ttl=64 time=0.978 ms
+64 bytes from 192.168.1.1: icmp_seq=741 ttl=64 time=0.965 ms
+64 bytes from 192.168.1.1: icmp_seq=742 ttl=64 time=0.967 ms
+64 bytes from 192.168.1.1: icmp_seq=743 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=744 ttl=64 time=0.996 ms
+64 bytes from 192.168.1.1: icmp_seq=745 ttl=64 time=0.821 ms
+64 bytes from 192.168.1.1: icmp_seq=746 ttl=64 time=0.986 ms
+64 bytes from 192.168.1.1: icmp_seq=747 ttl=64 time=0.980 ms
+64 bytes from 192.168.1.1: icmp_seq=748 ttl=64 time=0.952 ms
+64 bytes from 192.168.1.1: icmp_seq=749 ttl=64 time=0.987 ms
+64 bytes from 192.168.1.1: icmp_seq=750 ttl=64 time=1.00 ms
+64 bytes from 192.168.1.1: icmp_seq=751 ttl=64 time=1.04 ms
+64 bytes from 192.168.1.1: icmp_seq=752 ttl=64 time=1.03 ms
+64 bytes from 192.168.1.1: icmp_seq=753 ttl=64 time=0.980 ms
+64 bytes from 192.168.1.1: icmp_seq=754 ttl=64 time=0.924 ms
+64 bytes from 192.168.1.1: icmp_seq=755 ttl=64 time=1.03 ms
+64 bytes from 192.168.1.1: icmp_seq=756 ttl=64 time=0.950 ms
+64 bytes from 192.168.1.1: icmp_seq=757 ttl=64 time=0.963 ms
+64 bytes from 192.168.1.1: icmp_seq=758 ttl=64 time=0.927 ms
+64 bytes from 192.168.1.1: icmp_seq=759 ttl=64 time=1.02 ms
+64 bytes from 192.168.1.1: icmp_seq=760 ttl=64 time=0.979 ms
+64 bytes from 192.168.1.1: icmp_seq=761 ttl=64 time=1.05 ms
+64 bytes from 192.168.1.1: icmp_seq=762 ttl=64 time=0.991 ms
+64 bytes from 192.168.1.1: icmp_seq=763 ttl=64 time=0.902 ms
+64 bytes from 192.168.1.1: icmp_seq=764 ttl=64 time=0.899 ms
+64 bytes from 192.168.1.1: icmp_seq=765 ttl=64 time=0.932 ms
+64 bytes from 192.168.1.1: icmp_seq=766 ttl=64 time=0.973 ms
+64 bytes from 192.168.1.1: icmp_seq=767 ttl=64 time=0.886 ms
+64 bytes from 192.168.1.1: icmp_seq=768 ttl=64 time=0.939 ms
+64 bytes from 192.168.1.1: icmp_seq=769 ttl=64 time=0.931 ms
+64 bytes from 192.168.1.1: icmp_seq=770 ttl=64 time=1.02 ms
+64 bytes from 192.168.1.1: icmp_seq=771 ttl=64 time=0.863 ms
+64 bytes from 192.168.1.1: icmp_seq=772 ttl=64 time=0.956 ms
+64 bytes from 192.168.1.1: icmp_seq=773 ttl=64 time=1.09 ms
+64 bytes from 192.168.1.1: icmp_seq=774 ttl=64 time=0.976 ms
+64 bytes from 192.168.1.1: icmp_seq=775 ttl=64 time=0.954 ms
+64 bytes from 192.168.1.1: icmp_seq=776 ttl=64 time=0.979 ms
+64 bytes from 192.168.1.1: icmp_seq=777 ttl=64 time=0.995 ms
+64 bytes from 192.168.1.1: icmp_seq=778 ttl=64 time=1.05 ms
+64 bytes from 192.168.1.1: icmp_seq=779 ttl=64 time=0.942 ms
+64 bytes from 192.168.1.1: icmp_seq=780 ttl=64 time=0.978 ms
+64 bytes from 192.168.1.1: icmp_seq=781 ttl=64 time=0.928 ms
+64 bytes from 192.168.1.1: icmp_seq=782 ttl=64 time=0.960 ms
+64 bytes from 192.168.1.1: icmp_seq=783 ttl=64 time=0.969 ms
+64 bytes from 192.168.1.1: icmp_seq=784 ttl=64 time=0.868 ms
+64 bytes from 192.168.1.1: icmp_seq=785 ttl=64 time=0.962 ms
+64 bytes from 192.168.1.1: icmp_seq=786 ttl=64 time=0.950 ms
+64 bytes from 192.168.1.1: icmp_seq=787 ttl=64 time=1.02 ms
+64 bytes from 192.168.1.1: icmp_seq=788 ttl=64 time=0.845 ms
+64 bytes from 192.168.1.1: icmp_seq=789 ttl=64 time=0.943 ms
+64 bytes from 192.168.1.1: icmp_seq=790 ttl=64 time=1.08 ms
+64 bytes from 192.168.1.1: icmp_seq=791 ttl=64 time=0.970 ms
+64 bytes from 192.168.1.1: icmp_seq=792 ttl=64 time=1.00 ms
+64 bytes from 192.168.1.1: icmp_seq=793 ttl=64 time=0.962 ms
+64 bytes from 192.168.1.1: icmp_seq=794 ttl=64 time=0.874 ms
+64 bytes from 192.168.1.1: icmp_seq=795 ttl=64 time=0.893 ms
+64 bytes from 192.168.1.1: icmp_seq=796 ttl=64 time=0.997 ms
+64 bytes from 192.168.1.1: icmp_seq=797 ttl=64 time=0.996 ms
+64 bytes from 192.168.1.1: icmp_seq=798 ttl=64 time=0.983 ms
+64 bytes from 192.168.1.1: icmp_seq=799 ttl=64 time=0.975 ms
+64 bytes from 192.168.1.1: icmp_seq=800 ttl=64 time=1.00 ms
+64 bytes from 192.168.1.1: icmp_seq=801 ttl=64 time=0.984 ms
+64 bytes from 192.168.1.1: icmp_seq=802 ttl=64 time=0.988 ms
+64 bytes from 192.168.1.1: icmp_seq=803 ttl=64 time=1.14 ms
+64 bytes from 192.168.1.1: icmp_seq=804 ttl=64 time=0.977 ms
+64 bytes from 192.168.1.1: icmp_seq=805 ttl=64 time=0.985 ms
+64 bytes from 192.168.1.1: icmp_seq=806 ttl=64 time=0.998 ms
+64 bytes from 192.168.1.1: icmp_seq=807 ttl=64 time=0.983 ms
+64 bytes from 192.168.1.1: icmp_seq=808 ttl=64 time=1.14 ms
+64 bytes from 192.168.1.1: icmp_seq=809 ttl=64 time=1.02 ms
+64 bytes from 192.168.1.1: icmp_seq=810 ttl=64 time=0.806 ms
+64 bytes from 192.168.1.1: icmp_seq=811 ttl=64 time=0.997 ms
+64 bytes from 192.168.1.1: icmp_seq=812 ttl=64 time=0.875 ms
+64 bytes from 192.168.1.1: icmp_seq=813 ttl=64 time=0.990 ms
+64 bytes from 192.168.1.1: icmp_seq=814 ttl=64 time=0.893 ms
+64 bytes from 192.168.1.1: icmp_seq=815 ttl=64 time=0.975 ms
+64 bytes from 192.168.1.1: icmp_seq=816 ttl=64 time=0.926 ms
+64 bytes from 192.168.1.1: icmp_seq=817 ttl=64 time=0.975 ms
+64 bytes from 192.168.1.1: icmp_seq=818 ttl=64 time=0.997 ms
+64 bytes from 192.168.1.1: icmp_seq=819 ttl=64 time=0.972 ms
+64 bytes from 192.168.1.1: icmp_seq=820 ttl=64 time=0.985 ms
+64 bytes from 192.168.1.1: icmp_seq=821 ttl=64 time=0.979 ms
+64 bytes from 192.168.1.1: icmp_seq=822 ttl=64 time=0.834 ms
+64 bytes from 192.168.1.1: icmp_seq=823 ttl=64 time=0.966 ms
+64 bytes from 192.168.1.1: icmp_seq=824 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=825 ttl=64 time=0.968 ms
+64 bytes from 192.168.1.1: icmp_seq=826 ttl=64 time=1.08 ms
+64 bytes from 192.168.1.1: icmp_seq=827 ttl=64 time=1.05 ms
+64 bytes from 192.168.1.1: icmp_seq=828 ttl=64 time=0.941 ms
+64 bytes from 192.168.1.1: icmp_seq=829 ttl=64 time=1.05 ms
+64 bytes from 192.168.1.1: icmp_seq=830 ttl=64 time=0.997 ms
+64 bytes from 192.168.1.1: icmp_seq=831 ttl=64 time=0.975 ms
+64 bytes from 192.168.1.1: icmp_seq=832 ttl=64 time=0.960 ms
+64 bytes from 192.168.1.1: icmp_seq=833 ttl=64 time=0.973 ms
+64 bytes from 192.168.1.1: icmp_seq=834 ttl=64 time=0.896 ms
+64 bytes from 192.168.1.1: icmp_seq=835 ttl=64 time=0.910 ms
+64 bytes from 192.168.1.1: icmp_seq=836 ttl=64 time=1.05 ms
+64 bytes from 192.168.1.1: icmp_seq=837 ttl=64 time=1.00 ms
+64 bytes from 192.168.1.1: icmp_seq=838 ttl=64 time=0.974 ms
+64 bytes from 192.168.1.1: icmp_seq=839 ttl=64 time=1.10 ms
+64 bytes from 192.168.1.1: icmp_seq=840 ttl=64 time=1.02 ms
+64 bytes from 192.168.1.1: icmp_seq=841 ttl=64 time=0.964 ms
+64 bytes from 192.168.1.1: icmp_seq=842 ttl=64 time=0.947 ms
+64 bytes from 192.168.1.1: icmp_seq=843 ttl=64 time=1.03 ms
+64 bytes from 192.168.1.1: icmp_seq=844 ttl=64 time=0.981 ms
+64 bytes from 192.168.1.1: icmp_seq=845 ttl=64 time=0.897 ms
+64 bytes from 192.168.1.1: icmp_seq=846 ttl=64 time=0.906 ms
+64 bytes from 192.168.1.1: icmp_seq=847 ttl=64 time=0.948 ms
+64 bytes from 192.168.1.1: icmp_seq=848 ttl=64 time=0.978 ms
+64 bytes from 192.168.1.1: icmp_seq=849 ttl=64 time=1.04 ms
+64 bytes from 192.168.1.1: icmp_seq=850 ttl=64 time=0.977 ms
+64 bytes from 192.168.1.1: icmp_seq=851 ttl=64 time=0.979 ms
+64 bytes from 192.168.1.1: icmp_seq=852 ttl=64 time=0.957 ms
+64 bytes from 192.168.1.1: icmp_seq=853 ttl=64 time=1.00 ms
+64 bytes from 192.168.1.1: icmp_seq=854 ttl=64 time=0.995 ms
+64 bytes from 192.168.1.1: icmp_seq=855 ttl=64 time=1.03 ms
+64 bytes from 192.168.1.1: icmp_seq=856 ttl=64 time=0.979 ms
+64 bytes from 192.168.1.1: icmp_seq=857 ttl=64 time=0.975 ms
+64 bytes from 192.168.1.1: icmp_seq=858 ttl=64 time=0.957 ms
+64 bytes from 192.168.1.1: icmp_seq=859 ttl=64 time=1.11 ms
+64 bytes from 192.168.1.1: icmp_seq=860 ttl=64 time=0.981 ms
+64 bytes from 192.168.1.1: icmp_seq=861 ttl=64 time=0.958 ms
+64 bytes from 192.168.1.1: icmp_seq=862 ttl=64 time=0.980 ms
+64 bytes from 192.168.1.1: icmp_seq=863 ttl=64 time=1.00 ms
+64 bytes from 192.168.1.1: icmp_seq=864 ttl=64 time=1.03 ms
+64 bytes from 192.168.1.1: icmp_seq=865 ttl=64 time=0.979 ms
+64 bytes from 192.168.1.1: icmp_seq=866 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=867 ttl=64 time=0.982 ms
+64 bytes from 192.168.1.1: icmp_seq=868 ttl=64 time=1.06 ms
+64 bytes from 192.168.1.1: icmp_seq=869 ttl=64 time=0.971 ms
+64 bytes from 192.168.1.1: icmp_seq=870 ttl=64 time=0.942 ms
+64 bytes from 192.168.1.1: icmp_seq=871 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=872 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=873 ttl=64 time=0.966 ms
+64 bytes from 192.168.1.1: icmp_seq=874 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=875 ttl=64 time=0.998 ms
+64 bytes from 192.168.1.1: icmp_seq=876 ttl=64 time=0.949 ms
+64 bytes from 192.168.1.1: icmp_seq=877 ttl=64 time=0.979 ms
+64 bytes from 192.168.1.1: icmp_seq=878 ttl=64 time=0.970 ms
+64 bytes from 192.168.1.1: icmp_seq=879 ttl=64 time=0.904 ms
+64 bytes from 192.168.1.1: icmp_seq=880 ttl=64 time=0.962 ms
+64 bytes from 192.168.1.1: icmp_seq=881 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=882 ttl=64 time=1.00 ms
+64 bytes from 192.168.1.1: icmp_seq=883 ttl=64 time=0.945 ms
+64 bytes from 192.168.1.1: icmp_seq=884 ttl=64 time=0.990 ms
+64 bytes from 192.168.1.1: icmp_seq=885 ttl=64 time=1.00 ms
+64 bytes from 192.168.1.1: icmp_seq=886 ttl=64 time=1.05 ms
+64 bytes from 192.168.1.1: icmp_seq=887 ttl=64 time=0.978 ms
+64 bytes from 192.168.1.1: icmp_seq=888 ttl=64 time=1.02 ms
+64 bytes from 192.168.1.1: icmp_seq=889 ttl=64 time=0.977 ms
+64 bytes from 192.168.1.1: icmp_seq=890 ttl=64 time=0.988 ms
+64 bytes from 192.168.1.1: icmp_seq=891 ttl=64 time=1.09 ms
+64 bytes from 192.168.1.1: icmp_seq=892 ttl=64 time=0.965 ms
+64 bytes from 192.168.1.1: icmp_seq=893 ttl=64 time=0.947 ms
+64 bytes from 192.168.1.1: icmp_seq=894 ttl=64 time=1.00 ms
+64 bytes from 192.168.1.1: icmp_seq=895 ttl=64 time=0.979 ms
+64 bytes from 192.168.1.1: icmp_seq=896 ttl=64 time=0.926 ms
+64 bytes from 192.168.1.1: icmp_seq=897 ttl=64 time=0.971 ms
+64 bytes from 192.168.1.1: icmp_seq=898 ttl=64 time=0.950 ms
+64 bytes from 192.168.1.1: icmp_seq=899 ttl=64 time=0.982 ms
+64 bytes from 192.168.1.1: icmp_seq=900 ttl=64 time=0.977 ms
+64 bytes from 192.168.1.1: icmp_seq=901 ttl=64 time=0.996 ms
+64 bytes from 192.168.1.1: icmp_seq=902 ttl=64 time=0.938 ms
+64 bytes from 192.168.1.1: icmp_seq=903 ttl=64 time=1.00 ms
+64 bytes from 192.168.1.1: icmp_seq=904 ttl=64 time=1.04 ms
+64 bytes from 192.168.1.1: icmp_seq=905 ttl=64 time=1.04 ms
+64 bytes from 192.168.1.1: icmp_seq=906 ttl=64 time=1.08 ms
+64 bytes from 192.168.1.1: icmp_seq=907 ttl=64 time=0.937 ms
+64 bytes from 192.168.1.1: icmp_seq=908 ttl=64 time=0.960 ms
+64 bytes from 192.168.1.1: icmp_seq=909 ttl=64 time=1.06 ms
+64 bytes from 192.168.1.1: icmp_seq=910 ttl=64 time=0.963 ms
+64 bytes from 192.168.1.1: icmp_seq=911 ttl=64 time=0.991 ms
+64 bytes from 192.168.1.1: icmp_seq=912 ttl=64 time=0.999 ms
+64 bytes from 192.168.1.1: icmp_seq=913 ttl=64 time=0.994 ms
+64 bytes from 192.168.1.1: icmp_seq=914 ttl=64 time=0.954 ms
+64 bytes from 192.168.1.1: icmp_seq=915 ttl=64 time=0.998 ms
+64 bytes from 192.168.1.1: icmp_seq=916 ttl=64 time=1.00 ms
+64 bytes from 192.168.1.1: icmp_seq=917 ttl=64 time=0.968 ms
+64 bytes from 192.168.1.1: icmp_seq=918 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=919 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=920 ttl=64 time=0.953 ms
+64 bytes from 192.168.1.1: icmp_seq=921 ttl=64 time=1.00 ms
+64 bytes from 192.168.1.1: icmp_seq=922 ttl=64 time=0.991 ms
+64 bytes from 192.168.1.1: icmp_seq=923 ttl=64 time=1.03 ms
+64 bytes from 192.168.1.1: icmp_seq=924 ttl=64 time=1.07 ms
+64 bytes from 192.168.1.1: icmp_seq=925 ttl=64 time=0.956 ms
+64 bytes from 192.168.1.1: icmp_seq=926 ttl=64 time=0.972 ms
+64 bytes from 192.168.1.1: icmp_seq=927 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=928 ttl=64 time=0.978 ms
+64 bytes from 192.168.1.1: icmp_seq=929 ttl=64 time=0.954 ms
+64 bytes from 192.168.1.1: icmp_seq=930 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=931 ttl=64 time=0.977 ms
+64 bytes from 192.168.1.1: icmp_seq=932 ttl=64 time=0.954 ms
+64 bytes from 192.168.1.1: icmp_seq=933 ttl=64 time=1.03 ms
+64 bytes from 192.168.1.1: icmp_seq=934 ttl=64 time=0.978 ms
+64 bytes from 192.168.1.1: icmp_seq=935 ttl=64 time=0.954 ms
+64 bytes from 192.168.1.1: icmp_seq=936 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=937 ttl=64 time=0.986 ms
+64 bytes from 192.168.1.1: icmp_seq=938 ttl=64 time=0.956 ms
+64 bytes from 192.168.1.1: icmp_seq=939 ttl=64 time=0.969 ms
+64 bytes from 192.168.1.1: icmp_seq=940 ttl=64 time=1.10 ms
+64 bytes from 192.168.1.1: icmp_seq=941 ttl=64 time=0.991 ms
+64 bytes from 192.168.1.1: icmp_seq=942 ttl=64 time=0.977 ms
+64 bytes from 192.168.1.1: icmp_seq=943 ttl=64 time=0.980 ms
+64 bytes from 192.168.1.1: icmp_seq=944 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=945 ttl=64 time=0.974 ms
+64 bytes from 192.168.1.1: icmp_seq=946 ttl=64 time=0.999 ms
+64 bytes from 192.168.1.1: icmp_seq=947 ttl=64 time=0.970 ms
+64 bytes from 192.168.1.1: icmp_seq=948 ttl=64 time=0.981 ms
+64 bytes from 192.168.1.1: icmp_seq=949 ttl=64 time=1.00 ms
+64 bytes from 192.168.1.1: icmp_seq=950 ttl=64 time=0.971 ms
+64 bytes from 192.168.1.1: icmp_seq=951 ttl=64 time=0.971 ms
+64 bytes from 192.168.1.1: icmp_seq=952 ttl=64 time=1.06 ms
+64 bytes from 192.168.1.1: icmp_seq=953 ttl=64 time=0.966 ms
+64 bytes from 192.168.1.1: icmp_seq=954 ttl=64 time=0.979 ms
+64 bytes from 192.168.1.1: icmp_seq=955 ttl=64 time=1.00 ms
+64 bytes from 192.168.1.1: icmp_seq=956 ttl=64 time=0.995 ms
+64 bytes from 192.168.1.1: icmp_seq=957 ttl=64 time=1.05 ms
+64 bytes from 192.168.1.1: icmp_seq=958 ttl=64 time=1.00 ms
+64 bytes from 192.168.1.1: icmp_seq=959 ttl=64 time=1.10 ms
+64 bytes from 192.168.1.1: icmp_seq=960 ttl=64 time=0.974 ms
+64 bytes from 192.168.1.1: icmp_seq=961 ttl=64 time=1.05 ms
+64 bytes from 192.168.1.1: icmp_seq=962 ttl=64 time=0.961 ms
+64 bytes from 192.168.1.1: icmp_seq=963 ttl=64 time=1.06 ms
+64 bytes from 192.168.1.1: icmp_seq=964 ttl=64 time=0.990 ms
+64 bytes from 192.168.1.1: icmp_seq=965 ttl=64 time=0.843 ms
+64 bytes from 192.168.1.1: icmp_seq=966 ttl=64 time=0.916 ms
+64 bytes from 192.168.1.1: icmp_seq=967 ttl=64 time=1.09 ms
+64 bytes from 192.168.1.1: icmp_seq=968 ttl=64 time=0.982 ms
+64 bytes from 192.168.1.1: icmp_seq=969 ttl=64 time=1.07 ms
+64 bytes from 192.168.1.1: icmp_seq=970 ttl=64 time=0.999 ms
+64 bytes from 192.168.1.1: icmp_seq=971 ttl=64 time=0.979 ms
+64 bytes from 192.168.1.1: icmp_seq=972 ttl=64 time=0.991 ms
+64 bytes from 192.168.1.1: icmp_seq=973 ttl=64 time=0.975 ms
+64 bytes from 192.168.1.1: icmp_seq=974 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=975 ttl=64 time=1.07 ms
+64 bytes from 192.168.1.1: icmp_seq=976 ttl=64 time=1.06 ms
+64 bytes from 192.168.1.1: icmp_seq=977 ttl=64 time=0.944 ms
+64 bytes from 192.168.1.1: icmp_seq=978 ttl=64 time=0.959 ms
+64 bytes from 192.168.1.1: icmp_seq=979 ttl=64 time=0.927 ms
+64 bytes from 192.168.1.1: icmp_seq=980 ttl=64 time=1.00 ms
+64 bytes from 192.168.1.1: icmp_seq=981 ttl=64 time=0.823 ms
+64 bytes from 192.168.1.1: icmp_seq=982 ttl=64 time=1.05 ms
+64 bytes from 192.168.1.1: icmp_seq=983 ttl=64 time=0.861 ms
+64 bytes from 192.168.1.1: icmp_seq=984 ttl=64 time=0.934 ms
+64 bytes from 192.168.1.1: icmp_seq=985 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=986 ttl=64 time=0.975 ms
+64 bytes from 192.168.1.1: icmp_seq=987 ttl=64 time=0.874 ms
+64 bytes from 192.168.1.1: icmp_seq=988 ttl=64 time=0.966 ms
+64 bytes from 192.168.1.1: icmp_seq=989 ttl=64 time=1.05 ms
+64 bytes from 192.168.1.1: icmp_seq=990 ttl=64 time=0.948 ms
+64 bytes from 192.168.1.1: icmp_seq=991 ttl=64 time=0.973 ms
+64 bytes from 192.168.1.1: icmp_seq=992 ttl=64 time=0.981 ms
+64 bytes from 192.168.1.1: icmp_seq=993 ttl=64 time=0.977 ms
+64 bytes from 192.168.1.1: icmp_seq=994 ttl=64 time=0.989 ms
+64 bytes from 192.168.1.1: icmp_seq=995 ttl=64 time=0.984 ms
+64 bytes from 192.168.1.1: icmp_seq=996 ttl=64 time=0.998 ms
+64 bytes from 192.168.1.1: icmp_seq=997 ttl=64 time=1.05 ms
+64 bytes from 192.168.1.1: icmp_seq=998 ttl=64 time=0.992 ms
+64 bytes from 192.168.1.1: icmp_seq=999 ttl=64 time=0.981 ms
+64 bytes from 192.168.1.1: icmp_seq=1000 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=1001 ttl=64 time=0.980 ms
+64 bytes from 192.168.1.1: icmp_seq=1002 ttl=64 time=0.963 ms
+64 bytes from 192.168.1.1: icmp_seq=1003 ttl=64 time=0.916 ms
+64 bytes from 192.168.1.1: icmp_seq=1004 ttl=64 time=1.10 ms
+64 bytes from 192.168.1.1: icmp_seq=1005 ttl=64 time=0.970 ms
+64 bytes from 192.168.1.1: icmp_seq=1006 ttl=64 time=1.05 ms
+64 bytes from 192.168.1.1: icmp_seq=1007 ttl=64 time=1.00 ms
+64 bytes from 192.168.1.1: icmp_seq=1008 ttl=64 time=0.978 ms
+64 bytes from 192.168.1.1: icmp_seq=1009 ttl=64 time=0.956 ms
+64 bytes from 192.168.1.1: icmp_seq=1010 ttl=64 time=0.973 ms
+64 bytes from 192.168.1.1: icmp_seq=1011 ttl=64 time=0.965 ms
+64 bytes from 192.168.1.1: icmp_seq=1012 ttl=64 time=0.981 ms
+64 bytes from 192.168.1.1: icmp_seq=1013 ttl=64 time=0.999 ms
+64 bytes from 192.168.1.1: icmp_seq=1014 ttl=64 time=0.942 ms
+64 bytes from 192.168.1.1: icmp_seq=1015 ttl=64 time=0.974 ms
+64 bytes from 192.168.1.1: icmp_seq=1016 ttl=64 time=1.03 ms
+64 bytes from 192.168.1.1: icmp_seq=1017 ttl=64 time=0.976 ms
+64 bytes from 192.168.1.1: icmp_seq=1018 ttl=64 time=1.07 ms
+64 bytes from 192.168.1.1: icmp_seq=1019 ttl=64 time=0.979 ms
+64 bytes from 192.168.1.1: icmp_seq=1020 ttl=64 time=1.10 ms
+64 bytes from 192.168.1.1: icmp_seq=1021 ttl=64 time=1.12 ms
+64 bytes from 192.168.1.1: icmp_seq=1022 ttl=64 time=0.917 ms
+64 bytes from 192.168.1.1: icmp_seq=1023 ttl=64 time=0.894 ms
+64 bytes from 192.168.1.1: icmp_seq=1024 ttl=64 time=1.15 ms
+64 bytes from 192.168.1.1: icmp_seq=1025 ttl=64 time=0.994 ms
+64 bytes from 192.168.1.1: icmp_seq=1026 ttl=64 time=0.953 ms
+64 bytes from 192.168.1.1: icmp_seq=1027 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=1028 ttl=64 time=0.883 ms
+64 bytes from 192.168.1.1: icmp_seq=1029 ttl=64 time=0.913 ms
+64 bytes from 192.168.1.1: icmp_seq=1030 ttl=64 time=0.962 ms
+64 bytes from 192.168.1.1: icmp_seq=1031 ttl=64 time=0.984 ms
+64 bytes from 192.168.1.1: icmp_seq=1032 ttl=64 time=0.976 ms
+64 bytes from 192.168.1.1: icmp_seq=1033 ttl=64 time=1.10 ms
+64 bytes from 192.168.1.1: icmp_seq=1034 ttl=64 time=0.873 ms
+64 bytes from 192.168.1.1: icmp_seq=1035 ttl=64 time=0.992 ms
+64 bytes from 192.168.1.1: icmp_seq=1036 ttl=64 time=0.920 ms
+64 bytes from 192.168.1.1: icmp_seq=1037 ttl=64 time=0.999 ms
+64 bytes from 192.168.1.1: icmp_seq=1038 ttl=64 time=1.02 ms
+64 bytes from 192.168.1.1: icmp_seq=1039 ttl=64 time=0.901 ms
+64 bytes from 192.168.1.1: icmp_seq=1040 ttl=64 time=0.990 ms
+64 bytes from 192.168.1.1: icmp_seq=1041 ttl=64 time=1.00 ms
+64 bytes from 192.168.1.1: icmp_seq=1042 ttl=64 time=0.912 ms
+64 bytes from 192.168.1.1: icmp_seq=1043 ttl=64 time=0.957 ms
+64 bytes from 192.168.1.1: icmp_seq=1044 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=1045 ttl=64 time=1.00 ms
+64 bytes from 192.168.1.1: icmp_seq=1046 ttl=64 time=0.938 ms
+64 bytes from 192.168.1.1: icmp_seq=1047 ttl=64 time=1.07 ms
+64 bytes from 192.168.1.1: icmp_seq=1048 ttl=64 time=0.979 ms
+64 bytes from 192.168.1.1: icmp_seq=1049 ttl=64 time=0.957 ms
+64 bytes from 192.168.1.1: icmp_seq=1050 ttl=64 time=0.978 ms
+64 bytes from 192.168.1.1: icmp_seq=1051 ttl=64 time=0.998 ms
+64 bytes from 192.168.1.1: icmp_seq=1052 ttl=64 time=1.06 ms
+64 bytes from 192.168.1.1: icmp_seq=1053 ttl=64 time=0.974 ms
+64 bytes from 192.168.1.1: icmp_seq=1054 ttl=64 time=1.03 ms
+64 bytes from 192.168.1.1: icmp_seq=1055 ttl=64 time=1.07 ms
+64 bytes from 192.168.1.1: icmp_seq=1056 ttl=64 time=1.08 ms
+64 bytes from 192.168.1.1: icmp_seq=1057 ttl=64 time=0.911 ms
+64 bytes from 192.168.1.1: icmp_seq=1058 ttl=64 time=0.966 ms
+64 bytes from 192.168.1.1: icmp_seq=1059 ttl=64 time=1.06 ms
+64 bytes from 192.168.1.1: icmp_seq=1060 ttl=64 time=0.977 ms
+64 bytes from 192.168.1.1: icmp_seq=1061 ttl=64 time=0.967 ms
+64 bytes from 192.168.1.1: icmp_seq=1062 ttl=64 time=1.00 ms
+64 bytes from 192.168.1.1: icmp_seq=1063 ttl=64 time=0.991 ms
+64 bytes from 192.168.1.1: icmp_seq=1064 ttl=64 time=0.973 ms
+64 bytes from 192.168.1.1: icmp_seq=1065 ttl=64 time=0.994 ms
+64 bytes from 192.168.1.1: icmp_seq=1066 ttl=64 time=0.996 ms
+64 bytes from 192.168.1.1: icmp_seq=1067 ttl=64 time=0.942 ms
+64 bytes from 192.168.1.1: icmp_seq=1068 ttl=64 time=0.987 ms
+64 bytes from 192.168.1.1: icmp_seq=1069 ttl=64 time=1.07 ms
+64 bytes from 192.168.1.1: icmp_seq=1070 ttl=64 time=1.04 ms
+64 bytes from 192.168.1.1: icmp_seq=1071 ttl=64 time=0.992 ms
+64 bytes from 192.168.1.1: icmp_seq=1072 ttl=64 time=0.983 ms
+64 bytes from 192.168.1.1: icmp_seq=1073 ttl=64 time=0.930 ms
+64 bytes from 192.168.1.1: icmp_seq=1074 ttl=64 time=0.978 ms
+64 bytes from 192.168.1.1: icmp_seq=1075 ttl=64 time=1.06 ms
+64 bytes from 192.168.1.1: icmp_seq=1076 ttl=64 time=0.974 ms
+64 bytes from 192.168.1.1: icmp_seq=1077 ttl=64 time=0.968 ms
+64 bytes from 192.168.1.1: icmp_seq=1078 ttl=64 time=1.04 ms
+64 bytes from 192.168.1.1: icmp_seq=1079 ttl=64 time=1.06 ms
+64 bytes from 192.168.1.1: icmp_seq=1080 ttl=64 time=0.961 ms
+64 bytes from 192.168.1.1: icmp_seq=1081 ttl=64 time=0.976 ms
+64 bytes from 192.168.1.1: icmp_seq=1082 ttl=64 time=1.10 ms
+64 bytes from 192.168.1.1: icmp_seq=1083 ttl=64 time=0.987 ms
+64 bytes from 192.168.1.1: icmp_seq=1084 ttl=64 time=0.973 ms
+64 bytes from 192.168.1.1: icmp_seq=1085 ttl=64 time=0.840 ms
+64 bytes from 192.168.1.1: icmp_seq=1086 ttl=64 time=1.05 ms
+64 bytes from 192.168.1.1: icmp_seq=1087 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=1088 ttl=64 time=0.928 ms
+64 bytes from 192.168.1.1: icmp_seq=1089 ttl=64 time=0.952 ms
+64 bytes from 192.168.1.1: icmp_seq=1090 ttl=64 time=0.976 ms
+64 bytes from 192.168.1.1: icmp_seq=1091 ttl=64 time=0.974 ms
+64 bytes from 192.168.1.1: icmp_seq=1092 ttl=64 time=0.977 ms
+64 bytes from 192.168.1.1: icmp_seq=1093 ttl=64 time=0.978 ms
+64 bytes from 192.168.1.1: icmp_seq=1094 ttl=64 time=0.993 ms
+64 bytes from 192.168.1.1: icmp_seq=1095 ttl=64 time=0.859 ms
+64 bytes from 192.168.1.1: icmp_seq=1096 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=1097 ttl=64 time=1.05 ms
+64 bytes from 192.168.1.1: icmp_seq=1098 ttl=64 time=0.955 ms
+64 bytes from 192.168.1.1: icmp_seq=1099 ttl=64 time=0.947 ms
+64 bytes from 192.168.1.1: icmp_seq=1100 ttl=64 time=0.877 ms
+64 bytes from 192.168.1.1: icmp_seq=1101 ttl=64 time=1.04 ms
+64 bytes from 192.168.1.1: icmp_seq=1102 ttl=64 time=1.18 ms
+64 bytes from 192.168.1.1: icmp_seq=1103 ttl=64 time=0.970 ms
+64 bytes from 192.168.1.1: icmp_seq=1104 ttl=64 time=0.927 ms
+64 bytes from 192.168.1.1: icmp_seq=1105 ttl=64 time=0.913 ms
+64 bytes from 192.168.1.1: icmp_seq=1106 ttl=64 time=1.04 ms
+64 bytes from 192.168.1.1: icmp_seq=1107 ttl=64 time=1.03 ms
+64 bytes from 192.168.1.1: icmp_seq=1108 ttl=64 time=0.994 ms
+64 bytes from 192.168.1.1: icmp_seq=1109 ttl=64 time=0.977 ms
+64 bytes from 192.168.1.1: icmp_seq=1110 ttl=64 time=1.00 ms
+64 bytes from 192.168.1.1: icmp_seq=1111 ttl=64 time=0.982 ms
+64 bytes from 192.168.1.1: icmp_seq=1112 ttl=64 time=0.983 ms
+64 bytes from 192.168.1.1: icmp_seq=1113 ttl=64 time=0.999 ms
+64 bytes from 192.168.1.1: icmp_seq=1114 ttl=64 time=0.978 ms
+64 bytes from 192.168.1.1: icmp_seq=1115 ttl=64 time=0.981 ms
+64 bytes from 192.168.1.1: icmp_seq=1116 ttl=64 time=1.07 ms
+64 bytes from 192.168.1.1: icmp_seq=1117 ttl=64 time=0.975 ms
+64 bytes from 192.168.1.1: icmp_seq=1118 ttl=64 time=0.978 ms
+64 bytes from 192.168.1.1: icmp_seq=1119 ttl=64 time=1.06 ms
+64 bytes from 192.168.1.1: icmp_seq=1120 ttl=64 time=0.983 ms
+64 bytes from 192.168.1.1: icmp_seq=1121 ttl=64 time=1.05 ms
+64 bytes from 192.168.1.1: icmp_seq=1122 ttl=64 time=1.06 ms
+64 bytes from 192.168.1.1: icmp_seq=1123 ttl=64 time=0.960 ms
+64 bytes from 192.168.1.1: icmp_seq=1124 ttl=64 time=0.973 ms
+64 bytes from 192.168.1.1: icmp_seq=1125 ttl=64 time=0.982 ms
+64 bytes from 192.168.1.1: icmp_seq=1126 ttl=64 time=0.974 ms
+64 bytes from 192.168.1.1: icmp_seq=1127 ttl=64 time=1.06 ms
+64 bytes from 192.168.1.1: icmp_seq=1128 ttl=64 time=0.979 ms
+64 bytes from 192.168.1.1: icmp_seq=1129 ttl=64 time=0.952 ms
+64 bytes from 192.168.1.1: icmp_seq=1130 ttl=64 time=0.993 ms
+64 bytes from 192.168.1.1: icmp_seq=1131 ttl=64 time=0.991 ms
+64 bytes from 192.168.1.1: icmp_seq=1132 ttl=64 time=0.940 ms
+64 bytes from 192.168.1.1: icmp_seq=1133 ttl=64 time=1.11 ms
+64 bytes from 192.168.1.1: icmp_seq=1134 ttl=64 time=0.986 ms
+64 bytes from 192.168.1.1: icmp_seq=1135 ttl=64 time=1.07 ms
+64 bytes from 192.168.1.1: icmp_seq=1136 ttl=64 time=1.33 ms
+64 bytes from 192.168.1.1: icmp_seq=1137 ttl=64 time=0.993 ms
+64 bytes from 192.168.1.1: icmp_seq=1138 ttl=64 time=1.08 ms
+64 bytes from 192.168.1.1: icmp_seq=1139 ttl=64 time=0.855 ms
+64 bytes from 192.168.1.1: icmp_seq=1140 ttl=64 time=0.987 ms
+64 bytes from 192.168.1.1: icmp_seq=1141 ttl=64 time=0.994 ms
+64 bytes from 192.168.1.1: icmp_seq=1142 ttl=64 time=1.08 ms
+64 bytes from 192.168.1.1: icmp_seq=1143 ttl=64 time=1.02 ms
+64 bytes from 192.168.1.1: icmp_seq=1144 ttl=64 time=1.05 ms
+64 bytes from 192.168.1.1: icmp_seq=1145 ttl=64 time=0.935 ms
+64 bytes from 192.168.1.1: icmp_seq=1146 ttl=64 time=0.954 ms
+64 bytes from 192.168.1.1: icmp_seq=1147 ttl=64 time=1.11 ms
+64 bytes from 192.168.1.1: icmp_seq=1148 ttl=64 time=0.664 ms
+64 bytes from 192.168.1.1: icmp_seq=1149 ttl=64 time=1.14 ms
+64 bytes from 192.168.1.1: icmp_seq=1150 ttl=64 time=0.613 ms
+64 bytes from 192.168.1.1: icmp_seq=1151 ttl=64 time=1.07 ms
+64 bytes from 192.168.1.1: icmp_seq=1152 ttl=64 time=1.00 ms
+64 bytes from 192.168.1.1: icmp_seq=1153 ttl=64 time=0.770 ms
+64 bytes from 192.168.1.1: icmp_seq=1154 ttl=64 time=0.913 ms
+64 bytes from 192.168.1.1: icmp_seq=1155 ttl=64 time=0.735 ms
+64 bytes from 192.168.1.1: icmp_seq=1156 ttl=64 time=0.854 ms
+64 bytes from 192.168.1.1: icmp_seq=1157 ttl=64 time=1.06 ms
+64 bytes from 192.168.1.1: icmp_seq=1158 ttl=64 time=0.921 ms
+64 bytes from 192.168.1.1: icmp_seq=1159 ttl=64 time=0.880 ms
+64 bytes from 192.168.1.1: icmp_seq=1160 ttl=64 time=0.813 ms
+64 bytes from 192.168.1.1: icmp_seq=1161 ttl=64 time=0.919 ms
+64 bytes from 192.168.1.1: icmp_seq=1162 ttl=64 time=1.46 ms
+64 bytes from 192.168.1.1: icmp_seq=1163 ttl=64 time=0.973 ms
+64 bytes from 192.168.1.1: icmp_seq=1164 ttl=64 time=1.05 ms
+64 bytes from 192.168.1.1: icmp_seq=1165 ttl=64 time=0.714 ms
+64 bytes from 192.168.1.1: icmp_seq=1166 ttl=64 time=0.916 ms
+64 bytes from 192.168.1.1: icmp_seq=1167 ttl=64 time=0.921 ms
+64 bytes from 192.168.1.1: icmp_seq=1168 ttl=64 time=1.05 ms
+64 bytes from 192.168.1.1: icmp_seq=1169 ttl=64 time=0.890 ms
+64 bytes from 192.168.1.1: icmp_seq=1170 ttl=64 time=0.600 ms
+64 bytes from 192.168.1.1: icmp_seq=1171 ttl=64 time=1.07 ms
+64 bytes from 192.168.1.1: icmp_seq=1172 ttl=64 time=0.944 ms
+64 bytes from 192.168.1.1: icmp_seq=1173 ttl=64 time=0.803 ms
+64 bytes from 192.168.1.1: icmp_seq=1174 ttl=64 time=1.03 ms
+64 bytes from 192.168.1.1: icmp_seq=1175 ttl=64 time=1.09 ms
+64 bytes from 192.168.1.1: icmp_seq=1176 ttl=64 time=0.902 ms
+64 bytes from 192.168.1.1: icmp_seq=1177 ttl=64 time=0.900 ms
+64 bytes from 192.168.1.1: icmp_seq=1178 ttl=64 time=2.37 ms
+64 bytes from 192.168.1.1: icmp_seq=1179 ttl=64 time=0.968 ms
+64 bytes from 192.168.1.1: icmp_seq=1180 ttl=64 time=1.46 ms
+64 bytes from 192.168.1.1: icmp_seq=1181 ttl=64 time=0.960 ms
+64 bytes from 192.168.1.1: icmp_seq=1182 ttl=64 time=1.13 ms
+64 bytes from 192.168.1.1: icmp_seq=1183 ttl=64 time=0.967 ms
+64 bytes from 192.168.1.1: icmp_seq=1184 ttl=64 time=0.954 ms
+64 bytes from 192.168.1.1: icmp_seq=1185 ttl=64 time=0.932 ms
+64 bytes from 192.168.1.1: icmp_seq=1186 ttl=64 time=0.983 ms
+64 bytes from 192.168.1.1: icmp_seq=1187 ttl=64 time=0.953 ms
+64 bytes from 192.168.1.1: icmp_seq=1188 ttl=64 time=0.976 ms
+64 bytes from 192.168.1.1: icmp_seq=1189 ttl=64 time=0.989 ms
+64 bytes from 192.168.1.1: icmp_seq=1190 ttl=64 time=0.978 ms
+64 bytes from 192.168.1.1: icmp_seq=1191 ttl=64 time=0.953 ms
+64 bytes from 192.168.1.1: icmp_seq=1192 ttl=64 time=0.918 ms
+64 bytes from 192.168.1.1: icmp_seq=1193 ttl=64 time=0.980 ms
+64 bytes from 192.168.1.1: icmp_seq=1194 ttl=64 time=0.875 ms
+64 bytes from 192.168.1.1: icmp_seq=1195 ttl=64 time=0.962 ms
+64 bytes from 192.168.1.1: icmp_seq=1196 ttl=64 time=0.973 ms
+64 bytes from 192.168.1.1: icmp_seq=1197 ttl=64 time=0.937 ms
+64 bytes from 192.168.1.1: icmp_seq=1198 ttl=64 time=0.982 ms
+64 bytes from 192.168.1.1: icmp_seq=1199 ttl=64 time=0.948 ms
+64 bytes from 192.168.1.1: icmp_seq=1200 ttl=64 time=0.972 ms
+64 bytes from 192.168.1.1: icmp_seq=1201 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=1202 ttl=64 time=0.931 ms
+64 bytes from 192.168.1.1: icmp_seq=1203 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=1204 ttl=64 time=0.996 ms
+64 bytes from 192.168.1.1: icmp_seq=1205 ttl=64 time=0.932 ms
+64 bytes from 192.168.1.1: icmp_seq=1206 ttl=64 time=0.943 ms
+64 bytes from 192.168.1.1: icmp_seq=1207 ttl=64 time=0.951 ms
+64 bytes from 192.168.1.1: icmp_seq=1208 ttl=64 time=0.947 ms
+64 bytes from 192.168.1.1: icmp_seq=1209 ttl=64 time=0.969 ms
+64 bytes from 192.168.1.1: icmp_seq=1210 ttl=64 time=1.10 ms
+64 bytes from 192.168.1.1: icmp_seq=1211 ttl=64 time=0.985 ms
+64 bytes from 192.168.1.1: icmp_seq=1212 ttl=64 time=0.958 ms
+64 bytes from 192.168.1.1: icmp_seq=1213 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=1214 ttl=64 time=1.11 ms
+64 bytes from 192.168.1.1: icmp_seq=1215 ttl=64 time=0.875 ms
+64 bytes from 192.168.1.1: icmp_seq=1216 ttl=64 time=0.940 ms
+64 bytes from 192.168.1.1: icmp_seq=1217 ttl=64 time=1.12 ms
+64 bytes from 192.168.1.1: icmp_seq=1218 ttl=64 time=0.823 ms
+64 bytes from 192.168.1.1: icmp_seq=1219 ttl=64 time=0.941 ms
+64 bytes from 192.168.1.1: icmp_seq=1220 ttl=64 time=0.704 ms
+64 bytes from 192.168.1.1: icmp_seq=1221 ttl=64 time=1.05 ms
+64 bytes from 192.168.1.1: icmp_seq=1222 ttl=64 time=1.74 ms
+64 bytes from 192.168.1.1: icmp_seq=1223 ttl=64 time=1.04 ms
+64 bytes from 192.168.1.1: icmp_seq=1224 ttl=64 time=1.07 ms
+64 bytes from 192.168.1.1: icmp_seq=1225 ttl=64 time=0.970 ms
+64 bytes from 192.168.1.1: icmp_seq=1226 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=1227 ttl=64 time=0.953 ms
+64 bytes from 192.168.1.1: icmp_seq=1228 ttl=64 time=0.967 ms
+64 bytes from 192.168.1.1: icmp_seq=1229 ttl=64 time=0.943 ms
+64 bytes from 192.168.1.1: icmp_seq=1230 ttl=64 time=1.07 ms
+64 bytes from 192.168.1.1: icmp_seq=1231 ttl=64 time=1.10 ms
+64 bytes from 192.168.1.1: icmp_seq=1232 ttl=64 time=1.30 ms
+64 bytes from 192.168.1.1: icmp_seq=1233 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=1234 ttl=64 time=0.959 ms
+64 bytes from 192.168.1.1: icmp_seq=1235 ttl=64 time=0.996 ms
+64 bytes from 192.168.1.1: icmp_seq=1236 ttl=64 time=0.969 ms
+64 bytes from 192.168.1.1: icmp_seq=1237 ttl=64 time=0.965 ms
+64 bytes from 192.168.1.1: icmp_seq=1238 ttl=64 time=0.991 ms
+64 bytes from 192.168.1.1: icmp_seq=1239 ttl=64 time=1.08 ms
+64 bytes from 192.168.1.1: icmp_seq=1240 ttl=64 time=0.915 ms
+64 bytes from 192.168.1.1: icmp_seq=1241 ttl=64 time=1.03 ms
+64 bytes from 192.168.1.1: icmp_seq=1242 ttl=64 time=1.10 ms
+64 bytes from 192.168.1.1: icmp_seq=1243 ttl=64 time=1.04 ms
+64 bytes from 192.168.1.1: icmp_seq=1244 ttl=64 time=0.965 ms
+64 bytes from 192.168.1.1: icmp_seq=1245 ttl=64 time=0.990 ms
+64 bytes from 192.168.1.1: icmp_seq=1246 ttl=64 time=1.02 ms
+64 bytes from 192.168.1.1: icmp_seq=1247 ttl=64 time=1.03 ms
+64 bytes from 192.168.1.1: icmp_seq=1248 ttl=64 time=0.982 ms
+64 bytes from 192.168.1.1: icmp_seq=1249 ttl=64 time=0.960 ms
+64 bytes from 192.168.1.1: icmp_seq=1250 ttl=64 time=0.952 ms
+64 bytes from 192.168.1.1: icmp_seq=1251 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=1252 ttl=64 time=0.943 ms
+64 bytes from 192.168.1.1: icmp_seq=1253 ttl=64 time=0.979 ms
+64 bytes from 192.168.1.1: icmp_seq=1254 ttl=64 time=1.10 ms
+64 bytes from 192.168.1.1: icmp_seq=1255 ttl=64 time=0.994 ms
+64 bytes from 192.168.1.1: icmp_seq=1256 ttl=64 time=1.07 ms
+64 bytes from 192.168.1.1: icmp_seq=1257 ttl=64 time=0.980 ms
+64 bytes from 192.168.1.1: icmp_seq=1258 ttl=64 time=1.04 ms
+64 bytes from 192.168.1.1: icmp_seq=1259 ttl=64 time=1.09 ms
+64 bytes from 192.168.1.1: icmp_seq=1260 ttl=64 time=0.933 ms
+64 bytes from 192.168.1.1: icmp_seq=1261 ttl=64 time=0.925 ms
+64 bytes from 192.168.1.1: icmp_seq=1262 ttl=64 time=1.06 ms
+64 bytes from 192.168.1.1: icmp_seq=1263 ttl=64 time=0.975 ms
+64 bytes from 192.168.1.1: icmp_seq=1264 ttl=64 time=1.05 ms
+64 bytes from 192.168.1.1: icmp_seq=1265 ttl=64 time=1.11 ms
+64 bytes from 192.168.1.1: icmp_seq=1266 ttl=64 time=0.925 ms
+64 bytes from 192.168.1.1: icmp_seq=1267 ttl=64 time=1.02 ms
+64 bytes from 192.168.1.1: icmp_seq=1268 ttl=64 time=1.10 ms
+64 bytes from 192.168.1.1: icmp_seq=1269 ttl=64 time=0.992 ms
+64 bytes from 192.168.1.1: icmp_seq=1270 ttl=64 time=0.955 ms
+64 bytes from 192.168.1.1: icmp_seq=1271 ttl=64 time=0.956 ms
+64 bytes from 192.168.1.1: icmp_seq=1272 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=1273 ttl=64 time=0.840 ms
+64 bytes from 192.168.1.1: icmp_seq=1274 ttl=64 time=1.00 ms
+64 bytes from 192.168.1.1: icmp_seq=1275 ttl=64 time=0.943 ms
+64 bytes from 192.168.1.1: icmp_seq=1276 ttl=64 time=1.04 ms
+64 bytes from 192.168.1.1: icmp_seq=1277 ttl=64 time=0.956 ms
+64 bytes from 192.168.1.1: icmp_seq=1278 ttl=64 time=1.17 ms
+64 bytes from 192.168.1.1: icmp_seq=1279 ttl=64 time=0.945 ms
+64 bytes from 192.168.1.1: icmp_seq=1280 ttl=64 time=0.934 ms
+64 bytes from 192.168.1.1: icmp_seq=1281 ttl=64 time=0.976 ms
+64 bytes from 192.168.1.1: icmp_seq=1282 ttl=64 time=1.07 ms
+64 bytes from 192.168.1.1: icmp_seq=1283 ttl=64 time=1.04 ms
+64 bytes from 192.168.1.1: icmp_seq=1284 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=1285 ttl=64 time=0.981 ms
+64 bytes from 192.168.1.1: icmp_seq=1286 ttl=64 time=0.877 ms
+64 bytes from 192.168.1.1: icmp_seq=1287 ttl=64 time=0.979 ms
+64 bytes from 192.168.1.1: icmp_seq=1288 ttl=64 time=0.992 ms
+64 bytes from 192.168.1.1: icmp_seq=1289 ttl=64 time=0.872 ms
+64 bytes from 192.168.1.1: icmp_seq=1290 ttl=64 time=0.942 ms
+64 bytes from 192.168.1.1: icmp_seq=1291 ttl=64 time=1.06 ms
+64 bytes from 192.168.1.1: icmp_seq=1292 ttl=64 time=0.982 ms
+64 bytes from 192.168.1.1: icmp_seq=1293 ttl=64 time=1.11 ms
+64 bytes from 192.168.1.1: icmp_seq=1294 ttl=64 time=1.08 ms
+64 bytes from 192.168.1.1: icmp_seq=1295 ttl=64 time=0.905 ms
+64 bytes from 192.168.1.1: icmp_seq=1296 ttl=64 time=0.953 ms
+64 bytes from 192.168.1.1: icmp_seq=1297 ttl=64 time=0.972 ms
+64 bytes from 192.168.1.1: icmp_seq=1298 ttl=64 time=0.979 ms
+64 bytes from 192.168.1.1: icmp_seq=1299 ttl=64 time=0.907 ms
+64 bytes from 192.168.1.1: icmp_seq=1300 ttl=64 time=0.960 ms
+64 bytes from 192.168.1.1: icmp_seq=1301 ttl=64 time=1.02 ms
+64 bytes from 192.168.1.1: icmp_seq=1302 ttl=64 time=0.869 ms
+64 bytes from 192.168.1.1: icmp_seq=1303 ttl=64 time=0.964 ms
+64 bytes from 192.168.1.1: icmp_seq=1304 ttl=64 time=1.06 ms
+64 bytes from 192.168.1.1: icmp_seq=1305 ttl=64 time=0.975 ms
+64 bytes from 192.168.1.1: icmp_seq=1306 ttl=64 time=0.793 ms
+64 bytes from 192.168.1.1: icmp_seq=1307 ttl=64 time=0.925 ms
+64 bytes from 192.168.1.1: icmp_seq=1308 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=1309 ttl=64 time=0.980 ms
+64 bytes from 192.168.1.1: icmp_seq=1310 ttl=64 time=0.894 ms
+64 bytes from 192.168.1.1: icmp_seq=1311 ttl=64 time=1.02 ms
+64 bytes from 192.168.1.1: icmp_seq=1312 ttl=64 time=1.06 ms
+64 bytes from 192.168.1.1: icmp_seq=1313 ttl=64 time=0.935 ms
+64 bytes from 192.168.1.1: icmp_seq=1314 ttl=64 time=0.968 ms
+64 bytes from 192.168.1.1: icmp_seq=1315 ttl=64 time=1.06 ms
+64 bytes from 192.168.1.1: icmp_seq=1316 ttl=64 time=0.861 ms
+64 bytes from 192.168.1.1: icmp_seq=1317 ttl=64 time=0.936 ms
+64 bytes from 192.168.1.1: icmp_seq=1318 ttl=64 time=1.00 ms
+64 bytes from 192.168.1.1: icmp_seq=1319 ttl=64 time=0.969 ms
+64 bytes from 192.168.1.1: icmp_seq=1320 ttl=64 time=0.743 ms
+64 bytes from 192.168.1.1: icmp_seq=1321 ttl=64 time=0.820 ms
+64 bytes from 192.168.1.1: icmp_seq=1322 ttl=64 time=0.965 ms
+64 bytes from 192.168.1.1: icmp_seq=1323 ttl=64 time=0.966 ms
+64 bytes from 192.168.1.1: icmp_seq=1324 ttl=64 time=1.02 ms
+64 bytes from 192.168.1.1: icmp_seq=1325 ttl=64 time=1.05 ms
+64 bytes from 192.168.1.1: icmp_seq=1326 ttl=64 time=0.948 ms
+64 bytes from 192.168.1.1: icmp_seq=1327 ttl=64 time=1.03 ms
+64 bytes from 192.168.1.1: icmp_seq=1328 ttl=64 time=1.05 ms
+64 bytes from 192.168.1.1: icmp_seq=1329 ttl=64 time=1.06 ms
+64 bytes from 192.168.1.1: icmp_seq=1330 ttl=64 time=0.967 ms
+64 bytes from 192.168.1.1: icmp_seq=1331 ttl=64 time=0.971 ms
+64 bytes from 192.168.1.1: icmp_seq=1332 ttl=64 time=1.03 ms
+64 bytes from 192.168.1.1: icmp_seq=1333 ttl=64 time=0.984 ms
+64 bytes from 192.168.1.1: icmp_seq=1334 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=1335 ttl=64 time=1.08 ms
+64 bytes from 192.168.1.1: icmp_seq=1336 ttl=64 time=0.968 ms
+64 bytes from 192.168.1.1: icmp_seq=1337 ttl=64 time=0.953 ms
+64 bytes from 192.168.1.1: icmp_seq=1338 ttl=64 time=0.946 ms
+64 bytes from 192.168.1.1: icmp_seq=1339 ttl=64 time=0.909 ms
+64 bytes from 192.168.1.1: icmp_seq=1340 ttl=64 time=0.979 ms
+64 bytes from 192.168.1.1: icmp_seq=1341 ttl=64 time=0.956 ms
+64 bytes from 192.168.1.1: icmp_seq=1342 ttl=64 time=1.09 ms
+64 bytes from 192.168.1.1: icmp_seq=1343 ttl=64 time=0.939 ms
+64 bytes from 192.168.1.1: icmp_seq=1344 ttl=64 time=0.946 ms
+64 bytes from 192.168.1.1: icmp_seq=1345 ttl=64 time=0.981 ms
+64 bytes from 192.168.1.1: icmp_seq=1346 ttl=64 time=0.964 ms
+64 bytes from 192.168.1.1: icmp_seq=1347 ttl=64 time=0.875 ms
+64 bytes from 192.168.1.1: icmp_seq=1348 ttl=64 time=1.03 ms
+64 bytes from 192.168.1.1: icmp_seq=1349 ttl=64 time=0.975 ms
+64 bytes from 192.168.1.1: icmp_seq=1350 ttl=64 time=0.969 ms
+64 bytes from 192.168.1.1: icmp_seq=1351 ttl=64 time=1.02 ms
+64 bytes from 192.168.1.1: icmp_seq=1352 ttl=64 time=0.949 ms
+64 bytes from 192.168.1.1: icmp_seq=1353 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=1354 ttl=64 time=1.05 ms
+64 bytes from 192.168.1.1: icmp_seq=1355 ttl=64 time=0.956 ms
+64 bytes from 192.168.1.1: icmp_seq=1356 ttl=64 time=0.982 ms
+64 bytes from 192.168.1.1: icmp_seq=1357 ttl=64 time=1.04 ms
+64 bytes from 192.168.1.1: icmp_seq=1358 ttl=64 time=0.980 ms
+64 bytes from 192.168.1.1: icmp_seq=1359 ttl=64 time=0.979 ms
+64 bytes from 192.168.1.1: icmp_seq=1360 ttl=64 time=0.927 ms
+64 bytes from 192.168.1.1: icmp_seq=1361 ttl=64 time=0.990 ms
+64 bytes from 192.168.1.1: icmp_seq=1362 ttl=64 time=1.02 ms
+64 bytes from 192.168.1.1: icmp_seq=1363 ttl=64 time=0.945 ms
+64 bytes from 192.168.1.1: icmp_seq=1364 ttl=64 time=0.984 ms
+64 bytes from 192.168.1.1: icmp_seq=1365 ttl=64 time=1.02 ms
+64 bytes from 192.168.1.1: icmp_seq=1366 ttl=64 time=1.21 ms
+64 bytes from 192.168.1.1: icmp_seq=1367 ttl=64 time=0.985 ms
+64 bytes from 192.168.1.1: icmp_seq=1368 ttl=64 time=0.937 ms
+64 bytes from 192.168.1.1: icmp_seq=1369 ttl=64 time=0.928 ms
+64 bytes from 192.168.1.1: icmp_seq=1370 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=1371 ttl=64 time=1.04 ms
+64 bytes from 192.168.1.1: icmp_seq=1372 ttl=64 time=0.925 ms
+64 bytes from 192.168.1.1: icmp_seq=1373 ttl=64 time=0.976 ms
+64 bytes from 192.168.1.1: icmp_seq=1374 ttl=64 time=1.00 ms
+64 bytes from 192.168.1.1: icmp_seq=1375 ttl=64 time=0.990 ms
+64 bytes from 192.168.1.1: icmp_seq=1376 ttl=64 time=1.07 ms
+64 bytes from 192.168.1.1: icmp_seq=1377 ttl=64 time=0.978 ms
+64 bytes from 192.168.1.1: icmp_seq=1378 ttl=64 time=0.955 ms
+64 bytes from 192.168.1.1: icmp_seq=1379 ttl=64 time=0.974 ms
+64 bytes from 192.168.1.1: icmp_seq=1380 ttl=64 time=1.02 ms
+64 bytes from 192.168.1.1: icmp_seq=1381 ttl=64 time=0.869 ms
+64 bytes from 192.168.1.1: icmp_seq=1382 ttl=64 time=0.998 ms
+64 bytes from 192.168.1.1: icmp_seq=1383 ttl=64 time=0.954 ms
+64 bytes from 192.168.1.1: icmp_seq=1384 ttl=64 time=0.969 ms
+64 bytes from 192.168.1.1: icmp_seq=1385 ttl=64 time=0.942 ms
+64 bytes from 192.168.1.1: icmp_seq=1386 ttl=64 time=0.974 ms
+64 bytes from 192.168.1.1: icmp_seq=1387 ttl=64 time=0.851 ms
+64 bytes from 192.168.1.1: icmp_seq=1388 ttl=64 time=0.989 ms
+64 bytes from 192.168.1.1: icmp_seq=1389 ttl=64 time=1.00 ms
+64 bytes from 192.168.1.1: icmp_seq=1390 ttl=64 time=1.03 ms
+64 bytes from 192.168.1.1: icmp_seq=1391 ttl=64 time=0.977 ms
+64 bytes from 192.168.1.1: icmp_seq=1392 ttl=64 time=1.28 ms
+64 bytes from 192.168.1.1: icmp_seq=1393 ttl=64 time=0.965 ms
+64 bytes from 192.168.1.1: icmp_seq=1394 ttl=64 time=0.817 ms
+64 bytes from 192.168.1.1: icmp_seq=1395 ttl=64 time=1.07 ms
+64 bytes from 192.168.1.1: icmp_seq=1396 ttl=64 time=0.970 ms
+64 bytes from 192.168.1.1: icmp_seq=1397 ttl=64 time=1.05 ms
+64 bytes from 192.168.1.1: icmp_seq=1398 ttl=64 time=0.931 ms
+64 bytes from 192.168.1.1: icmp_seq=1399 ttl=64 time=0.977 ms
+64 bytes from 192.168.1.1: icmp_seq=1400 ttl=64 time=0.953 ms
+64 bytes from 192.168.1.1: icmp_seq=1401 ttl=64 time=1.08 ms
+64 bytes from 192.168.1.1: icmp_seq=1402 ttl=64 time=0.965 ms
+64 bytes from 192.168.1.1: icmp_seq=1403 ttl=64 time=0.847 ms
+64 bytes from 192.168.1.1: icmp_seq=1404 ttl=64 time=0.994 ms
+64 bytes from 192.168.1.1: icmp_seq=1405 ttl=64 time=0.955 ms
+64 bytes from 192.168.1.1: icmp_seq=1406 ttl=64 time=0.935 ms
+64 bytes from 192.168.1.1: icmp_seq=1407 ttl=64 time=0.977 ms
+64 bytes from 192.168.1.1: icmp_seq=1408 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=1409 ttl=64 time=0.977 ms
+64 bytes from 192.168.1.1: icmp_seq=1410 ttl=64 time=1.03 ms
+64 bytes from 192.168.1.1: icmp_seq=1411 ttl=64 time=1.00 ms
+64 bytes from 192.168.1.1: icmp_seq=1412 ttl=64 time=0.965 ms
+64 bytes from 192.168.1.1: icmp_seq=1413 ttl=64 time=0.957 ms
+64 bytes from 192.168.1.1: icmp_seq=1414 ttl=64 time=0.980 ms
+64 bytes from 192.168.1.1: icmp_seq=1415 ttl=64 time=0.988 ms
+64 bytes from 192.168.1.1: icmp_seq=1416 ttl=64 time=0.974 ms
+64 bytes from 192.168.1.1: icmp_seq=1417 ttl=64 time=0.957 ms
+64 bytes from 192.168.1.1: icmp_seq=1418 ttl=64 time=0.994 ms
+64 bytes from 192.168.1.1: icmp_seq=1419 ttl=64 time=0.853 ms
+64 bytes from 192.168.1.1: icmp_seq=1420 ttl=64 time=0.871 ms
+64 bytes from 192.168.1.1: icmp_seq=1421 ttl=64 time=0.988 ms
+64 bytes from 192.168.1.1: icmp_seq=1422 ttl=64 time=1.09 ms
+64 bytes from 192.168.1.1: icmp_seq=1423 ttl=64 time=0.988 ms
+64 bytes from 192.168.1.1: icmp_seq=1424 ttl=64 time=1.04 ms
+64 bytes from 192.168.1.1: icmp_seq=1425 ttl=64 time=1.07 ms
+64 bytes from 192.168.1.1: icmp_seq=1426 ttl=64 time=0.952 ms
+64 bytes from 192.168.1.1: icmp_seq=1427 ttl=64 time=0.958 ms
+64 bytes from 192.168.1.1: icmp_seq=1428 ttl=64 time=1.10 ms
+64 bytes from 192.168.1.1: icmp_seq=1429 ttl=64 time=0.940 ms
+64 bytes from 192.168.1.1: icmp_seq=1430 ttl=64 time=0.907 ms
+64 bytes from 192.168.1.1: icmp_seq=1431 ttl=64 time=1.00 ms
+64 bytes from 192.168.1.1: icmp_seq=1432 ttl=64 time=1.11 ms
+64 bytes from 192.168.1.1: icmp_seq=1433 ttl=64 time=0.967 ms
+64 bytes from 192.168.1.1: icmp_seq=1434 ttl=64 time=0.957 ms
+64 bytes from 192.168.1.1: icmp_seq=1435 ttl=64 time=1.08 ms
+64 bytes from 192.168.1.1: icmp_seq=1436 ttl=64 time=1.02 ms
+64 bytes from 192.168.1.1: icmp_seq=1437 ttl=64 time=0.950 ms
+64 bytes from 192.168.1.1: icmp_seq=1438 ttl=64 time=1.00 ms
+64 bytes from 192.168.1.1: icmp_seq=1439 ttl=64 time=0.982 ms
+64 bytes from 192.168.1.1: icmp_seq=1440 ttl=64 time=1.05 ms
+64 bytes from 192.168.1.1: icmp_seq=1441 ttl=64 time=0.980 ms
+64 bytes from 192.168.1.1: icmp_seq=1442 ttl=64 time=0.913 ms
+64 bytes from 192.168.1.1: icmp_seq=1443 ttl=64 time=1.04 ms
+64 bytes from 192.168.1.1: icmp_seq=1444 ttl=64 time=0.931 ms
+64 bytes from 192.168.1.1: icmp_seq=1445 ttl=64 time=1.07 ms
+64 bytes from 192.168.1.1: icmp_seq=1446 ttl=64 time=0.987 ms
+64 bytes from 192.168.1.1: icmp_seq=1447 ttl=64 time=0.991 ms
+64 bytes from 192.168.1.1: icmp_seq=1448 ttl=64 time=0.968 ms
+64 bytes from 192.168.1.1: icmp_seq=1449 ttl=64 time=0.967 ms
+64 bytes from 192.168.1.1: icmp_seq=1450 ttl=64 time=0.990 ms
+64 bytes from 192.168.1.1: icmp_seq=1451 ttl=64 time=0.848 ms
+64 bytes from 192.168.1.1: icmp_seq=1452 ttl=64 time=0.893 ms
+64 bytes from 192.168.1.1: icmp_seq=1453 ttl=64 time=1.02 ms
+64 bytes from 192.168.1.1: icmp_seq=1454 ttl=64 time=1.04 ms
+64 bytes from 192.168.1.1: icmp_seq=1455 ttl=64 time=0.924 ms
+64 bytes from 192.168.1.1: icmp_seq=1456 ttl=64 time=0.819 ms
+64 bytes from 192.168.1.1: icmp_seq=1457 ttl=64 time=0.986 ms
+64 bytes from 192.168.1.1: icmp_seq=1458 ttl=64 time=0.918 ms
+64 bytes from 192.168.1.1: icmp_seq=1459 ttl=64 time=0.720 ms
+64 bytes from 192.168.1.1: icmp_seq=1460 ttl=64 time=0.970 ms
+64 bytes from 192.168.1.1: icmp_seq=1461 ttl=64 time=1.08 ms
+64 bytes from 192.168.1.1: icmp_seq=1462 ttl=64 time=0.904 ms
+64 bytes from 192.168.1.1: icmp_seq=1463 ttl=64 time=1.06 ms
+64 bytes from 192.168.1.1: icmp_seq=1464 ttl=64 time=0.958 ms
+64 bytes from 192.168.1.1: icmp_seq=1465 ttl=64 time=0.981 ms
+64 bytes from 192.168.1.1: icmp_seq=1466 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=1467 ttl=64 time=0.973 ms
+64 bytes from 192.168.1.1: icmp_seq=1468 ttl=64 time=0.861 ms
+64 bytes from 192.168.1.1: icmp_seq=1469 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=1470 ttl=64 time=0.958 ms
+64 bytes from 192.168.1.1: icmp_seq=1471 ttl=64 time=0.901 ms
+64 bytes from 192.168.1.1: icmp_seq=1472 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=1473 ttl=64 time=1.06 ms
+64 bytes from 192.168.1.1: icmp_seq=1474 ttl=64 time=0.940 ms
+64 bytes from 192.168.1.1: icmp_seq=1475 ttl=64 time=0.936 ms
+64 bytes from 192.168.1.1: icmp_seq=1476 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=1477 ttl=64 time=0.910 ms
+64 bytes from 192.168.1.1: icmp_seq=1478 ttl=64 time=0.968 ms
+64 bytes from 192.168.1.1: icmp_seq=1479 ttl=64 time=0.976 ms
+64 bytes from 192.168.1.1: icmp_seq=1480 ttl=64 time=0.987 ms
+64 bytes from 192.168.1.1: icmp_seq=1481 ttl=64 time=0.989 ms
+64 bytes from 192.168.1.1: icmp_seq=1482 ttl=64 time=0.985 ms
+64 bytes from 192.168.1.1: icmp_seq=1483 ttl=64 time=1.07 ms
+64 bytes from 192.168.1.1: icmp_seq=1484 ttl=64 time=0.871 ms
+64 bytes from 192.168.1.1: icmp_seq=1485 ttl=64 time=0.967 ms
+64 bytes from 192.168.1.1: icmp_seq=1486 ttl=64 time=0.897 ms
+64 bytes from 192.168.1.1: icmp_seq=1487 ttl=64 time=0.936 ms
+64 bytes from 192.168.1.1: icmp_seq=1488 ttl=64 time=1.08 ms
+64 bytes from 192.168.1.1: icmp_seq=1489 ttl=64 time=1.19 ms
+64 bytes from 192.168.1.1: icmp_seq=1490 ttl=64 time=1.00 ms
+64 bytes from 192.168.1.1: icmp_seq=1491 ttl=64 time=0.970 ms
+64 bytes from 192.168.1.1: icmp_seq=1492 ttl=64 time=0.843 ms
+64 bytes from 192.168.1.1: icmp_seq=1493 ttl=64 time=0.952 ms
+64 bytes from 192.168.1.1: icmp_seq=1494 ttl=64 time=1.25 ms
+64 bytes from 192.168.1.1: icmp_seq=1495 ttl=64 time=1.20 ms
+64 bytes from 192.168.1.1: icmp_seq=1496 ttl=64 time=0.971 ms
+64 bytes from 192.168.1.1: icmp_seq=1497 ttl=64 time=0.976 ms
+64 bytes from 192.168.1.1: icmp_seq=1498 ttl=64 time=0.988 ms
+64 bytes from 192.168.1.1: icmp_seq=1499 ttl=64 time=0.914 ms
+64 bytes from 192.168.1.1: icmp_seq=1500 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=1501 ttl=64 time=0.862 ms
+64 bytes from 192.168.1.1: icmp_seq=1502 ttl=64 time=0.962 ms
+64 bytes from 192.168.1.1: icmp_seq=1503 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=1504 ttl=64 time=0.982 ms
+64 bytes from 192.168.1.1: icmp_seq=1505 ttl=64 time=0.982 ms
+64 bytes from 192.168.1.1: icmp_seq=1506 ttl=64 time=0.953 ms
+64 bytes from 192.168.1.1: icmp_seq=1507 ttl=64 time=0.953 ms
+64 bytes from 192.168.1.1: icmp_seq=1508 ttl=64 time=1.05 ms
+64 bytes from 192.168.1.1: icmp_seq=1509 ttl=64 time=0.988 ms
+64 bytes from 192.168.1.1: icmp_seq=1510 ttl=64 time=1.00 ms
+64 bytes from 192.168.1.1: icmp_seq=1511 ttl=64 time=0.842 ms
+64 bytes from 192.168.1.1: icmp_seq=1512 ttl=64 time=0.674 ms
+64 bytes from 192.168.1.1: icmp_seq=1513 ttl=64 time=1.08 ms
+64 bytes from 192.168.1.1: icmp_seq=1514 ttl=64 time=1.10 ms
+64 bytes from 192.168.1.1: icmp_seq=1515 ttl=64 time=0.986 ms
+64 bytes from 192.168.1.1: icmp_seq=1516 ttl=64 time=1.04 ms
+64 bytes from 192.168.1.1: icmp_seq=1517 ttl=64 time=1.08 ms
+64 bytes from 192.168.1.1: icmp_seq=1518 ttl=64 time=0.942 ms
+64 bytes from 192.168.1.1: icmp_seq=1519 ttl=64 time=0.970 ms
+64 bytes from 192.168.1.1: icmp_seq=1520 ttl=64 time=1.00 ms
+64 bytes from 192.168.1.1: icmp_seq=1521 ttl=64 time=0.977 ms
+64 bytes from 192.168.1.1: icmp_seq=1522 ttl=64 time=0.882 ms
+64 bytes from 192.168.1.1: icmp_seq=1523 ttl=64 time=0.905 ms
+64 bytes from 192.168.1.1: icmp_seq=1524 ttl=64 time=0.904 ms
+64 bytes from 192.168.1.1: icmp_seq=1525 ttl=64 time=0.973 ms
+64 bytes from 192.168.1.1: icmp_seq=1526 ttl=64 time=0.724 ms
+64 bytes from 192.168.1.1: icmp_seq=1527 ttl=64 time=0.946 ms
+64 bytes from 192.168.1.1: icmp_seq=1528 ttl=64 time=0.945 ms
+64 bytes from 192.168.1.1: icmp_seq=1529 ttl=64 time=0.983 ms
+64 bytes from 192.168.1.1: icmp_seq=1530 ttl=64 time=0.985 ms
+64 bytes from 192.168.1.1: icmp_seq=1531 ttl=64 time=1.37 ms
+64 bytes from 192.168.1.1: icmp_seq=1532 ttl=64 time=0.858 ms
+64 bytes from 192.168.1.1: icmp_seq=1533 ttl=64 time=0.967 ms
+64 bytes from 192.168.1.1: icmp_seq=1534 ttl=64 time=0.973 ms
+64 bytes from 192.168.1.1: icmp_seq=1535 ttl=64 time=0.996 ms
+64 bytes from 192.168.1.1: icmp_seq=1536 ttl=64 time=0.961 ms
+64 bytes from 192.168.1.1: icmp_seq=1537 ttl=64 time=1.06 ms
+64 bytes from 192.168.1.1: icmp_seq=1538 ttl=64 time=0.991 ms
+64 bytes from 192.168.1.1: icmp_seq=1539 ttl=64 time=0.645 ms
+64 bytes from 192.168.1.1: icmp_seq=1540 ttl=64 time=0.936 ms
+64 bytes from 192.168.1.1: icmp_seq=1541 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=1542 ttl=64 time=0.957 ms
+64 bytes from 192.168.1.1: icmp_seq=1543 ttl=64 time=0.963 ms
+64 bytes from 192.168.1.1: icmp_seq=1544 ttl=64 time=1.07 ms
+64 bytes from 192.168.1.1: icmp_seq=1545 ttl=64 time=1.00 ms
+64 bytes from 192.168.1.1: icmp_seq=1546 ttl=64 time=0.955 ms
+64 bytes from 192.168.1.1: icmp_seq=1547 ttl=64 time=0.980 ms
+64 bytes from 192.168.1.1: icmp_seq=1548 ttl=64 time=0.952 ms
+64 bytes from 192.168.1.1: icmp_seq=1549 ttl=64 time=0.854 ms
+64 bytes from 192.168.1.1: icmp_seq=1550 ttl=64 time=1.05 ms
+64 bytes from 192.168.1.1: icmp_seq=1551 ttl=64 time=0.968 ms
+64 bytes from 192.168.1.1: icmp_seq=1552 ttl=64 time=0.983 ms
+64 bytes from 192.168.1.1: icmp_seq=1553 ttl=64 time=0.945 ms
+64 bytes from 192.168.1.1: icmp_seq=1554 ttl=64 time=0.980 ms
+64 bytes from 192.168.1.1: icmp_seq=1555 ttl=64 time=0.951 ms
+64 bytes from 192.168.1.1: icmp_seq=1556 ttl=64 time=0.899 ms
+64 bytes from 192.168.1.1: icmp_seq=1557 ttl=64 time=0.931 ms
+64 bytes from 192.168.1.1: icmp_seq=1558 ttl=64 time=0.594 ms
+64 bytes from 192.168.1.1: icmp_seq=1559 ttl=64 time=1.05 ms
+64 bytes from 192.168.1.1: icmp_seq=1560 ttl=64 time=1.09 ms
+64 bytes from 192.168.1.1: icmp_seq=1561 ttl=64 time=1.06 ms
+64 bytes from 192.168.1.1: icmp_seq=1562 ttl=64 time=0.955 ms
+64 bytes from 192.168.1.1: icmp_seq=1563 ttl=64 time=0.995 ms
+64 bytes from 192.168.1.1: icmp_seq=1564 ttl=64 time=0.868 ms
+64 bytes from 192.168.1.1: icmp_seq=1565 ttl=64 time=0.970 ms
+64 bytes from 192.168.1.1: icmp_seq=1566 ttl=64 time=0.976 ms
+64 bytes from 192.168.1.1: icmp_seq=1567 ttl=64 time=0.963 ms
+64 bytes from 192.168.1.1: icmp_seq=1568 ttl=64 time=0.994 ms
+64 bytes from 192.168.1.1: icmp_seq=1569 ttl=64 time=0.981 ms
+64 bytes from 192.168.1.1: icmp_seq=1570 ttl=64 time=0.970 ms
+64 bytes from 192.168.1.1: icmp_seq=1571 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=1572 ttl=64 time=1.08 ms
+64 bytes from 192.168.1.1: icmp_seq=1573 ttl=64 time=0.991 ms
+64 bytes from 192.168.1.1: icmp_seq=1574 ttl=64 time=1.06 ms
+64 bytes from 192.168.1.1: icmp_seq=1575 ttl=64 time=0.967 ms
+64 bytes from 192.168.1.1: icmp_seq=1576 ttl=64 time=0.960 ms
+64 bytes from 192.168.1.1: icmp_seq=1577 ttl=64 time=0.859 ms
+64 bytes from 192.168.1.1: icmp_seq=1578 ttl=64 time=0.963 ms
+64 bytes from 192.168.1.1: icmp_seq=1579 ttl=64 time=1.07 ms
+64 bytes from 192.168.1.1: icmp_seq=1580 ttl=64 time=0.985 ms
+64 bytes from 192.168.1.1: icmp_seq=1581 ttl=64 time=0.939 ms
+64 bytes from 192.168.1.1: icmp_seq=1582 ttl=64 time=1.09 ms
+64 bytes from 192.168.1.1: icmp_seq=1583 ttl=64 time=0.949 ms
+64 bytes from 192.168.1.1: icmp_seq=1584 ttl=64 time=1.03 ms
+64 bytes from 192.168.1.1: icmp_seq=1585 ttl=64 time=0.966 ms
+64 bytes from 192.168.1.1: icmp_seq=1586 ttl=64 time=0.877 ms
+64 bytes from 192.168.1.1: icmp_seq=1587 ttl=64 time=0.961 ms
+64 bytes from 192.168.1.1: icmp_seq=1588 ttl=64 time=0.873 ms
+64 bytes from 192.168.1.1: icmp_seq=1589 ttl=64 time=1.00 ms
+64 bytes from 192.168.1.1: icmp_seq=1590 ttl=64 time=0.953 ms
+64 bytes from 192.168.1.1: icmp_seq=1591 ttl=64 time=1.04 ms
+64 bytes from 192.168.1.1: icmp_seq=1592 ttl=64 time=0.992 ms
+64 bytes from 192.168.1.1: icmp_seq=1593 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=1594 ttl=64 time=1.05 ms
+64 bytes from 192.168.1.1: icmp_seq=1595 ttl=64 time=0.878 ms
+64 bytes from 192.168.1.1: icmp_seq=1596 ttl=64 time=1.00 ms
+64 bytes from 192.168.1.1: icmp_seq=1597 ttl=64 time=1.13 ms
+64 bytes from 192.168.1.1: icmp_seq=1598 ttl=64 time=1.18 ms
+64 bytes from 192.168.1.1: icmp_seq=1599 ttl=64 time=0.970 ms
+64 bytes from 192.168.1.1: icmp_seq=1600 ttl=64 time=1.11 ms
+64 bytes from 192.168.1.1: icmp_seq=1601 ttl=64 time=0.969 ms
+64 bytes from 192.168.1.1: icmp_seq=1602 ttl=64 time=0.930 ms
+64 bytes from 192.168.1.1: icmp_seq=1603 ttl=64 time=1.13 ms
+64 bytes from 192.168.1.1: icmp_seq=1604 ttl=64 time=0.978 ms
+64 bytes from 192.168.1.1: icmp_seq=1605 ttl=64 time=0.966 ms
+64 bytes from 192.168.1.1: icmp_seq=1606 ttl=64 time=0.835 ms
+64 bytes from 192.168.1.1: icmp_seq=1607 ttl=64 time=0.908 ms
+64 bytes from 192.168.1.1: icmp_seq=1608 ttl=64 time=0.980 ms
+64 bytes from 192.168.1.1: icmp_seq=1609 ttl=64 time=1.09 ms
+64 bytes from 192.168.1.1: icmp_seq=1610 ttl=64 time=0.904 ms
+64 bytes from 192.168.1.1: icmp_seq=1611 ttl=64 time=0.945 ms
+64 bytes from 192.168.1.1: icmp_seq=1612 ttl=64 time=1.07 ms
+64 bytes from 192.168.1.1: icmp_seq=1613 ttl=64 time=0.981 ms
+64 bytes from 192.168.1.1: icmp_seq=1614 ttl=64 time=0.964 ms
+64 bytes from 192.168.1.1: icmp_seq=1615 ttl=64 time=0.981 ms
+64 bytes from 192.168.1.1: icmp_seq=1616 ttl=64 time=0.984 ms
+64 bytes from 192.168.1.1: icmp_seq=1617 ttl=64 time=0.964 ms
+64 bytes from 192.168.1.1: icmp_seq=1618 ttl=64 time=0.993 ms
+64 bytes from 192.168.1.1: icmp_seq=1619 ttl=64 time=0.987 ms
+64 bytes from 192.168.1.1: icmp_seq=1620 ttl=64 time=0.928 ms
+64 bytes from 192.168.1.1: icmp_seq=1621 ttl=64 time=0.949 ms
+64 bytes from 192.168.1.1: icmp_seq=1622 ttl=64 time=0.932 ms
+64 bytes from 192.168.1.1: icmp_seq=1623 ttl=64 time=1.02 ms
+64 bytes from 192.168.1.1: icmp_seq=1624 ttl=64 time=0.991 ms
+64 bytes from 192.168.1.1: icmp_seq=1625 ttl=64 time=0.788 ms
+64 bytes from 192.168.1.1: icmp_seq=1626 ttl=64 time=0.987 ms
+64 bytes from 192.168.1.1: icmp_seq=1627 ttl=64 time=1.08 ms
+64 bytes from 192.168.1.1: icmp_seq=1628 ttl=64 time=0.989 ms
+64 bytes from 192.168.1.1: icmp_seq=1629 ttl=64 time=0.935 ms
+64 bytes from 192.168.1.1: icmp_seq=1630 ttl=64 time=0.961 ms
+64 bytes from 192.168.1.1: icmp_seq=1631 ttl=64 time=0.843 ms
+64 bytes from 192.168.1.1: icmp_seq=1632 ttl=64 time=0.967 ms
+64 bytes from 192.168.1.1: icmp_seq=1633 ttl=64 time=0.943 ms
+64 bytes from 192.168.1.1: icmp_seq=1634 ttl=64 time=0.931 ms
+64 bytes from 192.168.1.1: icmp_seq=1635 ttl=64 time=1.08 ms
+64 bytes from 192.168.1.1: icmp_seq=1636 ttl=64 time=0.971 ms
+64 bytes from 192.168.1.1: icmp_seq=1637 ttl=64 time=1.02 ms
+64 bytes from 192.168.1.1: icmp_seq=1638 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=1639 ttl=64 time=0.934 ms
+64 bytes from 192.168.1.1: icmp_seq=1640 ttl=64 time=1.06 ms
+64 bytes from 192.168.1.1: icmp_seq=1641 ttl=64 time=1.02 ms
+64 bytes from 192.168.1.1: icmp_seq=1642 ttl=64 time=0.966 ms
+64 bytes from 192.168.1.1: icmp_seq=1643 ttl=64 time=0.992 ms
+64 bytes from 192.168.1.1: icmp_seq=1644 ttl=64 time=0.952 ms
+64 bytes from 192.168.1.1: icmp_seq=1645 ttl=64 time=0.827 ms
+64 bytes from 192.168.1.1: icmp_seq=1646 ttl=64 time=0.954 ms
+64 bytes from 192.168.1.1: icmp_seq=1647 ttl=64 time=0.664 ms
+64 bytes from 192.168.1.1: icmp_seq=1648 ttl=64 time=0.702 ms
+64 bytes from 192.168.1.1: icmp_seq=1649 ttl=64 time=0.723 ms
+64 bytes from 192.168.1.1: icmp_seq=1650 ttl=64 time=0.707 ms
+64 bytes from 192.168.1.1: icmp_seq=1651 ttl=64 time=0.902 ms
+64 bytes from 192.168.1.1: icmp_seq=1652 ttl=64 time=0.576 ms
+64 bytes from 192.168.1.1: icmp_seq=1653 ttl=64 time=0.949 ms
+64 bytes from 192.168.1.1: icmp_seq=1654 ttl=64 time=0.702 ms
+64 bytes from 192.168.1.1: icmp_seq=1655 ttl=64 time=0.803 ms
+64 bytes from 192.168.1.1: icmp_seq=1656 ttl=64 time=0.964 ms
+64 bytes from 192.168.1.1: icmp_seq=1657 ttl=64 time=0.810 ms
+64 bytes from 192.168.1.1: icmp_seq=1658 ttl=64 time=0.910 ms
+64 bytes from 192.168.1.1: icmp_seq=1659 ttl=64 time=1.08 ms
+64 bytes from 192.168.1.1: icmp_seq=1660 ttl=64 time=1.10 ms
+64 bytes from 192.168.1.1: icmp_seq=1661 ttl=64 time=0.879 ms
+64 bytes from 192.168.1.1: icmp_seq=1662 ttl=64 time=0.806 ms
+64 bytes from 192.168.1.1: icmp_seq=1663 ttl=64 time=0.967 ms
+64 bytes from 192.168.1.1: icmp_seq=1664 ttl=64 time=0.986 ms
+64 bytes from 192.168.1.1: icmp_seq=1665 ttl=64 time=0.968 ms
+64 bytes from 192.168.1.1: icmp_seq=1666 ttl=64 time=0.904 ms
+64 bytes from 192.168.1.1: icmp_seq=1667 ttl=64 time=0.793 ms
+64 bytes from 192.168.1.1: icmp_seq=1668 ttl=64 time=0.901 ms
+64 bytes from 192.168.1.1: icmp_seq=1669 ttl=64 time=0.929 ms
+64 bytes from 192.168.1.1: icmp_seq=1670 ttl=64 time=0.893 ms
+64 bytes from 192.168.1.1: icmp_seq=1671 ttl=64 time=1.14 ms
+64 bytes from 192.168.1.1: icmp_seq=1672 ttl=64 time=0.957 ms
+64 bytes from 192.168.1.1: icmp_seq=1673 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=1674 ttl=64 time=0.947 ms
+64 bytes from 192.168.1.1: icmp_seq=1675 ttl=64 time=0.851 ms
+64 bytes from 192.168.1.1: icmp_seq=1676 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=1677 ttl=64 time=0.891 ms
+64 bytes from 192.168.1.1: icmp_seq=1678 ttl=64 time=1.01 ms
+64 bytes from 192.168.1.1: icmp_seq=1679 ttl=64 time=0.960 ms
+
+--- 192.168.1.1 ping statistics ---
+1679 packets transmitted, 1674 received, 0,297796% packet loss, time 1680931ms
+rtt min/avg/max/mdev = 0.576/0.986/2.371/0.088 ms
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$
+ont@ont-HP-280-G2-MT:~/thult28$ ls
+auto.rar
+ont@ont-HP-280-G2-MT:~/thult28$ un
+unalias                unexpand               unity-scope-loader     unlz4                  unset                  unxz
+uname                  unicode_start          unity-settings-daemon  unlzma                 unshar                 unzip
+unattended-upgrade     unicode_stop           unix_chkpwd            unmkinitramfs          unshare                unzipsfx
+unattended-upgrades    uniq                   unix_update            unopkg                 unsquashfs
+uncompress             unity-greeter          unlink                 unpigz                 until
+ont@ont-HP-280-G2-MT:~/thult28$ un
+unalias                unexpand               unity-scope-loader     unlz4                  unset                  unxz
+uname                  unicode_start          unity-settings-daemon  unlzma                 unshar                 unzip
+unattended-upgrade     unicode_stop           unix_chkpwd            unmkinitramfs          unshare                unzipsfx
+unattended-upgrades    uniq                   unix_update            unopkg                 unsquashfs
+uncompress             unity-greeter          unlink                 unpigz                 until
+ont@ont-HP-280-G2-MT:~/thult28$ unzip
+unzip     unzipsfx
+ont@ont-HP-280-G2-MT:~/thult28$ unzip
+unzip     unzipsfx
+ont@ont-HP-280-G2-MT:~/thult28$ unzip autotooo.zip
+Archive:  autotooo.zip
+   creating: VT-ONT-AT-ROBOT/
+   creating: VT-ONT-AT-ROBOT/.git/
+   creating: VT-ONT-AT-ROBOT/.git/branches/
+  inflating: VT-ONT-AT-ROBOT/.git/config
+  inflating: VT-ONT-AT-ROBOT/.git/description
+  inflating: VT-ONT-AT-ROBOT/.git/FETCH_HEAD
+  inflating: VT-ONT-AT-ROBOT/.git/HEAD
+   creating: VT-ONT-AT-ROBOT/.git/hooks/
+  inflating: VT-ONT-AT-ROBOT/.git/hooks/applypatch-msg.sample
+  inflating: VT-ONT-AT-ROBOT/.git/hooks/commit-msg.sample
+  inflating: VT-ONT-AT-ROBOT/.git/hooks/fsmonitor-watchman.sample
+  inflating: VT-ONT-AT-ROBOT/.git/hooks/post-update.sample
+  inflating: VT-ONT-AT-ROBOT/.git/hooks/pre-applypatch.sample
+  inflating: VT-ONT-AT-ROBOT/.git/hooks/pre-commit.sample
+  inflating: VT-ONT-AT-ROBOT/.git/hooks/pre-push.sample
+  inflating: VT-ONT-AT-ROBOT/.git/hooks/pre-rebase.sample
+  inflating: VT-ONT-AT-ROBOT/.git/hooks/pre-receive.sample
+  inflating: VT-ONT-AT-ROBOT/.git/hooks/prepare-commit-msg.sample
+  inflating: VT-ONT-AT-ROBOT/.git/hooks/update.sample
+  inflating: VT-ONT-AT-ROBOT/.git/index
+   creating: VT-ONT-AT-ROBOT/.git/info/
+  inflating: VT-ONT-AT-ROBOT/.git/info/exclude
+   creating: VT-ONT-AT-ROBOT/.git/logs/
+  inflating: VT-ONT-AT-ROBOT/.git/logs/HEAD
+   creating: VT-ONT-AT-ROBOT/.git/logs/refs/
+   creating: VT-ONT-AT-ROBOT/.git/logs/refs/heads/
+  inflating: VT-ONT-AT-ROBOT/.git/logs/refs/heads/dev
+  inflating: VT-ONT-AT-ROBOT/.git/logs/refs/heads/master
+  inflating: VT-ONT-AT-ROBOT/.git/logs/refs/heads/OMCI
+   creating: VT-ONT-AT-ROBOT/.git/logs/refs/remotes/
+   creating: VT-ONT-AT-ROBOT/.git/logs/refs/remotes/origin/
+  inflating: VT-ONT-AT-ROBOT/.git/logs/refs/remotes/origin/HEAD
+   creating: VT-ONT-AT-ROBOT/.git/objects/
+   creating: VT-ONT-AT-ROBOT/.git/objects/info/
+   creating: VT-ONT-AT-ROBOT/.git/objects/pack/
+  inflating: VT-ONT-AT-ROBOT/.git/objects/pack/pack-ece43df45ad75417e9f6803783ecbe63e3ba4f78.idx
+  inflating: VT-ONT-AT-ROBOT/.git/objects/pack/pack-ece43df45ad75417e9f6803783ecbe63e3ba4f78.pack
+  inflating: VT-ONT-AT-ROBOT/.git/ORIG_HEAD
+  inflating: VT-ONT-AT-ROBOT/.git/packed-refs
+   creating: VT-ONT-AT-ROBOT/.git/refs/
+   creating: VT-ONT-AT-ROBOT/.git/refs/heads/
+  inflating: VT-ONT-AT-ROBOT/.git/refs/heads/dev
+  inflating: VT-ONT-AT-ROBOT/.git/refs/heads/master
+  inflating: VT-ONT-AT-ROBOT/.git/refs/heads/OMCI
+   creating: VT-ONT-AT-ROBOT/.git/refs/remotes/
+   creating: VT-ONT-AT-ROBOT/.git/refs/remotes/origin/
+  inflating: VT-ONT-AT-ROBOT/.git/refs/remotes/origin/HEAD
+   creating: VT-ONT-AT-ROBOT/.git/refs/tags/
+   creating: VT-ONT-AT-ROBOT/.idea/
+   creating: VT-ONT-AT-ROBOT/.idea/inspectionProfiles/
+  inflating: VT-ONT-AT-ROBOT/.idea/inspectionProfiles/profiles_settings.xml
+  inflating: VT-ONT-AT-ROBOT/.idea/misc.xml
+  inflating: VT-ONT-AT-ROBOT/.idea/modules.xml
+  inflating: VT-ONT-AT-ROBOT/.idea/vcs.xml
+  inflating: VT-ONT-AT-ROBOT/.idea/VT-ONT-AT-ROBOT.iml
+  inflating: VT-ONT-AT-ROBOT/.idea/workspace.xml
+   creating: VT-ONT-AT-ROBOT/Devices/
+   creating: VT-ONT-AT-ROBOT/Devices/OLTs/
+  inflating: VT-ONT-AT-ROBOT/Devices/OLTs/Alu.py
+  inflating: VT-ONT-AT-ROBOT/Devices/OLTs/Alu.pyc
+  inflating: VT-ONT-AT-ROBOT/Devices/OLTs/Dasan.py
+  inflating: VT-ONT-AT-ROBOT/Devices/OLTs/Dasan.pyc
+  inflating: VT-ONT-AT-ROBOT/Devices/OLTs/Dasan_OMCI.py
+  inflating: VT-ONT-AT-ROBOT/Devices/OLTs/Dasan_OMCI.pyc
+  inflating: VT-ONT-AT-ROBOT/Devices/OLTs/Huawei.py
+  inflating: VT-ONT-AT-ROBOT/Devices/OLTs/Huawei.pyc
+  inflating: VT-ONT-AT-ROBOT/Devices/OLTs/Zte.py
+  inflating: VT-ONT-AT-ROBOT/Devices/OLTs/Zte.pyc
+   creating: VT-ONT-AT-ROBOT/Devices/OLTs/__pycache__/
+  inflating: VT-ONT-AT-ROBOT/Devices/OLTs/__pycache__/Alu.cpython-37.pyc
+  inflating: VT-ONT-AT-ROBOT/Devices/OLTs/__pycache__/Dasan.cpython-37.pyc
+  inflating: VT-ONT-AT-ROBOT/Devices/OLTs/__pycache__/Dasan_OMCI.cpython-37.pyc
+  inflating: VT-ONT-AT-ROBOT/Devices/OLTs/__pycache__/Huawei.cpython-37.pyc
+  inflating: VT-ONT-AT-ROBOT/Devices/OLTs/__pycache__/Zte.cpython-37.pyc
+   creating: VT-ONT-AT-ROBOT/Devices/ONU/
+  inflating: VT-ONT-AT-ROBOT/Devices/ONU/Onu.py
+  inflating: VT-ONT-AT-ROBOT/Devices/ONU/Onu.pyc
+  inflating: VT-ONT-AT-ROBOT/Devices/ONU/Onu_OMCI.py
+  inflating: VT-ONT-AT-ROBOT/Devices/ONU/Onu_OMCI.pyc
+   creating: VT-ONT-AT-ROBOT/Devices/ONU/__pycache__/
+  inflating: VT-ONT-AT-ROBOT/Devices/ONU/__pycache__/Onu.cpython-37.pyc
+  inflating: VT-ONT-AT-ROBOT/Devices/ONU/__pycache__/Onu_OMCI.cpython-37.pyc
+  inflating: VT-ONT-AT-ROBOT/geckodriver.log
+   creating: VT-ONT-AT-ROBOT/Libraries/
+   creating: VT-ONT-AT-ROBOT/Libraries/connection/
+  inflating: VT-ONT-AT-ROBOT/Libraries/connection/Connect.py
+  inflating: VT-ONT-AT-ROBOT/Libraries/connection/Connect.pyc
+   creating: VT-ONT-AT-ROBOT/Libraries/connection/__pycache__/
+  inflating: VT-ONT-AT-ROBOT/Libraries/connection/__pycache__/Connect.cpython-37.pyc
+   creating: VT-ONT-AT-ROBOT/Libraries/initiation/
+  inflating: VT-ONT-AT-ROBOT/Libraries/initiation/Initiation.py
+  inflating: VT-ONT-AT-ROBOT/Libraries/initiation/Initiation.pyc
+  inflating: VT-ONT-AT-ROBOT/Libraries/initiation/topology
+   creating: VT-ONT-AT-ROBOT/Libraries/initiation/__pycache__/
+  inflating: VT-ONT-AT-ROBOT/Libraries/initiation/__pycache__/Initiation.cpython-37.pyc
+   creating: VT-ONT-AT-ROBOT/Libraries/object/
+  inflating: VT-ONT-AT-ROBOT/Libraries/object/PacketCap.py
+  inflating: VT-ONT-AT-ROBOT/Libraries/object/Packet_parse.py
+  inflating: VT-ONT-AT-ROBOT/Libraries/object/Packet_parse.pyc
+  inflating: VT-ONT-AT-ROBOT/Libraries/object/temp.pcap
+  inflating: VT-ONT-AT-ROBOT/Libraries/object/Traffic_downstream.pcap
+  inflating: VT-ONT-AT-ROBOT/Libraries/object/Traffic_upstream.pcap
+   creating: VT-ONT-AT-ROBOT/Libraries/object/__pycache__/
+  inflating: VT-ONT-AT-ROBOT/Libraries/object/__pycache__/PacketCap.cpython-37.pyc
+  inflating: VT-ONT-AT-ROBOT/Libraries/object/__pycache__/Packet_parse.cpython-37.pyc
+   creating: VT-ONT-AT-ROBOT/Libraries/validate/
+  inflating: VT-ONT-AT-ROBOT/Libraries/validate/Validate.py
+  inflating: VT-ONT-AT-ROBOT/Libraries/validate/Validate.pyc
+   creating: VT-ONT-AT-ROBOT/Libraries/validate/__pycache__/
+  inflating: VT-ONT-AT-ROBOT/Libraries/validate/__pycache__/Validate.cpython-37.pyc
+  inflating: VT-ONT-AT-ROBOT/log.html
+   creating: VT-ONT-AT-ROBOT/Managements/
+  inflating: VT-ONT-AT-ROBOT/Managements/Configurations.json
+  inflating: VT-ONT-AT-ROBOT/Managements/Managements.py
+  inflating: VT-ONT-AT-ROBOT/Managements/OMCI_configurations.py
+  inflating: VT-ONT-AT-ROBOT/Managements/OMCI_configurations.pyc
+   creating: VT-ONT-AT-ROBOT/Managements/__pycache__/
+  inflating: VT-ONT-AT-ROBOT/Managements/__pycache__/OMCI_configurations.cpython-37.pyc
+  inflating: VT-ONT-AT-ROBOT/output.xml
+  inflating: VT-ONT-AT-ROBOT/report.html
+   creating: VT-ONT-AT-ROBOT/Resources/
+   creating: VT-ONT-AT-ROBOT/Resources/Pageobjects/
+  inflating: VT-ONT-AT-ROBOT/Resources/Pageobjects/Browser.robot
+  inflating: VT-ONT-AT-ROBOT/Resources/Pageobjects/Common.robot
+  inflating: VT-ONT-AT-ROBOT/Resources/Pageobjects/PO_3G.robot
+  inflating: VT-ONT-AT-ROBOT/Resources/Pageobjects/PO_AccessControl.robot
+  inflating: VT-ONT-AT-ROBOT/Resources/Pageobjects/PO_Administration.robot
+  inflating: VT-ONT-AT-ROBOT/Resources/Pageobjects/PO_Configuration.robot
+  inflating: VT-ONT-AT-ROBOT/Resources/Pageobjects/PO_ConnectedDevice.robot
+  inflating: VT-ONT-AT-ROBOT/Resources/Pageobjects/PO_DDNS.robot
+  inflating: VT-ONT-AT-ROBOT/Resources/Pageobjects/PO_DeviceInfo.robot
+  inflating: VT-ONT-AT-ROBOT/Resources/Pageobjects/PO_DHCPLease.robot
+  inflating: VT-ONT-AT-ROBOT/Resources/Pageobjects/PO_Diagnostics.robot
+  inflating: VT-ONT-AT-ROBOT/Resources/Pageobjects/PO_DMZ.robot
+  inflating: VT-ONT-AT-ROBOT/Resources/Pageobjects/PO_FailLogIn.robot
+  inflating: VT-ONT-AT-ROBOT/Resources/Pageobjects/PO_FailLogInCountDown.robot
+  inflating: VT-ONT-AT-ROBOT/Resources/Pageobjects/PO_Firmware.robot
+  inflating: VT-ONT-AT-ROBOT/Resources/Pageobjects/PO_Footer.robot
+  inflating: VT-ONT-AT-ROBOT/Resources/Pageobjects/PO_ForgetPasswd.robot
+  inflating: VT-ONT-AT-ROBOT/Resources/Pageobjects/PO_Header.robot
+  inflating: VT-ONT-AT-ROBOT/Resources/Pageobjects/PO_LANSettings.robot
+  inflating: VT-ONT-AT-ROBOT/Resources/Pageobjects/PO_LogIn.robot
+  inflating: VT-ONT-AT-ROBOT/Resources/Pageobjects/PO_MACFilter.robot
+  inflating: VT-ONT-AT-ROBOT/Resources/Pageobjects/PO_Management.robot
+  inflating: VT-ONT-AT-ROBOT/Resources/Pageobjects/PO_ParentalControl.robot
+  inflating: VT-ONT-AT-ROBOT/Resources/Pageobjects/PO_PortForwarding.robot
+  inflating: VT-ONT-AT-ROBOT/Resources/Pageobjects/PO_PortMapping.robot
+  inflating: VT-ONT-AT-ROBOT/Resources/Pageobjects/PO_QuickSetup.robot
+  inflating: VT-ONT-AT-ROBOT/Resources/Pageobjects/PO_Reboot.robot
+  inflating: VT-ONT-AT-ROBOT/Resources/Pageobjects/PO_RestoreFactory.robot
+  inflating: VT-ONT-AT-ROBOT/Resources/Pageobjects/PO_Samba.robot
+  inflating: VT-ONT-AT-ROBOT/Resources/Pageobjects/PO_SessionLimit.robot
+  inflating: VT-ONT-AT-ROBOT/Resources/Pageobjects/PO_SPIFirewall.robot
+  inflating: VT-ONT-AT-ROBOT/Resources/Pageobjects/PO_StaticRoute.robot
+  inflating: VT-ONT-AT-ROBOT/Resources/Pageobjects/PO_SystemLogs.robot
+  inflating: VT-ONT-AT-ROBOT/Resources/Pageobjects/PO_SystemTime.robot
+  inflating: VT-ONT-AT-ROBOT/Resources/Pageobjects/PO_TrafficStatictis.robot
+  inflating: VT-ONT-AT-ROBOT/Resources/Pageobjects/PO_URLFilter.robot
+  inflating: VT-ONT-AT-ROBOT/Resources/Pageobjects/PO_WANSettings.robot
+  inflating: VT-ONT-AT-ROBOT/Resources/Pageobjects/PO_Wifi2_4GHzSettings.robot
+  inflating: VT-ONT-AT-ROBOT/Resources/Pageobjects/PO_Wifi5_0GHzSettings.robot
+  inflating: VT-ONT-AT-ROBOT/Resources/Pageobjects/PO_WiFiStatistic.robot
+  inflating: VT-ONT-AT-ROBOT/Resources/Pageobjects/PO_WiFiUser.robot
+  inflating: VT-ONT-AT-ROBOT/Resources/Pageobjects/report.html
+   creating: VT-ONT-AT-ROBOT/Resources/Values/
+  inflating: VT-ONT-AT-ROBOT/Resources/Values/LC_Maintenance.robot
+  inflating: VT-ONT-AT-ROBOT/Resources/Values/Url.robot
+   creating: VT-ONT-AT-ROBOT/Socket/
+  inflating: VT-ONT-AT-ROBOT/Socket/nguyetntm10_3_omci.pcap
+  inflating: VT-ONT-AT-ROBOT/Socket/TrafficGen.py
+  inflating: VT-ONT-AT-ROBOT/Socket/TrafficGen.pyc
+   creating: VT-ONT-AT-ROBOT/Socket/__pycache__/
+  inflating: VT-ONT-AT-ROBOT/Socket/__pycache__/TrafficGen.cpython-37.pyc
+   creating: VT-ONT-AT-ROBOT/Supporters/
+  inflating: VT-ONT-AT-ROBOT/Supporters/Supporters.py
+  inflating: VT-ONT-AT-ROBOT/Supporters/Supporters.pyc
+  inflating: VT-ONT-AT-ROBOT/Supporters/Supporters_OMCI.py
+  inflating: VT-ONT-AT-ROBOT/Supporters/Supporters_OMCI.pyc
+   creating: VT-ONT-AT-ROBOT/Supporters/__pycache__/
+  inflating: VT-ONT-AT-ROBOT/Supporters/__pycache__/Supporters.cpython-37.pyc
+  inflating: VT-ONT-AT-ROBOT/Supporters/__pycache__/Supporters_OMCI.cpython-37.pyc
+   creating: VT-ONT-AT-ROBOT/Testcases/
+   creating: VT-ONT-AT-ROBOT/Testcases/CTKT/
+  inflating: VT-ONT-AT-ROBOT/Testcases/CTKT/ctkt26.png
+  inflating: VT-ONT-AT-ROBOT/Testcases/CTKT/ctkt26_2.png
+  inflating: VT-ONT-AT-ROBOT/Testcases/CTKT/ctkt26_3.png
+  inflating: VT-ONT-AT-ROBOT/Testcases/CTKT/ctkt26_4.png
+  inflating: VT-ONT-AT-ROBOT/Testcases/CTKT/ctkt28_1.png
+  inflating: VT-ONT-AT-ROBOT/Testcases/CTKT/ctkt28_2.png
+  inflating: VT-ONT-AT-ROBOT/Testcases/CTKT/ctkt31.png
+  inflating: VT-ONT-AT-ROBOT/Testcases/CTKT/log.26.html
+  inflating: VT-ONT-AT-ROBOT/Testcases/CTKT/log.28.html
+  inflating: VT-ONT-AT-ROBOT/Testcases/CTKT/log.31.html
+  inflating: VT-ONT-AT-ROBOT/Testcases/CTKT/log.39.html
+  inflating: VT-ONT-AT-ROBOT/Testcases/CTKT/log.5.html
+  inflating: VT-ONT-AT-ROBOT/Testcases/CTKT/log.5.new.html
+  inflating: VT-ONT-AT-ROBOT/Testcases/CTKT/log.html
+  inflating: VT-ONT-AT-ROBOT/Testcases/CTKT/log.tc28.html
+  inflating: VT-ONT-AT-ROBOT/Testcases/CTKT/login.jpg
+  inflating: VT-ONT-AT-ROBOT/Testcases/CTKT/report.html
+  inflating: VT-ONT-AT-ROBOT/Testcases/CTKT/TC_CTKT.robot
+  inflating: VT-ONT-AT-ROBOT/Testcases/CTKT/TC_Security.robot
+  inflating: VT-ONT-AT-ROBOT/Testcases/CTKT/test.robot
+  inflating: VT-ONT-AT-ROBOT/Testcases/Câu l?nh th?c thi.docx
+  inflating: VT-ONT-AT-ROBOT/Testcases/disable_fw.jpg
+  inflating: VT-ONT-AT-ROBOT/Testcases/enable_fw.jpg
+  inflating: VT-ONT-AT-ROBOT/Testcases/enable_fw1.jpg
+  inflating: VT-ONT-AT-ROBOT/Testcases/geckodriver.log
+   creating: VT-ONT-AT-ROBOT/Testcases/IOP/
+  inflating: VT-ONT-AT-ROBOT/Testcases/IOP/geckodriver.log
+  inflating: VT-ONT-AT-ROBOT/Testcases/IOP/IOP_TC.robot
+  inflating: VT-ONT-AT-ROBOT/Testcases/IOP/log.html
+  inflating: VT-ONT-AT-ROBOT/Testcases/IOP/log1_4.html
+  inflating: VT-ONT-AT-ROBOT/Testcases/IOP/log_19_11.html
+  inflating: VT-ONT-AT-ROBOT/Testcases/IOP/log_Dasan_12_9.html
+  inflating: VT-ONT-AT-ROBOT/Testcases/IOP/log_fail_valid_fw.html
+  inflating: VT-ONT-AT-ROBOT/Testcases/IOP/log_fail_valid_fw_26_9.html
+  inflating: VT-ONT-AT-ROBOT/Testcases/IOP/output.xml
+  inflating: VT-ONT-AT-ROBOT/Testcases/IOP/report.html
+  inflating: VT-ONT-AT-ROBOT/Testcases/IOP/test.sh
+  inflating: VT-ONT-AT-ROBOT/Testcases/log.ddns.html
+  inflating: VT-ONT-AT-ROBOT/Testcases/log.dmz.html
+  inflating: VT-ONT-AT-ROBOT/Testcases/log.html
+  inflating: VT-ONT-AT-ROBOT/Testcases/log.mac.html
+  inflating: VT-ONT-AT-ROBOT/Testcases/log.pc.html
+  inflating: VT-ONT-AT-ROBOT/Testcases/log.pf.html
+  inflating: VT-ONT-AT-ROBOT/Testcases/log.ss.html
+  inflating: VT-ONT-AT-ROBOT/Testcases/log.url.html
+  inflating: VT-ONT-AT-ROBOT/Testcases/log111.html
+  inflating: VT-ONT-AT-ROBOT/Testcases/login.jpg
+   creating: VT-ONT-AT-ROBOT/Testcases/OMCI/
+ extracting: VT-ONT-AT-ROBOT/Testcases/OMCI/geckodriver.log
+  inflating: VT-ONT-AT-ROBOT/Testcases/OMCI/log.html
+  inflating: VT-ONT-AT-ROBOT/Testcases/OMCI/log_2.2.html
+  inflating: VT-ONT-AT-ROBOT/Testcases/OMCI/log_2_1.html
+  inflating: VT-ONT-AT-ROBOT/Testcases/OMCI/OMCI_robot.robot
+  inflating: VT-ONT-AT-ROBOT/Testcases/OMCI/output.xml
+  inflating: VT-ONT-AT-ROBOT/Testcases/OMCI/report.html
+  inflating: VT-ONT-AT-ROBOT/Testcases/OMCI/Traffic_downstream.pcap
+  inflating: VT-ONT-AT-ROBOT/Testcases/OMCI/Traffic_upstream.pcap
+  inflating: VT-ONT-AT-ROBOT/Testcases/output.xml
+  inflating: VT-ONT-AT-ROBOT/Testcases/report.html
+  inflating: VT-ONT-AT-ROBOT/Testcases/status_page.jpg
+  inflating: VT-ONT-AT-ROBOT/Testcases/TC_Configuration.robot
+  inflating: VT-ONT-AT-ROBOT/Testcases/TC_LogIn.robot
+   creating: VT-ONT-AT-ROBOT/Testcases/WebUI/
+  inflating: VT-ONT-AT-ROBOT/Testcases/WebUI/enable_fw.jpg
+  inflating: VT-ONT-AT-ROBOT/Testcases/WebUI/geckodriver.log
+  inflating: VT-ONT-AT-ROBOT/Testcases/WebUI/log.2.4.html
+  inflating: VT-ONT-AT-ROBOT/Testcases/WebUI/log.5g.html
+  inflating: VT-ONT-AT-ROBOT/Testcases/WebUI/log.bk.html
+  inflating: VT-ONT-AT-ROBOT/Testcases/WebUI/log.lan.html
+  inflating: VT-ONT-AT-ROBOT/Testcases/WebUI/log.log.html
+  inflating: VT-ONT-AT-ROBOT/Testcases/WebUI/log.ping.html
+  inflating: VT-ONT-AT-ROBOT/Testcases/WebUI/log.reboot.html
+  inflating: VT-ONT-AT-ROBOT/Testcases/WebUI/login.jpg
+  inflating: VT-ONT-AT-ROBOT/Testcases/WebUI/maintenace.html
+  inflating: VT-ONT-AT-ROBOT/Testcases/WebUI/maintenace_fw.html
+  inflating: VT-ONT-AT-ROBOT/Testcases/WebUI/maintenace_ntp.html
+  inflating: VT-ONT-AT-ROBOT/Testcases/WebUI/maitenance.bk.htmp
+  inflating: VT-ONT-AT-ROBOT/Testcases/WebUI/output.xml
+ extracting: VT-ONT-AT-ROBOT/Testcases/WebUI/python
+  inflating: VT-ONT-AT-ROBOT/Testcases/WebUI/report.html
+  inflating: VT-ONT-AT-ROBOT/Testcases/WebUI/TC_Configuration.robot
+  inflating: VT-ONT-AT-ROBOT/Testcases/WebUI/TC_DDNS.robot
+  inflating: VT-ONT-AT-ROBOT/Testcases/WebUI/TC_DeviceInformation.robot
+  inflating: VT-ONT-AT-ROBOT/Testcases/WebUI/TC_LANSettings.robot
+  inflating: VT-ONT-AT-ROBOT/Testcases/WebUI/TC_LogIn.robot
+  inflating: VT-ONT-AT-ROBOT/Testcases/WebUI/TC_Maintenace.robot
+  inflating: VT-ONT-AT-ROBOT/Testcases/WebUI/TC_NAT.robot
+  inflating: VT-ONT-AT-ROBOT/Testcases/WebUI/TC_PMapping.robot
+  inflating: VT-ONT-AT-ROBOT/Testcases/WebUI/TC_QuickSetup.robot
+  inflating: VT-ONT-AT-ROBOT/Testcases/WebUI/TC_RegisterID.robot
+  inflating: VT-ONT-AT-ROBOT/Testcases/WebUI/TC_Samba.robot
+ extracting: VT-ONT-AT-ROBOT/Testcases/WebUI/TC_SPIFirewall.robot
+  inflating: VT-ONT-AT-ROBOT/Testcases/WebUI/TC_StaticRoute.robot
+  inflating: VT-ONT-AT-ROBOT/Testcases/WebUI/TC_URLFilter.robot
+  inflating: VT-ONT-AT-ROBOT/Testcases/WebUI/TC_WANSettings.robot
+  inflating: VT-ONT-AT-ROBOT/Testcases/WebUI/TC_Wifi.robot
+  inflating: VT-ONT-AT-ROBOT/Testcases/WebUI/TC_Wifi2_4GHzSettings.robot
+  inflating: VT-ONT-AT-ROBOT/Testcases/WebUI/TC_Wifi5_0GHzSettings.robot
+  inflating: VT-ONT-AT-ROBOT/Testcases/WebUI/wan.html
+ont@ont-HP-280-G2-MT:~/thult28$ ls
+auto.rar  autotooo.zip  VT-ONT-AT-ROBOT
+ont@ont-HP-280-G2-MT:~/thult28$ cd VT-ONT-AT-ROBOT/
+ont@ont-HP-280-G2-MT:~/thult28/VT-ONT-AT-ROBOT$ cd Testcases/
+ont@ont-HP-280-G2-MT:~/thult28/VT-ONT-AT-ROBOT/Testcases$ ls
+'Câu l?nh th?c thi.docx'   enable_fw1.jpg    IOP             log.dmz.html   log.mac.html   log.ss.html    output.xml        TC_Configuration.robot
+ CTKT                      enable_fw.jpg     log111.html     log.html       log.pc.html    log.url.html   report.html       TC_LogIn.robot
+ disable_fw.jpg            geckodriver.log   log.ddns.html   login.jpg      log.pf.html    OMCI           status_page.jpg   WebUI
+ont@ont-HP-280-G2-MT:~/thult28/VT-ONT-AT-ROBOT/Testcases$ cd CTKT/
+ont@ont-HP-280-G2-MT:~/thult28/VT-ONT-AT-ROBOT/Testcases/CTKT$ ls
+ctkt26_2.png  ctkt26_4.png  ctkt28_1.png  ctkt31.png   log.28.html  log.39.html  log.5.new.html  login.jpg      report.html    TC_Security.robot
+ctkt26_3.png  ctkt26.png    ctkt28_2.png  log.26.html  log.31.html  log.5.html   log.html        log.tc28.html  TC_CTKT.robot  test.robot
+ont@ont-HP-280-G2-MT:~/thult28/VT-ONT-AT-ROBOT/Testcases/CTKT$ ls
+ctkt26_2.png  ctkt26_4.png  ctkt28_1.png  ctkt31.png   log.28.html  log.39.html  log.5.new.html  login.jpg      report.html    TC_Security.robot
+ctkt26_3.png  ctkt26.png    ctkt28_2.png  log.26.html  log.31.html  log.5.html   log.html        log.tc28.html  TC_CTKT.robot  test.robot
+ont@ont-HP-280-G2-MT:~/thult28/VT-ONT-AT-ROBOT/Testcases/CTKT$ ls
+ctkt26_2.png  ctkt26_4.png  ctkt28_1.png  ctkt31.png   log.28.html  log.39.html  log.5.new.html  login.jpg      report.html    TC_Security.robot
+ctkt26_3.png  ctkt26.png    ctkt28_2.png  log.26.html  log.31.html  log.5.html   log.html        log.tc28.html  TC_CTKT.robot  test.robot
+ont@ont-HP-280-G2-MT:~/thult28/VT-ONT-AT-ROBOT/Testcases/CTKT$ ls
+ctkt26_2.png  ctkt26_4.png  ctkt28_1.png  ctkt31.png   log.28.html  log.39.html  log.5.new.html  login.jpg      report.html    TC_Security.robot
+ctkt26_3.png  ctkt26.png    ctkt28_2.png  log.26.html  log.31.html  log.5.html   log.html        log.tc28.html  TC_CTKT.robot  test.robot
+ont@ont-HP-280-G2-MT:~/thult28/VT-ONT-AT-ROBOT/Testcases/CTKT$ ls
+ctkt26_2.png  ctkt26_4.png  ctkt28_1.png  ctkt31.png   log.28.html  log.39.html  log.5.new.html  login.jpg      report.html    TC_Security.robot
+ctkt26_3.png  ctkt26.png    ctkt28_2.png  log.26.html  log.31.html  log.5.html   log.html        log.tc28.html  TC_CTKT.robot  test.robot
+ont@ont-HP-280-G2-MT:~/thult28/VT-ONT-AT-ROBOT/Testcases/CTKT$ ls
+ctkt26_2.png  ctkt26_4.png  ctkt28_1.png  ctkt31.png   log.28.html  log.39.html  log.5.new.html  login.jpg      report.html    TC_Security.robot
+ctkt26_3.png  ctkt26.png    ctkt28_2.png  log.26.html  log.31.html  log.5.html   log.html        log.tc28.html  TC_CTKT.robot  test.robot
+ont@ont-HP-280-G2-MT:~/thult28/VT-ONT-AT-ROBOT/Testcases/CTKT$ ls
+ctkt26_2.png  ctkt26_4.png  ctkt28_1.png  ctkt31.png   log.28.html  log.39.html  log.5.new.html  login.jpg      report.html    TC_Security.robot
+ctkt26_3.png  ctkt26.png    ctkt28_2.png  log.26.html  log.31.html  log.5.html   log.html        log.tc28.html  TC_CTKT.robot  test.robot
+ont@ont-HP-280-G2-MT:~/thult28/VT-ONT-AT-ROBOT/Testcases/CTKT$ python -m robot test.robot
+
+Command 'python' not found, did you mean:
+
+  command 'python3' from deb python3
+  command 'python' from deb python-is-python3
+
+ont@ont-HP-280-G2-MT:~/thult28/VT-ONT-AT-ROBOT/Testcases/CTKT$ sudo apt install python2-minimal
+[sudo] password for ont:
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+python2-minimal is already the newest version (2.7.17-2ubuntu4).
+python2-minimal set to manually installed.
+The following packages were automatically installed and are no longer required:
+  libdlt2 libwebsockets15
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 2 not upgraded.
+ont@ont-HP-280-G2-MT:~/thult28/VT-ONT-AT-ROBOT/Testcases/CTKT$
+ont@ont-HP-280-G2-MT:~/thult28/VT-ONT-AT-ROBOT/Testcases/CTKT$
+ont@ont-HP-280-G2-MT:~/thult28/VT-ONT-AT-ROBOT/Testcases/CTKT$
+ont@ont-HP-280-G2-MT:~/thult28/VT-ONT-AT-ROBOT/Testcases/CTKT$ python -v
+
+Command 'python' not found, did you mean:
+
+  command 'python3' from deb python3
+  command 'python' from deb python-is-python3
+
+ont@ont-HP-280-G2-MT:~/thult28/VT-ONT-AT-ROBOT/Testcases/CTKT$ python
+python2             python2.7           python3             python3.8           python3-futurize    python3-pasteurize
+ont@ont-HP-280-G2-MT:~/thult28/VT-ONT-AT-ROBOT/Testcases/CTKT$ python
+python2             python2.7           python3             python3.8           python3-futurize    python3-pasteurize
+ont@ont-HP-280-G2-MT:~/thult28/VT-ONT-AT-ROBOT/Testcases/CTKT$ python2.7 -v
+# installing zipimport hook
+import zipimport # builtin
+# installed zipimport hook
+# /usr/lib/python2.7/site.pyc matches /usr/lib/python2.7/site.py
+import site # precompiled from /usr/lib/python2.7/site.pyc
+# /usr/lib/python2.7/os.pyc matches /usr/lib/python2.7/os.py
+import os # precompiled from /usr/lib/python2.7/os.pyc
+import errno # builtin
+import posix # builtin
+# /usr/lib/python2.7/posixpath.pyc matches /usr/lib/python2.7/posixpath.py
+import posixpath # precompiled from /usr/lib/python2.7/posixpath.pyc
+# /usr/lib/python2.7/stat.pyc matches /usr/lib/python2.7/stat.py
+import stat # precompiled from /usr/lib/python2.7/stat.pyc
+# /usr/lib/python2.7/genericpath.pyc matches /usr/lib/python2.7/genericpath.py
+import genericpath # precompiled from /usr/lib/python2.7/genericpath.pyc
+# /usr/lib/python2.7/warnings.pyc matches /usr/lib/python2.7/warnings.py
+import warnings # precompiled from /usr/lib/python2.7/warnings.pyc
+# /usr/lib/python2.7/linecache.pyc matches /usr/lib/python2.7/linecache.py
+import linecache # precompiled from /usr/lib/python2.7/linecache.pyc
+# /usr/lib/python2.7/types.pyc matches /usr/lib/python2.7/types.py
+import types # precompiled from /usr/lib/python2.7/types.pyc
+# /usr/lib/python2.7/UserDict.pyc matches /usr/lib/python2.7/UserDict.py
+import UserDict # precompiled from /usr/lib/python2.7/UserDict.pyc
+# /usr/lib/python2.7/_abcoll.pyc matches /usr/lib/python2.7/_abcoll.py
+import _abcoll # precompiled from /usr/lib/python2.7/_abcoll.pyc
+# /usr/lib/python2.7/abc.pyc matches /usr/lib/python2.7/abc.py
+import abc # precompiled from /usr/lib/python2.7/abc.pyc
+# /usr/lib/python2.7/_weakrefset.pyc matches /usr/lib/python2.7/_weakrefset.py
+import _weakrefset # precompiled from /usr/lib/python2.7/_weakrefset.pyc
+import _weakref # builtin
+# /usr/lib/python2.7/copy_reg.pyc matches /usr/lib/python2.7/copy_reg.py
+import copy_reg # precompiled from /usr/lib/python2.7/copy_reg.pyc
+# /usr/lib/python2.7/traceback.pyc matches /usr/lib/python2.7/traceback.py
+import traceback # precompiled from /usr/lib/python2.7/traceback.pyc
+# /usr/lib/python2.7/sysconfig.pyc matches /usr/lib/python2.7/sysconfig.py
+import sysconfig # precompiled from /usr/lib/python2.7/sysconfig.pyc
+# /usr/lib/python2.7/re.pyc matches /usr/lib/python2.7/re.py
+import re # precompiled from /usr/lib/python2.7/re.pyc
+# /usr/lib/python2.7/sre_compile.pyc matches /usr/lib/python2.7/sre_compile.py
+import sre_compile # precompiled from /usr/lib/python2.7/sre_compile.pyc
+import _sre # builtin
+# /usr/lib/python2.7/sre_parse.pyc matches /usr/lib/python2.7/sre_parse.py
+import sre_parse # precompiled from /usr/lib/python2.7/sre_parse.pyc
+# /usr/lib/python2.7/sre_constants.pyc matches /usr/lib/python2.7/sre_constants.py
+import sre_constants # precompiled from /usr/lib/python2.7/sre_constants.pyc
+import _locale # builtin
+# /usr/lib/python2.7/_sysconfigdata.pyc matches /usr/lib/python2.7/_sysconfigdata.py
+import _sysconfigdata # precompiled from /usr/lib/python2.7/_sysconfigdata.pyc
+# /usr/lib/python2.7/plat-x86_64-linux-gnu/_sysconfigdata_nd.pyc matches /usr/lib/python2.7/plat-x86_64-linux-gnu/_sysconfigdata_nd.py
+import _sysconfigdata_nd # precompiled from /usr/lib/python2.7/plat-x86_64-linux-gnu/_sysconfigdata_nd.pyc
+# /usr/lib/python2.7/sitecustomize.pyc matches /usr/lib/python2.7/sitecustomize.py
+import sitecustomize # precompiled from /usr/lib/python2.7/sitecustomize.pyc
+import encodings # directory /usr/lib/python2.7/encodings
+# /usr/lib/python2.7/encodings/__init__.pyc matches /usr/lib/python2.7/encodings/__init__.py
+import encodings # precompiled from /usr/lib/python2.7/encodings/__init__.pyc
+# /usr/lib/python2.7/codecs.pyc matches /usr/lib/python2.7/codecs.py
+import codecs # precompiled from /usr/lib/python2.7/codecs.pyc
+import _codecs # builtin
+# /usr/lib/python2.7/encodings/aliases.pyc matches /usr/lib/python2.7/encodings/aliases.py
+import encodings.aliases # precompiled from /usr/lib/python2.7/encodings/aliases.pyc
+# /usr/lib/python2.7/encodings/utf_8.pyc matches /usr/lib/python2.7/encodings/utf_8.py
+import encodings.utf_8 # precompiled from /usr/lib/python2.7/encodings/utf_8.pyc
+Python 2.7.18 (default, Jul  1 2022, 12:27:04)
+[GCC 9.4.0] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+dlopen("/usr/lib/python2.7/lib-dynload/readline.x86_64-linux-gnu.so", 2);
+import readline # dynamically loaded from /usr/lib/python2.7/lib-dynload/readline.x86_64-linux-gnu.so
+>>> quit
+Use quit() or Ctrl-D (i.e. EOF) to exit
+>>> it
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'it' is not defined
+>>>
+# clear __builtin__._
+# clear sys.path
+# clear sys.argv
+# clear sys.ps1
+# clear sys.ps2
+# clear sys.exitfunc
+# clear sys.exc_type
+# clear sys.exc_value
+# clear sys.exc_traceback
+# clear sys.last_type
+# clear sys.last_value
+# clear sys.last_traceback
+# clear sys.path_hooks
+# clear sys.path_importer_cache
+# clear sys.meta_path
+# clear sys.flags
+# clear sys.float_info
+# restore sys.stdin
+# restore sys.stdout
+# restore sys.stderr
+# cleanup __main__
+# cleanup[1] encodings
+# cleanup[1] site
+# cleanup[1] sysconfig
+# cleanup[1] abc
+# cleanup[1] _weakrefset
+# cleanup[1] sre_constants
+# cleanup[1] re
+# cleanup[1] _codecs
+# cleanup[1] _warnings
+# cleanup[1] zipimport
+# cleanup[1] _sysconfigdata
+# cleanup[1] encodings.utf_8
+# cleanup[1] codecs
+# cleanup[1] readline
+# cleanup[1] _sysconfigdata_nd
+# cleanup[1] _locale
+# cleanup[1] sitecustomize
+# cleanup[1] signal
+# cleanup[1] traceback
+# cleanup[1] posix
+# cleanup[1] encodings.aliases
+# cleanup[1] exceptions
+# cleanup[1] _weakref
+# cleanup[1] sre_compile
+# cleanup[1] _sre
+# cleanup[1] sre_parse
+# cleanup[2] copy_reg
+# cleanup[2] posixpath
+# cleanup[2] errno
+# cleanup[2] _abcoll
+# cleanup[2] types
+# cleanup[2] genericpath
+# cleanup[2] stat
+# cleanup[2] warnings
+# cleanup[2] UserDict
+# cleanup[2] os.path
+# cleanup[2] linecache
+# cleanup[2] os
+# cleanup sys
+# cleanup __builtin__
+# cleanup ints: 19 unfreed ints
+# cleanup floats
+ont@ont-HP-280-G2-MT:~/thult28/VT-ONT-AT-ROBOT/Testcases/CTKT$ python2.7 -m robot test.robot
+/usr/bin/python2.7: No module named robot
+ont@ont-HP-280-G2-MT:~/thult28/VT-ONT-AT-ROBOT/Testcases/CTKT$ pip2 -v
+
+Command 'pip2' not found, did you mean:
+
+  command 'nip2' from deb nip2 (8.7.0-1)
+  command 'pip3' from deb python3-pip (20.0.2-5ubuntu1.6)
+  command 'pipx' from deb pipx (0.12.3.1-2ubuntu1)
+  command 'pip' from deb python3-pip (20.0.2-5ubuntu1.6)
+
+Try: sudo apt install <deb name>
+
+ont@ont-HP-280-G2-MT:~/thult28/VT-ONT-AT-ROBOT/Testcases/CTKT$ pip2 -v^Hionb
+
+Command 'pip2' not found, did you mean:
+
+  command 'pip' from deb python3-pip (20.0.2-5ubuntu1.6)
+  command 'pip3' from deb python3-pip (20.0.2-5ubuntu1.6)
+  command 'nip2' from deb nip2 (8.7.0-1)
+  command 'pipx' from deb pipx (0.12.3.1-2ubuntu1)
+
+Try: sudo apt install <deb name>
+
+ont@ont-HP-280-G2-MT:~/thult28/VT-ONT-AT-ROBOT/Testcases/CTKT$ pip2 -version
+
+Command 'pip2' not found, did you mean:
+
+  command 'pipx' from deb pipx (0.12.3.1-2ubuntu1)
+  command 'pip' from deb python3-pip (20.0.2-5ubuntu1.6)
+  command 'pip3' from deb python3-pip (20.0.2-5ubuntu1.6)
+  command 'nip2' from deb nip2 (8.7.0-1)
+
+Try: sudo apt install <deb name>
+
+ont@ont-HP-280-G2-MT:~/thult28/VT-ONT-AT-ROBOT/Testcases/CTKT$ sudo apt install curl
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+curl is already the newest version (7.68.0-1ubuntu2.12).
+The following packages were automatically installed and are no longer required:
+  libdlt2 libwebsockets15
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 2 not upgraded.
+ont@ont-HP-280-G2-MT:~/thult28/VT-ONT-AT-ROBOT/Testcases/CTKT$ sudo apt install curl
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+curl is already the newest version (7.68.0-1ubuntu2.12).
+The following packages were automatically installed and are no longer required:
+  libdlt2 libwebsockets15
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 2 not upgraded.
+ont@ont-HP-280-G2-MT:~/thult28/VT-ONT-AT-ROBOT/Testcases/CTKT$ curl https://bootstrap.pypa.io/pip/2.7/get-pip.py --output get-pip.py
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:--  0:00:09 --:--:--     0curl: (6) Could not resolve host: bootstrap.pypa.io
+ont@ont-HP-280-G2-MT:~/thult28/VT-ONT-AT-ROBOT/Testcases/CTKT$ curl https://bootstrap.pypa.io/pip/2.7/get-pip.py --output get-pip.py
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 1863k  100 1863k    0     0  2635k      0 --:--:-- --:--:-- --:--:-- 2632k
+ont@ont-HP-280-G2-MT:~/thult28/VT-ONT-AT-ROBOT/Testcases/CTKT$ curl https://bootstrap.pypa.io/pip/2.7/get-pip.py --output get-pip.py
+ont@ont-HP-280-G2-MT:~/thult28/VT-ONT-AT-ROBOT/Testcases/CTKT$ sudo python2 get-pip.py
+DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.
+Collecting pip<21.0
+  Downloading pip-20.3.4-py2.py3-none-any.whl (1.5 MB)
+     |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 1.5 MB 1.2 MB/s
+Collecting setuptools<45
+  Downloading setuptools-44.1.1-py2.py3-none-any.whl (583 kB)
+     |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 583 kB 274 kB/s
+Collecting wheel
+  Downloading wheel-0.37.1-py2.py3-none-any.whl (35 kB)
+Installing collected packages: pip, setuptools, wheel
+Successfully installed pip-20.3.4 setuptools-44.1.1 wheel-0.37.1
+ont@ont-HP-280-G2-MT:~/thult28/VT-ONT-AT-ROBOT/Testcases/CTKT$ pip install robotframework
+DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.
+Defaulting to user installation because normal site-packages is not writeable
+Collecting robotframework
+  Downloading robotframework-4.1.3-py2.py3-none-any.whl (659 kB)
+     |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 659 kB 1.8 MB/s
+Installing collected packages: robotframework
+  WARNING: The scripts libdoc, rebot and robot are installed in '/home/ont/.local/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+Successfully installed robotframework-4.1.3
+ont@ont-HP-280-G2-MT:~/thult28/VT-ONT-AT-ROBOT/Testcases/CTKT$ pip install robotframework-selenium2library
+DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.
+Defaulting to user installation because normal site-packages is not writeable
+Collecting robotframework-selenium2library
+  Downloading robotframework_selenium2library-3.0.0-py2.py3-none-any.whl (6.2 kB)
+Collecting robotframework-seleniumlibrary>=3.0.0
+  Downloading robotframework_seleniumlibrary-4.5.0-py2.py3-none-any.whl (89 kB)
+     |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 89 kB 700 kB/s
+Requirement already satisfied: robotframework>=3.1.2 in /home/ont/.local/lib/python2.7/site-packages (from robotframework-seleniumlibrary>=3.0.0->robotframework-selenium2library) (4.1.3)
+Collecting selenium>=3.141.0
+  Downloading selenium-3.141.0-py2.py3-none-any.whl (904 kB)
+     |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 904 kB 4.6 MB/s
+Collecting robotframework-pythonlibcore>=2.1.0
+  Downloading robotframework_pythonlibcore-2.2.1-py2.py3-none-any.whl (10 kB)
+Collecting urllib3
+  Downloading urllib3-1.26.10-py2.py3-none-any.whl (139 kB)
+     |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 139 kB 382 kB/s
+Installing collected packages: urllib3, selenium, robotframework-pythonlibcore, robotframework-seleniumlibrary, robotframework-selenium2library
+Successfully installed robotframework-pythonlibcore-2.2.1 robotframework-selenium2library-3.0.0 robotframework-seleniumlibrary-4.5.0 selenium-3.141.0 urllib3-1.26.10
+ont@ont-HP-280-G2-MT:~/thult28/VT-ONT-AT-ROBOT/Testcases/CTKT$ pip install webdriver-manager
+DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.
+Defaulting to user installation because normal site-packages is not writeable
+Collecting webdriver-manager
+  Downloading webdriver_manager-2.4.0-py2.py3-none-any.whl (13 kB)
+Collecting crayons
+  Downloading crayons-0.4.0-py2.py3-none-any.whl (4.6 kB)
+Collecting configparser
+  Downloading configparser-4.0.2-py2.py3-none-any.whl (22 kB)
+Collecting requests
+  Downloading requests-2.27.1-py2.py3-none-any.whl (63 kB)
+     |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 63 kB 186 kB/s
+Collecting colorama
+  Downloading colorama-0.4.5-py2.py3-none-any.whl (16 kB)
+Collecting idna<3,>=2.5; python_version < "3"
+  Downloading idna-2.10-py2.py3-none-any.whl (58 kB)
+     |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 58 kB 1.0 MB/s
+Collecting certifi>=2017.4.17
+  Downloading certifi-2021.10.8-py2.py3-none-any.whl (149 kB)
+     |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 149 kB 9.7 MB/s
+Collecting chardet<5,>=3.0.2; python_version < "3"
+  Downloading chardet-4.0.0-py2.py3-none-any.whl (178 kB)
+     |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 178 kB 22.9 MB/s
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in /home/ont/.local/lib/python2.7/site-packages (from requests->webdriver-manager) (1.26.10)
+Installing collected packages: colorama, crayons, configparser, idna, certifi, chardet, requests, webdriver-manager
+  WARNING: The script chardetect is installed in '/home/ont/.local/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+Successfully installed certifi-2021.10.8 chardet-4.0.0 colorama-0.4.5 configparser-4.0.2 crayons-0.4.0 idna-2.10 requests-2.27.1 webdriver-manager-2.4.0
+ont@ont-HP-280-G2-MT:~/thult28/VT-ONT-AT-ROBOT/Testcases/CTKT$
+
+
+
+
+
+ont@ont-HP-280-G2-MT:~/thult28/VT-ONT-AT-ROBOT/Testcases/CTKT$ sudo apt install firefox-geckodriver
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  libdlt2 libwebsockets15
+Use 'sudo apt autoremove' to remove them.
+The following NEW packages will be installed:
+  firefox-geckodriver
+0 upgraded, 1 newly installed, 0 to remove and 2 not upgraded.
+Need to get 1.105 kB of archives.
+After this operation, 3.970 kB of additional disk space will be used.
+Get:1 http://vn.archive.ubuntu.com/ubuntu focal-updates/universe amd64 firefox-geckodriver amd64 102.0+build2-0ubuntu0.20.04.1 [1.105 kB]
+Fetched 1.105 kB in 6s (195 kB/s)
+Selecting previously unselected package firefox-geckodriver.
+(Reading database ... 258581 files and directories currently installed.)
+Preparing to unpack .../firefox-geckodriver_102.0+build2-0ubuntu0.20.04.1_amd64.deb ...
+Unpacking firefox-geckodriver (102.0+build2-0ubuntu0.20.04.1) ...
+Setting up firefox-geckodriver (102.0+build2-0ubuntu0.20.04.1) ...
+ont@ont-HP-280-G2-MT:~/thult28/VT-ONT-AT-ROBOT/Testcases/CTKT$
+
+
+ont@ont-HP-280-G2-MT:~/thult28/VT-ONT-AT-ROBOT/Testcases/CTKT$ pip install robotframework-archivelibrary
+DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.
+Defaulting to user installation because normal site-packages is not writeable
+Collecting robotframework-archivelibrary
+  Downloading robotframework-archivelibrary-0.4.1.tar.gz (3.5 kB)
+Requirement already satisfied: robotframework in /home/ont/.local/lib/python2.7/site-packages (from robotframework-archivelibrary) (4.1.3)
+Building wheels for collected packages: robotframework-archivelibrary
+  Building wheel for robotframework-archivelibrary (setup.py) ... done
+  Created wheel for robotframework-archivelibrary: filename=robotframework_archivelibrary-0.4.1-py2-none-any.whl size=4814 sha256=e7ca317127769c6d0021b8f6dbba968772c1913617960cb4a6f0e75c01acabdf
+  Stored in directory: /home/ont/.cache/pip/wheels/c8/21/c4/b278cab3f8ebf698f93031215c138c5edc115c42c97d822a56
+Successfully built robotframework-archivelibrary
+Installing collected packages: robotframework-archivelibrary
+Successfully installed robotframework-archivelibrary-0.4.1
+ont@ont-HP-280-G2-MT:~/thult28/VT-ONT-AT-ROBOT/Testcases/CTKT$
+
+
+
+
+
+
+
+
+
+
+
+
+
+ont@ont-HP-280-G2-MT:~/thult28/VT-ONT-AT-ROBOT/Testcases/CTKT$  pip install paramiko
+DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.
+Defaulting to user installation because normal site-packages is not writeable
+Collecting paramiko
+  Downloading paramiko-2.11.0-py2.py3-none-any.whl (212 kB)
+     |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 212 kB 1.8 MB/s
+Collecting pynacl>=1.0.1
+  Downloading PyNaCl-1.4.0-cp27-cp27mu-manylinux1_x86_64.whl (964 kB)
+     |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 964 kB 22.0 MB/s
+Collecting bcrypt>=3.1.3
+  Downloading bcrypt-3.1.7-cp27-cp27mu-manylinux1_x86_64.whl (59 kB)
+     |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 59 kB 1.1 MB/s
+Requirement already satisfied: six in /home/ont/.local/lib/python2.7/site-packages (from paramiko) (1.16.0)
+Collecting cryptography>=2.5
+  Downloading cryptography-3.3.2-cp27-cp27mu-manylinux2010_x86_64.whl (2.6 MB)
+     |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 2.6 MB 53.5 MB/s
+Collecting cffi>=1.4.1
+  Downloading cffi-1.15.1-cp27-cp27mu-manylinux1_x86_64.whl (390 kB)
+     |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 390 kB 35.8 MB/s
+Collecting enum34; python_version < "3"
+  Downloading enum34-1.1.10-py2-none-any.whl (11 kB)
+Collecting ipaddress; python_version < "3"
+  Downloading ipaddress-1.0.23-py2.py3-none-any.whl (18 kB)
+Collecting pycparser
+  Downloading pycparser-2.21-py2.py3-none-any.whl (118 kB)
+     |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 118 kB 34.3 MB/s
+Installing collected packages: pycparser, cffi, pynacl, bcrypt, enum34, ipaddress, cryptography, paramiko
+Successfully installed bcrypt-3.1.7 cffi-1.15.1 cryptography-3.3.2 enum34-1.1.10 ipaddress-1.0.23 paramiko-2.11.0 pycparser-2.21 pynacl-1.4.0
+ont@ont-HP-280-G2-MT:~/thult28/VT-ONT-AT-ROBOT/Testcases/CTKT$
+ont@ont-HP-280-G2-MT:~/thult28/VT-ONT-AT-ROBOT/Testcases/CTKT$
+
+
+
+
+
+
+

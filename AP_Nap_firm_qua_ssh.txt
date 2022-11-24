@@ -1,0 +1,25 @@
+Hiện tại AP FW cũ đang là dải 192.168.1.1
+=> đặt IP của máy tính về dải 192.168.1.x
+
+Cắm nguồn AP đợi khoảng 1ph10s
+
+- Copy file AP-0.5-220322.bin ra desktop: Mở mobarxterm thực hiện các command line
+để copy file từ PC => AP
+
+cd Desktop
+scp AP-0.5-220322.bin admin@192.168.1.1:/tmp
+	
+
+- Truy cập vào AP nạp FW
+
+
+ssh admin@192.168.1.1 / passwd: 1234
+cd /tmp
+mtd write AP-0.5-220322.bin /dev/mtd4
+reboot
+
++ kiểm tra mac bằng command line: mac r lan
+=> cần trùng với địa chỉ mac in trên tem nhãn
+
+- Sau khi khởi động lại, AP có địa chỉ 192.168.2.1 nên cần đổi lại dải IP của máy tính về dải 192.168.2.x hoặc dhcp
+- Từ phiên bản này trở đi,có thể nạp FW bằng web
